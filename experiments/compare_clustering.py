@@ -24,7 +24,8 @@ def run(problem,cfg):
         log=io.StringIO();start=time.perf_counter();error=None
         try:
             with contextlib.redirect_stdout(log):
-                problem.solve(toll_fp=1e-3,toll_psg=1,iter_max_psg=cfg.max_outer,
+                problem.solve(toll_fp=getattr(cfg,'tol_fp',1e-3),
+                              toll_psg=getattr(cfg,'tol_psg',1),iter_max_psg=cfg.max_outer,
                               kappa=10*3**i,feas_only=True)
         except Exception as exc:
             error=repr(exc)

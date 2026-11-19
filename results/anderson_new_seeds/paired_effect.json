@@ -1,0 +1,56 @@
+{
+  "seeds": [
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75
+  ],
+  "success_count_each": 15,
+  "inner_reduction": {
+    "point": 0.22190721649484535,
+    "bootstrap_95_percentile": [
+      0.15420326948204124,
+      0.2672951304597424
+    ]
+  },
+  "time_reduction": {
+    "point": 0.21093423206998452,
+    "bootstrap_95_percentile": [
+      0.13760844617488108,
+      0.2598482178154256
+    ]
+  },
+  "successful_inner_win_tie_loss": [
+    9,
+    6,
+    0
+  ],
+  "one_sided_sign_p_successful_nonties": 0.001953125,
+  "note": "Seed bootstrap describes variation over these sampled networks; runtime also has measurement noise. The sign test excludes ties and unsuccessful networks."
+}

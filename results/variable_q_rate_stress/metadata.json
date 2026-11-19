@@ -1,0 +1,43 @@
+{
+  "config": {
+    "seeds": [
+      226,
+      227,
+      228,
+      229,
+      230,
+      231,
+      232,
+      233,
+      234,
+      235,
+      236,
+      237,
+      238,
+      239,
+      240,
+      241,
+      242,
+      243,
+      244,
+      245
+    ],
+    "rates": [
+      3.0,
+      4.0
+    ],
+    "n_sim": 100,
+    "max_outer": 120,
+    "attempts": 2,
+    "tol_fp": 1e-05,
+    "tol_psg": 0.1,
+    "output": "results/variable_q_rate_stress"
+  },
+  "python": "3.12.2 (v3.12.2:6abddd9f6a, Feb  6 2024, 17:02:06) [Clang 13.0.0 (clang-1300.0.29.30)]",
+  "platform": "macOS-15.6.1-arm64-arm-64bit",
+  "numpy": "1.26.4",
+  "scipy": "1.17.1",
+  "openblas_num_threads": "1",
+  "prespecified_rule": "4 weakest Q=6, middle 8 Q=4, 4 strongest Q=2 by sum of top-4 Gamma; 64 total CSI links",
+  "comparison": "same topology, fading, rate, total links and optimizer; per-user Q differs"
+}

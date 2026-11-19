@@ -1,0 +1,6 @@
+100 1 {'OptimizedProblem': 'feasible', 'PriceGuidedProblem': 'feasible'}
+101 1 {'PriceGuidedProblem': 'feasible', 'OptimizedProblem': 'feasible'}
+102 3 {'OptimizedProblem': 'feasible', 'PriceGuidedProblem': 'feasible'}
+103 0 {'PriceGuidedProblem': 'feasible', 'OptimizedProblem': 'feasible'}
+104 1 {'OptimizedProblem': 'unresolved', 'PriceGuidedProblem': 'unresolved'}
+105 9 {'PriceGuidedProblem': 'infeasible_certificate', 'OptimizedProblem': 'infeasible_certificate'}

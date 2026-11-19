@@ -1,0 +1,29 @@
+{
+  "derived_from": [
+    "results/variable_q_rate_stress/runs.jsonl",
+    "results/variable_q_rate_middle/runs.jsonl"
+  ],
+  "same_seeds_at_each_rate": [
+    226,
+    227,
+    228,
+    229,
+    230,
+    231,
+    232,
+    233,
+    234,
+    235,
+    236,
+    237,
+    238,
+    239,
+    240,
+    241,
+    242,
+    243,
+    244,
+    245
+  ],
+  "note": "Raw stdout/stderr and run metadata remain in the source directories."
+}

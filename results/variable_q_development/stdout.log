@@ -1,0 +1,12 @@
+3.5 100 {'OptimizedProblem': (True, True), 'VariableQProblem': (True, True)}
+3.5 101 {'VariableQProblem': (True, True), 'OptimizedProblem': (True, True)}
+3.5 102 {'OptimizedProblem': (True, True), 'VariableQProblem': (True, True)}
+3.5 103 {'VariableQProblem': (True, True), 'OptimizedProblem': (True, True)}
+3.5 104 {'OptimizedProblem': (True, True), 'VariableQProblem': (True, True)}
+3.5 105 {'VariableQProblem': (True, True), 'OptimizedProblem': (False, False)}
+3.5 106 {'OptimizedProblem': (True, False), 'VariableQProblem': (True, False)}
+3.5 107 {'VariableQProblem': (True, True), 'OptimizedProblem': (True, True)}
+3.5 108 {'OptimizedProblem': (True, False), 'VariableQProblem': (False, False)}
+3.5 109 {'VariableQProblem': (True, True), 'OptimizedProblem': (True, True)}
+3.5 110 {'OptimizedProblem': (False, False), 'VariableQProblem': (True, True)}
+3.5 111 {'VariableQProblem': (True, True), 'OptimizedProblem': (True, True)}

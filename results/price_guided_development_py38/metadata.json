@@ -1,0 +1,25 @@
+{
+  "config": {
+    "seeds": [
+      100,
+      101,
+      102,
+      103,
+      104,
+      105
+    ],
+    "rate": 3.5,
+    "pilot_n_sim": 20,
+    "eval_n_sim": 40,
+    "max_outer": 40,
+    "attempts": 2,
+    "output": "results/price_guided_development"
+  },
+  "python": "3.8.8 (default, Apr 13 2021, 12:59:45) \n[Clang 10.0.0 ]",
+  "platform": "macOS-10.16-x86_64-i386-64bit",
+  "numpy": "1.20.1",
+  "scipy": "1.6.2",
+  "openblas_num_threads": "1",
+  "selection": "Q=4 strongest Gamma/dual_price; no candidate search",
+  "fading": "same geometry, fresh independent pilot/evaluation draws"
+}

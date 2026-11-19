@@ -1,4 +1,4 @@
-# Cell-free Massive MIMO：复现与求解器加速
+# Cell-free Massive MIMO：论文复现、求解加速与等预算 AP 分配
 
 本项目复现 [Miretti 等人的论文](https://doi.org/10.1109/TSP.2024.3376809)中的 Figure 2 和 Figure 3，并加快作者程序的计算。论文代码来自[作者仓库](https://github.com/lorenzomiretti/duality)。
 
@@ -20,6 +20,10 @@
 
 我们也试过用 AP 当前服务人数调整用户的 AP 选择，尝试提高无线可行率。低成本开发试验在 50 个网络中得到原规则 30 个被判为可行、候选规则 29 个；另有未在迭代预算内解出的样本，因此**没有**将其作为性能改进。方法和失败数据见 [docs/LOAD_AWARE_PILOT.md](docs/LOAD_AWARE_PILOT.md)。
 
+## 新的无线系统改进：把同样数量的 AP 连接优先分给弱用户
+
+原设置让每位用户固定连接最强的 4 个 AP，共 64 条 AP–用户 CSI 连接。我们按长期信道强弱重新分配这 **64 条连接**：最弱 4 人各连接 6 个 AP，中间 8 人各连接 4 个，最强 4 人各连接 2 个。每人仍选自己的最强 AP，发射功率上限、目标速率与总 CSI 连接数保持一致。这个改动预期让困难用户得到更多协作机会；它可能增加求解时间，也不能保证每个网络都改善。实现见 [variable_q_problem.py](variable_q_problem.py)，公平对照、失败样本及全部参数见 [docs/VARIABLE_Q.md](docs/VARIABLE_Q.md)。此前用 AP 对偶价格直接调整选点的候选没有通过开发试验，记录在 [docs/PRICE_GUIDED_PILOT.md](docs/PRICE_GUIDED_PILOT.md)。
+
 ## 实际结果
 
 | 检查 | 结果 |
@@ -33,6 +37,8 @@
 | 内层 Anderson 独立验证 | 另 30 个新场景，两版均成功 15 个；内层轮数 **3880→3019**，求解时间 **24.60→19.41 秒** |
 | Anderson 重复计时 | 3 个非平凡场景各重复 3 次；相对现有缓存版的速度比中位数为 **1.25 倍** |
 | 改变速率和簇大小 | 另 4 组、每组 12 个新场景；成功判定均一致，内层迭代与总时间每组均下降；两组无成功样本，不能用来主张可行率提高 |
+| 等总连接数 AP 分配：新网络验证 | **60** 个此前未使用的网络、每个 100 次信道抽样、严格容差；固定每人 4 个 AP 成功 **31/60**，新分配成功 **41/60**，新增 10 个、失去 0 个 |
+| 新分配的收益与代价 | 新增成功中的 9 个原方案被求解器判为不可行，1 个原方案未在预算内解出；成对成功率差 **+16.7 个百分点**，95% 网络重抽样区间 **+8.3 至 +26.7 个百分点**；总求解时间 **64.25→71.97 秒** |
 
 这些时间来自一台 macOS arm64 机器、Python 3.12 和单线程 OpenBLAS；换机器可能不同。Figure 2 中速率为 4 bit/s/Hz 时，每 AP 功率约束下，本地 CSI 的可行比例为 0.18，集中式 CSI 为 0.43；总功率约束下分别为 0.31 和 0.83。比例按**已求解的样本**计算，与作者脚本一致；完整表格和 95% Wilson 区间见 [Figure 2 结果目录](results/figure2_full/)。
 
@@ -49,6 +55,9 @@
 - [内层加速逐场景对照图](results/anderson_new_seeds/inner_iterations.png)、[完整配对数据](results/anderson_new_seeds/aggregate.json)和[重复计时](results/anderson_repeats/timings.csv)
 - [不同计算时间预算下的描述性成功数](results/anderson_new_seeds/budget_success.png)
 - [不同速率和簇大小的补充结果](results/anderson_robustness/aggregate.json)
+- [等总连接数分配：60 网络成对结果图](results/variable_q_fresh_validation/paired_outcomes.png)、[逐网络结果与统计](results/variable_q_fresh_validation/summary.json)、[原始日志](results/variable_q_fresh_validation/runs.jsonl)
+- [具体例子：同一网络 16 个 AP 的功率对照](results/variable_q_illustration_seed177/per_ap_power.png)
+- [新分配在 3.0、3.5、4.0 目标速率的可行率曲线](results/variable_q_rate_sweep/feasibility_vs_rate.png)
 - [完整实验记录](docs/EXPERIMENT_LOG.md)：参数、运行命令、数值对照、边界样本和局限
 
 ## 重新运行
@@ -74,6 +83,10 @@ python experiments/analyze_anderson.py results/anderson_new_seeds
 python experiments/benchmark_anderson_repeats.py
 python experiments/run_anderson_robustness.py
 python experiments/analyze_compute_budget.py results/anderson_new_seeds
+python experiments/analyze_anderson_effect.py results/anderson_new_seeds
+python experiments/check_variable_q_equivalence.py
+python experiments/compare_variable_q.py --seeds $(seq 166 225) --n-sim 100 --max-outer 120 --tol-fp 1e-5 --tol-psg 0.1 --output results/variable_q_fresh_validation
+python experiments/analyze_variable_q.py results/variable_q_fresh_validation
 ```
 
 Figure 2 的续跑程序逐个保存完成的样本，可以从已有记录继续。`results/` 内包含原始输出、配置、随机种子、失败或未收敛的案例及图表。

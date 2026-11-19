@@ -1,0 +1,293 @@
+{
+  "networks": 20,
+  "rate": [
+    3.5
+  ],
+  "by_rate": {
+    "3.5": {
+      "networks": 20,
+      "fixed_feasible": 12,
+      "variable_feasible": 13,
+      "gain": 1,
+      "loss": 0
+    }
+  },
+  "fixed": {
+    "feasible": 12,
+    "solver_infeasible": 7,
+    "unresolved": 1,
+    "error": 0
+  },
+  "variable": {
+    "feasible": 13,
+    "solver_infeasible": 7,
+    "unresolved": 0,
+    "error": 0
+  },
+  "paired_success_gain_loss": [
+    1,
+    0
+  ],
+  "success_difference": 0.05,
+  "paired_seed_bootstrap_95_percentile": [
+    0.0,
+    0.15
+  ],
+  "two_sided_exact_mcnemar_p": 1.0,
+  "certified_gain_seeds": [],
+  "certified_loss_seeds": [],
+  "gain_from_unresolved_seeds": [
+    244
+  ],
+  "loss_to_unresolved_seeds": [],
+  "total_solve_s": {
+    "fixed": 25.63652262603864,
+    "variable": 8.958371416199952
+  },
+  "max_positive_sinr_gap_when_feasible": {
+    "fixed": 0.0001,
+    "variable": 0.0001
+  },
+  "pairs": [
+    {
+      "seed": 226,
+      "rate": 3.5,
+      "fixed": "feasible",
+      "variable": "feasible",
+      "fixed_power_gap_mw": 0.06654189699884228,
+      "variable_power_gap_mw": -40.78851763288844,
+      "fixed_sinr_gap": -0.0,
+      "variable_sinr_gap": 0.0001,
+      "fixed_solve_s": 0.651556917000562,
+      "variable_solve_s": 0.17242079181596637
+    },
+    {
+      "seed": 227,
+      "rate": 3.5,
+      "fixed": "feasible",
+      "variable": "feasible",
+      "fixed_power_gap_mw": -150.99003942880825,
+      "variable_power_gap_mw": -354.4507601428759,
+      "fixed_sinr_gap": 0.0,
+      "variable_sinr_gap": 0.0,
+      "fixed_solve_s": 0.08530887495726347,
+      "variable_solve_s": 0.08348945807665586
+    },
+    {
+      "seed": 228,
+      "rate": 3.5,
+      "fixed": "solver_infeasible",
+      "variable": "solver_infeasible",
+      "fixed_power_gap_mw": 1488.3383445987934,
+      "variable_power_gap_mw": 469.3999639570882,
+      "fixed_sinr_gap": 0.0001,
+      "variable_sinr_gap": 0.0001,
+      "fixed_solve_s": 0.44032204197719693,
+      "variable_solve_s": 0.5745306247845292
+    },
+    {
+      "seed": 229,
+      "rate": 3.5,
+      "fixed": "feasible",
+      "variable": "feasible",
+      "fixed_power_gap_mw": -5.23607318083566,
+      "variable_power_gap_mw": -93.22414556666399,
+      "fixed_sinr_gap": 0.0001,
+      "variable_sinr_gap": -0.0,
+      "fixed_solve_s": 0.34041258320212364,
+      "variable_solve_s": 0.3273353329859674
+    },
+    {
+      "seed": 230,
+      "rate": 3.5,
+      "fixed": "solver_infeasible",
+      "variable": "solver_infeasible",
+      "fixed_power_gap_mw": 989.8615629530573,
+      "variable_power_gap_mw": 599.4865952612715,
+      "fixed_sinr_gap": 0.0001,
+      "variable_sinr_gap": 0.0001,
+      "fixed_solve_s": 0.28845816710963845,
+      "variable_solve_s": 0.39747145818546414
+    },
+    {
+      "seed": 231,
+      "rate": 3.5,
+      "fixed": "feasible",
+      "variable": "feasible",
+      "fixed_power_gap_mw": -702.6072907070138,
+      "variable_power_gap_mw": -727.0837499412047,
+      "fixed_sinr_gap": 0.0,
+      "variable_sinr_gap": 0.0,
+      "fixed_solve_s": 0.08259462518617511,
+      "variable_solve_s": 0.09110208321362734
+    },
+    {
+      "seed": 232,
+      "rate": 3.5,
+      "fixed": "feasible",
+      "variable": "feasible",
+      "fixed_power_gap_mw": -15.35101518011379,
+      "variable_power_gap_mw": 0.09933302420699874,
+      "fixed_sinr_gap": -0.0,
+      "variable_sinr_gap": 0.0001,
+      "fixed_solve_s": 6.663972417358309,
+      "variable_solve_s": 2.993309292010963
+    },
+    {
+      "seed": 233,
+      "rate": 3.5,
+      "fixed": "feasible",
+      "variable": "feasible",
+      "fixed_power_gap_mw": -282.4529208381804,
+      "variable_power_gap_mw": -365.4094311714274,
+      "fixed_sinr_gap": 0.0,
+      "variable_sinr_gap": 0.0,
+      "fixed_solve_s": 0.10250604199245572,
+      "variable_solve_s": 0.10052012512460351
+    },
+    {
+      "seed": 234,
+      "rate": 3.5,
+      "fixed": "solver_infeasible",
+      "variable": "solver_infeasible",
+      "fixed_power_gap_mw": 4529.876779671482,
+      "variable_power_gap_mw": 2852.9171974397723,
+      "fixed_sinr_gap": 3.6994,
+      "variable_sinr_gap": 3.4926,
+      "fixed_solve_s": 0.014847290702164173,
+      "variable_solve_s": 0.015568125061690807
+    },
+    {
+      "seed": 235,
+      "rate": 3.5,
+      "fixed": "solver_infeasible",
+      "variable": "solver_infeasible",
+      "fixed_power_gap_mw": 733.3744953751634,
+      "variable_power_gap_mw": 136.40926042991396,
+      "fixed_sinr_gap": 0.0001,
+      "variable_sinr_gap": 0.0001,
+      "fixed_solve_s": 0.39904879219830036,
+      "variable_solve_s": 1.9434397080913186
+    },
+    {
+      "seed": 236,
+      "rate": 3.5,
+      "fixed": "feasible",
+      "variable": "feasible",
+      "fixed_power_gap_mw": -428.1066548623735,
+      "variable_power_gap_mw": -531.4858098102025,
+      "fixed_sinr_gap": 0.0,
+      "variable_sinr_gap": 0.0,
+      "fixed_solve_s": 0.07543125003576279,
+      "variable_solve_s": 0.06991216680034995
+    },
+    {
+      "seed": 237,
+      "rate": 3.5,
+      "fixed": "feasible",
+      "variable": "feasible",
+      "fixed_power_gap_mw": -132.19995393863348,
+      "variable_power_gap_mw": -218.94202930562528,
+      "fixed_sinr_gap": 0.0,
+      "variable_sinr_gap": 0.0,
+      "fixed_solve_s": 0.06884375028312206,
+      "variable_solve_s": 0.07050891732797027
+    },
+    {
+      "seed": 238,
+      "rate": 3.5,
+      "fixed": "solver_infeasible",
+      "variable": "solver_infeasible",
+      "fixed_power_gap_mw": 1945.685524845675,
+      "variable_power_gap_mw": 1968.5531203219175,
+      "fixed_sinr_gap": 4.9622,
+      "variable_sinr_gap": 5.1547,
+      "fixed_solve_s": 0.014992999844253063,
+      "variable_solve_s": 0.014194291085004807
+    },
+    {
+      "seed": 239,
+      "rate": 3.5,
+      "fixed": "feasible",
+      "variable": "feasible",
+      "fixed_power_gap_mw": -468.71761284543345,
+      "variable_power_gap_mw": -493.93324419854804,
+      "fixed_sinr_gap": 0.0,
+      "variable_sinr_gap": 0.0001,
+      "fixed_solve_s": 0.10422395821660757,
+      "variable_solve_s": 0.09864062489941716
+    },
+    {
+      "seed": 240,
+      "rate": 3.5,
+      "fixed": "feasible",
+      "variable": "feasible",
+      "fixed_power_gap_mw": -408.23604334031734,
+      "variable_power_gap_mw": -459.5965597951928,
+      "fixed_sinr_gap": 0.0001,
+      "variable_sinr_gap": 0.0,
+      "fixed_solve_s": 0.0943994577974081,
+      "variable_solve_s": 0.0945854582823813
+    },
+    {
+      "seed": 241,
+      "rate": 3.5,
+      "fixed": "feasible",
+      "variable": "feasible",
+      "fixed_power_gap_mw": 0.09583286429028703,
+      "variable_power_gap_mw": -1.5213087786909227,
+      "fixed_sinr_gap": 0.0001,
+      "variable_sinr_gap": -0.0,
+      "fixed_solve_s": 2.1501140003092587,
+      "variable_solve_s": 0.46214241720736027
+    },
+    {
+      "seed": 242,
+      "rate": 3.5,
+      "fixed": "solver_infeasible",
+      "variable": "solver_infeasible",
+      "fixed_power_gap_mw": 2274.099687970074,
+      "variable_power_gap_mw": 2345.032858317673,
+      "fixed_sinr_gap": 0.0,
+      "variable_sinr_gap": 0.0,
+      "fixed_solve_s": 0.23114908300340176,
+      "variable_solve_s": 0.22106916597113013
+    },
+    {
+      "seed": 243,
+      "rate": 3.5,
+      "fixed": "solver_infeasible",
+      "variable": "solver_infeasible",
+      "fixed_power_gap_mw": 864.4565475499055,
+      "variable_power_gap_mw": 836.3824571506768,
+      "fixed_sinr_gap": 0.0001,
+      "variable_sinr_gap": 0.0001,
+      "fixed_solve_s": 0.5648408751003444,
+      "variable_solve_s": 0.6363640842027962
+    },
+    {
+      "seed": 244,
+      "rate": 3.5,
+      "fixed": "unresolved",
+      "variable": "feasible",
+      "fixed_power_gap_mw": 6.321525033677176,
+      "variable_power_gap_mw": -7.828852518228928,
+      "fixed_sinr_gap": 0.0,
+      "variable_sinr_gap": -0.0,
+      "fixed_solve_s": 13.157729499507695,
+      "variable_solve_s": 0.4954794580116868
+    },
+    {
+      "seed": 245,
+      "rate": 3.5,
+      "fixed": "feasible",
+      "variable": "feasible",
+      "fixed_power_gap_mw": -40.18659554585315,
+      "variable_power_gap_mw": -212.88180654487587,
+      "fixed_sinr_gap": 0.0,
+      "variable_sinr_gap": 0.0001,
+      "fixed_solve_s": 0.105770000256598,
+      "variable_solve_s": 0.09628783306106925
+    }
+  ]
+}
