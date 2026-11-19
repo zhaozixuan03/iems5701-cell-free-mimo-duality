@@ -1,0 +1,14 @@
+{
+  "status": "completed",
+  "error": null,
+  "started_unix": 1795066072.616195,
+  "finished_unix": 1795066090.922783,
+  "official_script": "upstream/algorithm_convergence.py",
+  "official_git_commit": "5a968b40fa43e7d18b62641bb46073f57442f227",
+  "python": "3.12.2 (v3.12.2:6abddd9f6a, Feb  6 2024, 17:02:06) [Clang 13.0.0 (clang-1300.0.29.30)]",
+  "platform": "macOS-15.6.1-arm64-arm-64bit",
+  "numpy": "1.26.4",
+  "scipy": "1.17.1",
+  "matplotlib": "3.10.1",
+  "openblas_num_threads": "1"
+}

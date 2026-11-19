@@ -1,0 +1,17 @@
+{
+  "status": "failed",
+  "error": "KeyboardInterrupt()",
+  "started_unix": 1795066314.6755478,
+  "finished_unix": 1795067163.173446,
+  "setups_started": 1314,
+  "attempts": 1361,
+  "official_script": "upstream/local_vs_centralized_rate.py",
+  "solver": "OptimizedProblem",
+  "official_git_commit": "5a968b40fa43e7d18b62641bb46073f57442f227",
+  "python": "3.12.2 (v3.12.2:6abddd9f6a, Feb  6 2024, 17:02:06) [Clang 13.0.0 (clang-1300.0.29.30)]",
+  "platform": "macOS-15.6.1-arm64-arm-64bit",
+  "numpy": "1.26.4",
+  "scipy": "1.17.1",
+  "matplotlib": "3.10.1",
+  "openblas_num_threads": "1"
+}

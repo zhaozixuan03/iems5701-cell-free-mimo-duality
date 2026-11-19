@@ -1,0 +1,26 @@
+Traceback (most recent call last):
+  File "/Users/zhaozixuan/.codex/.chatgpt-projects/g-p-6aa79c9f0cc88191bdfe34da6140c6b2/duality-course-project/experiments/run_official_figure2.py", line 97, in <module>
+    main_problem.Problem.set_constraints = tracked_constraints
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/zhaozixuan/.codex/.chatgpt-projects/g-p-6aa79c9f0cc88191bdfe34da6140c6b2/duality-course-project/upstream/local_vs_centralized_rate.py", line 112, in <module>
+    main()
+  File "/Users/zhaozixuan/.codex/.chatgpt-projects/g-p-6aa79c9f0cc88191bdfe34da6140c6b2/duality-course-project/upstream/local_vs_centralized_rate.py", line 53, in main
+    problem.solve(toll_fp = 1e-3,toll_psg = 1e-3*P_max,kappa = kappa,feas_only=True)
+  File "/Users/zhaozixuan/.codex/.chatgpt-projects/g-p-6aa79c9f0cc88191bdfe34da6140c6b2/duality-course-project/experiments/run_official_figure2.py", line 57, in tracked_solve
+    
+  File "/Users/zhaozixuan/.codex/.chatgpt-projects/g-p-6aa79c9f0cc88191bdfe34da6140c6b2/duality-course-project/upstream/main_problem.py", line 55, in solve
+    interf, signal, noise = self.compute_channel_coefficients(p,sig,parameters)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/zhaozixuan/.codex/.chatgpt-projects/g-p-6aa79c9f0cc88191bdfe34da6140c6b2/duality-course-project/upstream/main_problem.py", line 122, in compute_channel_coefficients
+    V = self.beamformers(H_hat,p,sig,parameters)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/zhaozixuan/.codex/.chatgpt-projects/g-p-6aa79c9f0cc88191bdfe34da6140c6b2/duality-course-project/upstream/main_problem.py", line 167, in beamformers
+    V_LMMSE = inv(herm(H)@ diag(p) @ H + Psi_l*eye(N) + sig[l]*eye(N)) @ herm(H) @ diag(sqrt(p)) 
+                  ^^^^^^^
+  File "/Users/zhaozixuan/.codex/.chatgpt-projects/g-p-6aa79c9f0cc88191bdfe34da6140c6b2/duality-course-project/upstream/main_problem.py", line 352, in herm
+    def herm(x):
+    
+KeyboardInterrupt

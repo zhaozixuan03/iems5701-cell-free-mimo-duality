@@ -1,0 +1,5 @@
+setup_id=1153 rate=3.4285714285714284 csi=centr attempt=1
+Dual: 6450.3156 | surrogate dual gap: 0.0000 | max power gap: 357.1488 | max SINR gap: 0.0031
+Dual: 6358.4509 | surrogate dual gap: 449.9689 | max power gap: 23.2051 | max SINR gap: 0.0022
+Dual: 6507.1760 | surrogate dual gap: 8.1920 | max power gap: 77.2109 | max SINR gap: -0.0012
+Dual: 6520.5440 | surrogate dual gap: 24.9481 | max power gap: -46.3901 | max SINR gap: 0.0051

@@ -1,0 +1,23 @@
+Traceback (most recent call last):
+  File "/Users/zhaozixuan/.codex/.chatgpt-projects/g-p-6aa79c9f0cc88191bdfe34da6140c6b2/duality-course-project/experiments/run_official_figure2.py", line 104, in <module>
+    runpy.run_path(str(UPSTREAM / "local_vs_centralized_rate.py"), run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/zhaozixuan/.codex/.chatgpt-projects/g-p-6aa79c9f0cc88191bdfe34da6140c6b2/duality-course-project/upstream/local_vs_centralized_rate.py", line 112, in <module>
+    main()
+  File "/Users/zhaozixuan/.codex/.chatgpt-projects/g-p-6aa79c9f0cc88191bdfe34da6140c6b2/duality-course-project/upstream/local_vs_centralized_rate.py", line 80, in main
+    problem.solve(toll_fp = 1e-3,toll_psg = 1e-3*P_max,kappa = kappa,feas_only=True)
+  File "/Users/zhaozixuan/.codex/.chatgpt-projects/g-p-6aa79c9f0cc88191bdfe34da6140c6b2/duality-course-project/experiments/run_official_figure2.py", line 64, in tracked_solve
+    return original_solve(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/zhaozixuan/.codex/.chatgpt-projects/g-p-6aa79c9f0cc88191bdfe34da6140c6b2/duality-course-project/upstream/main_problem.py", line 55, in solve
+    interf, signal, noise = self.compute_channel_coefficients(p,sig,parameters)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/zhaozixuan/.codex/.chatgpt-projects/g-p-6aa79c9f0cc88191bdfe34da6140c6b2/duality-course-project/optimized_problem.py", line 55, in compute_channel_coefficients
+    return super().compute_channel_coefficients(p, sig, parameters)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/zhaozixuan/.codex/.chatgpt-projects/g-p-6aa79c9f0cc88191bdfe34da6140c6b2/duality-course-project/upstream/main_problem.py", line 128, in compute_channel_coefficients
+    noise[l,:] += np.square(norm(V[l],axis=0))/self.N_sim   
+                            ^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

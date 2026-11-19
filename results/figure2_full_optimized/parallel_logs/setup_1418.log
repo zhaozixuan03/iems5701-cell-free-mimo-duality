@@ -1,0 +1,9 @@
+setup_id=1418 rate=4.0 csi=local attempt=1
+Dual: 7176.1989 | surrogate dual gap: 0.0000 | max power gap: 314.5796 | max SINR gap: 0.0101
+Dual: 7275.9809 | surrogate dual gap: 189.8757 | max power gap: 90.5365 | max SINR gap: 0.0068
+Dual: 7299.5039 | surrogate dual gap: 47.1729 | max power gap: 144.1595 | max SINR gap: -0.0021
+Dual: 7322.4209 | surrogate dual gap: 54.1769 | max power gap: 67.4199 | max SINR gap: -0.0027
+Dual: 7319.1435 | surrogate dual gap: 5.9032 | max power gap: 39.4532 | max SINR gap: 0.0006
+Dual: 7328.5858 | surrogate dual gap: 9.2747 | max power gap: 10.6957 | max SINR gap: -0.0016
+Dual: 7327.0932 | surrogate dual gap: 1.7706 | max power gap: 1.9296 | max SINR gap: -0.0015
+Dual: 7328.6501 | surrogate dual gap: 1.6946 | max power gap: -0.6597 | max SINR gap: -0.0013

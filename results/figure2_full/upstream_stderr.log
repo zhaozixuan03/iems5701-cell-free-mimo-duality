@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+  File "/Users/zhaozixuan/.codex/.chatgpt-projects/g-p-6aa79c9f0cc88191bdfe34da6140c6b2/duality-course-project/upstream/local_vs_centralized_rate.py", line 112, in <module>
+    main()
+  File "/Users/zhaozixuan/.codex/.chatgpt-projects/g-p-6aa79c9f0cc88191bdfe34da6140c6b2/duality-course-project/upstream/local_vs_centralized_rate.py", line 80, in main
+    problem.solve(toll_fp = 1e-3,toll_psg = 1e-3*P_max,kappa = kappa,feas_only=True)
+  File "/Users/zhaozixuan/.codex/.chatgpt-projects/g-p-6aa79c9f0cc88191bdfe34da6140c6b2/duality-course-project/upstream/main_problem.py", line 55, in solve
+    interf, signal, noise = self.compute_channel_coefficients(p,sig,parameters)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/zhaozixuan/.codex/.chatgpt-projects/g-p-6aa79c9f0cc88191bdfe34da6140c6b2/duality-course-project/upstream/main_problem.py", line 122, in compute_channel_coefficients
+    V = self.beamformers(H_hat,p,sig,parameters)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/zhaozixuan/.codex/.chatgpt-projects/g-p-6aa79c9f0cc88191bdfe34da6140c6b2/duality-course-project/upstream/main_problem.py", line 153, in beamformers
+    Psi_k[q*N:(q+1)*N,q*N:(q+1)*N] = Psi_q*eye(N)
+                                           ^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/numpy/lib/twodim_base.py", line 158, in eye
+    @set_array_function_like_doc
+    
+KeyboardInterrupt
