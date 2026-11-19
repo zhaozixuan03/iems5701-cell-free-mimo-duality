@@ -101,7 +101,7 @@ def main():
     complete_ids = {i for i, r in latest.items() if complete(r)}
     targets = set(range(1, 1601)) - complete_ids
     # The serial process may have been interrupted during its last setup.
-    if serial:
+    if serial and not (folder/"metadata_final.json").exists():
         targets.add(max(r["setup_id"] for r in serial))
     if cfg.verify_first:
         targets.update(range(1, cfg.verify_first+1))
@@ -119,7 +119,7 @@ def main():
                     tasks.append((setup_id, state, float(rate), csi, cfg.optimized))
     print(f"{len(tasks)} setup tasks, {len(complete_ids)} already complete",
           flush=True)
-    (folder/"parallel_logs").mkdir(exist_ok=True)
+    (folder/"parallel_logs").mkdir(parents=True, exist_ok=True)
     context = multiprocessing.get_context("spawn")
     with ProcessPoolExecutor(max_workers=cfg.workers, mp_context=context) as pool:
         futures = {pool.submit(run_one, task): task[0] for task in tasks}
