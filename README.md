@@ -4,7 +4,7 @@ Reproduction and computational acceleration for [Miretti et al., IEEE TSP 2024](
 
 ## What is included
 
-- `upstream/`: an unmodified snapshot of the five files in the author's repository at commit [5a968b4](https://github.com/lorenzomiretti/duality/commit/5a968b40fa43e7d18b62641bb46073f57442f227). The sandbox could not run `git clone` because its network proxy was unavailable; the files were retrieved via the connected GitHub reader. File provenance is in [docs/PROVENANCE.md](docs/PROVENANCE.md).
+- `upstream/`: an unmodified snapshot of the five files in the author's repository at commit [5a968b4](https://github.com/lorenzomiretti/duality/commit/5a968b40fa43e7d18b62641bb46073f57442f227). All five files were byte-compared with a successful clone. The authors' complete Git history is also preserved on this repository's [upstream-baseline branch](https://github.com/zhaozixuan03/iems5701-cell-free-mimo-duality/tree/upstream-baseline). File provenance is in [docs/PROVENANCE.md](docs/PROVENANCE.md).
 - `experiments/run_figure3.py`: paired baseline versus optimized solver on identical seeded setups, saving raw logs, parameters, timings, iteration counts, objective trajectories, and final AP power violations.
 - `optimized_problem.py`: an algebraically equivalent computational improvement: batched channel realizations and linear solves replace repeated matrix inverses. The upstream objective, constraints, update rule, and stopping criteria remain unchanged.
 - `experiments/run_figure2.py`: a **reduced** Figure 2 feasibility experiment, not the paper's 100-setup Monte Carlo estimate.

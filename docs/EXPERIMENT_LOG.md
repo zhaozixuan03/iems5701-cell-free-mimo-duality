@@ -8,8 +8,8 @@ The IEMS5701 course project asks for paper reproduction plus a new idea supporte
 
 ## Environment and failed starts
 
-- Shell `git clone` failed because the configured 127.0.0.1:1086 proxy was unreachable. Removing the proxy did not provide direct GitHub access. A connected GitHub reader supplied the exact five-file snapshot instead.
-- `gh auth status` showed an invalid local credential. GitHub's browser page was at login. `gh auth login --web` failed at the same proxy before receiving a device code. Public repository publication is pending a usable authenticated GitHub path.
+- The initial shell `git clone` failed because the configured 127.0.0.1:1086 proxy was unreachable. Removing the proxy inside the restricted command environment did not help. A connected GitHub reader supplied the exact five-file snapshot. A later direct-network clone succeeded; all five files were byte-compared and the complete official history was pushed as `upstream-baseline`.
+- `gh auth status` showed an invalid CLI credential; `gh auth login --web` failed at the proxy before receiving a device code. The user created the new public repository in their browser. Direct-network `git push` succeeded using the machine's Git credential helper, and the GitHub browser session created three Issues and PR #4. The connected GitHub API reader had read access but returned 403 for write calls.
 - Homebrew Python 3.13 lacked NumPy. Experiments used the installed Python 3.12 at `/Library/Frameworks/Python.framework/Versions/3.12/bin/python3`.
 - The first Matplotlib import warned that its default cache was not writable; runs use `MPLCONFIGDIR=/tmp`. Fontconfig printed a cache warning on the first smoke run; plots were generated and inspected.
 
