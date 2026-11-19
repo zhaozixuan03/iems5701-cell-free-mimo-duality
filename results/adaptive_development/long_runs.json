@@ -1,0 +1,1756 @@
+[
+  {
+    "seed": 4,
+    "method": "OptimizedProblem",
+    "setup_s": 0.02024004189297557,
+    "solve_s": 2.954899207688868,
+    "outer_iterations": 120,
+    "inner_iterations": 440,
+    "solved": false,
+    "feasible_flag": false,
+    "error": null,
+    "dual_objective": [
+      6819.560477631874,
+      7466.949659578779,
+      6446.927847818157,
+      7582.549074538143,
+      7164.329038431657,
+      7741.865600452191,
+      7645.728050179339,
+      7774.645334556157,
+      7747.035326840403,
+      7811.625319277244,
+      7821.119557411246,
+      7832.485400186333,
+      7841.192103323656,
+      7841.281769405097,
+      7844.412564590217,
+      7843.752385840897,
+      7844.541733791164,
+      7844.316724767679,
+      7844.438124279173,
+      7844.434788714616,
+      7844.470235367908,
+      7844.488920587073,
+      7844.509338953962,
+      7844.526558897758,
+      7844.603415143756,
+      7844.614842539693,
+      7844.624199861668,
+      7844.632517450091,
+      7844.639932299755,
+      7844.646550816249,
+      7844.652461422267,
+      7844.65774100739,
+      7844.662456866165,
+      7844.666668237771,
+      7844.670427436566,
+      7844.673780785306,
+      7844.676769390788,
+      7844.679429810354,
+      7844.681794615859,
+      7844.683892882622,
+      7844.685750609502,
+      7844.687391081588,
+      7844.688835186602,
+      7844.690101688251,
+      7844.691207465745,
+      7844.755693680268,
+      7844.756803856617,
+      7844.755271948938,
+      7844.753633165132,
+      7844.7519940300535,
+      7844.7503646601,
+      7844.74874985508,
+      7844.7471526519585,
+      7844.745575068191,
+      7844.744018526357,
+      7844.742484078091,
+      7844.740972522366,
+      7844.739484473263,
+      7844.7380203968805,
+      7844.736580638617,
+      7844.735165441647,
+      7844.733774959364,
+      7844.732409269269,
+      7844.7310683802225,
+      7844.72975224322,
+      7844.728460757546,
+      7844.727193777528,
+      7844.725951118249,
+      7844.72473256072,
+      7844.723537857353,
+      7844.722366734506,
+      7844.721218897295,
+      7844.720094033142,
+      7844.718991812848,
+      7844.71791189535,
+      7844.716853929112,
+      7844.715817554365,
+      7844.714802403936,
+      7844.713808106826,
+      7844.712834287788,
+      7844.770167519795,
+      7844.713524970481,
+      7844.765627790814,
+      7844.769718402755,
+      7844.768078403413,
+      7844.76580721426,
+      7844.763513675258,
+      7844.7612699351575,
+      7844.759083863293,
+      7844.7569555661485,
+      7844.754884025217,
+      7844.752867909392,
+      7844.750905736124,
+      7844.748995947879,
+      7844.747136960999,
+      7844.745327200737,
+      7844.743565118275,
+      7844.7418492048655,
+      7844.740177997359,
+      7844.738550079874,
+      7844.736964086036,
+      7844.7354186992125,
+      7844.733912649215,
+      7844.73244471454,
+      7844.731013716784,
+      7844.729618522062,
+      7844.728258037685,
+      7844.726931210604,
+      7844.725637027039,
+      7844.7243745084,
+      7844.7231427125225,
+      7844.7219407302255,
+      7844.720767684525,
+      7844.719622729697,
+      7844.718505049954,
+      7844.717413856255,
+      7844.716348388669,
+      7844.715307912918,
+      7844.714291718759,
+      7844.713299121546
+    ],
+    "per_ap_power_mw": [
+      245.0291646147816,
+      999.696913986195,
+      999.758250672789,
+      121.67697056950868,
+      999.8280719214912,
+      594.6510058989467,
+      247.76364263614778,
+      83.5919968030965,
+      39.95848462371818,
+      314.46877951738537,
+      136.6900221444265,
+      32.28126190638126,
+      621.8049510459837,
+      628.6831672271818,
+      999.8957710121678,
+      781.2083283133602
+    ],
+    "final_power_violation_mw": -0.10422898783224355,
+    "final_surrogate_gap_mw": 2.2734837720154246,
+    "final_sinr_gap_reported": -0.0,
+    "trace": [
+      {
+        "dual": 6819.5605,
+        "surrogate_gap": 0.0,
+        "power_gap": 551.1268,
+        "sinr_gap": 0.0
+      },
+      {
+        "dual": 7466.9497,
+        "surrogate_gap": 431.9001,
+        "power_gap": 755.6483,
+        "sinr_gap": 0.0
+      },
+      {
+        "dual": 6446.9278,
+        "surrogate_gap": 1259.1437,
+        "power_gap": 503.7921,
+        "sinr_gap": 0.0
+      },
+      {
+        "dual": 7582.5491,
+        "surrogate_gap": 780.2923,
+        "power_gap": 638.1926,
+        "sinr_gap": 0.0
+      },
+      {
+        "dual": 7164.329,
+        "surrogate_gap": 300.1522,
+        "power_gap": 231.8145,
+        "sinr_gap": 0.0001
+      },
+      {
+        "dual": 7741.8656,
+        "surrogate_gap": 469.9476,
+        "power_gap": 432.3642,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7645.7281,
+        "surrogate_gap": 60.232,
+        "power_gap": 85.3997,
+        "sinr_gap": 0.0
+      },
+      {
+        "dual": 7774.6453,
+        "surrogate_gap": 389.8596,
+        "power_gap": 365.8983,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7747.0353,
+        "surrogate_gap": 92.5647,
+        "power_gap": 71.6641,
+        "sinr_gap": 0.0001
+      },
+      {
+        "dual": 7811.6253,
+        "surrogate_gap": 245.7129,
+        "power_gap": 227.497,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7821.1196,
+        "surrogate_gap": 72.7341,
+        "power_gap": 36.6083,
+        "sinr_gap": 0.0
+      },
+      {
+        "dual": 7832.4854,
+        "surrogate_gap": 141.2582,
+        "power_gap": 121.6402,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7841.1921,
+        "surrogate_gap": 24.4367,
+        "power_gap": 14.718,
+        "sinr_gap": 0.0
+      },
+      {
+        "dual": 7841.2818,
+        "surrogate_gap": 74.9828,
+        "power_gap": 49.4594,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.4126,
+        "surrogate_gap": 10.885,
+        "power_gap": 3.4344,
+        "sinr_gap": 0.0
+      },
+      {
+        "dual": 7843.7524,
+        "surrogate_gap": 42.9654,
+        "power_gap": 13.7008,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.5417,
+        "surrogate_gap": 24.4965,
+        "power_gap": -0.7703,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.3167,
+        "surrogate_gap": 30.9231,
+        "power_gap": 1.8018,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.4381,
+        "surrogate_gap": 26.4622,
+        "power_gap": -1.7674,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.4348,
+        "surrogate_gap": 26.5254,
+        "power_gap": -0.7397,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.4702,
+        "surrogate_gap": 25.0195,
+        "power_gap": -1.2566,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.4889,
+        "surrogate_gap": 24.1386,
+        "power_gap": -1.0356,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.5093,
+        "surrogate_gap": 23.1504,
+        "power_gap": -1.0447,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.5266,
+        "surrogate_gap": 22.2669,
+        "power_gap": -0.993,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.6034,
+        "surrogate_gap": 21.3844,
+        "power_gap": -0.9591,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.6148,
+        "surrogate_gap": 20.5964,
+        "power_gap": -0.9221,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.6242,
+        "surrogate_gap": 19.8505,
+        "power_gap": -0.8901,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.6325,
+        "surrogate_gap": 19.1453,
+        "power_gap": -0.8592,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.6399,
+        "surrogate_gap": 18.4773,
+        "power_gap": -0.8299,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.6466,
+        "surrogate_gap": 17.8437,
+        "power_gap": -0.8021,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.6525,
+        "surrogate_gap": 17.242,
+        "power_gap": -0.7756,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.6577,
+        "surrogate_gap": 16.67,
+        "power_gap": -0.7504,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.6625,
+        "surrogate_gap": 16.1256,
+        "power_gap": -0.7264,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.6667,
+        "surrogate_gap": 15.6069,
+        "power_gap": -0.7035,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.6704,
+        "surrogate_gap": 15.1123,
+        "power_gap": -0.6817,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.6738,
+        "surrogate_gap": 14.6401,
+        "power_gap": -0.6608,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.6768,
+        "surrogate_gap": 14.1891,
+        "power_gap": -0.6408,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.6794,
+        "surrogate_gap": 13.7579,
+        "power_gap": -0.6216,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.6818,
+        "surrogate_gap": 13.3453,
+        "power_gap": -0.6033,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.6839,
+        "surrogate_gap": 12.9501,
+        "power_gap": -0.5857,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.6858,
+        "surrogate_gap": 12.5715,
+        "power_gap": -0.5689,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.6874,
+        "surrogate_gap": 12.2084,
+        "power_gap": -0.5527,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.6888,
+        "surrogate_gap": 11.86,
+        "power_gap": -0.5372,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.6901,
+        "surrogate_gap": 11.5254,
+        "power_gap": -0.5222,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.6912,
+        "surrogate_gap": 11.204,
+        "power_gap": -0.5079,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7557,
+        "surrogate_gap": 10.8544,
+        "power_gap": -0.4934,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7568,
+        "surrogate_gap": 10.5589,
+        "power_gap": -0.479,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7553,
+        "surrogate_gap": 10.2754,
+        "power_gap": -0.4662,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7536,
+        "surrogate_gap": 10.0023,
+        "power_gap": -0.454,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.752,
+        "surrogate_gap": 9.7392,
+        "power_gap": -0.4422,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7504,
+        "surrogate_gap": 9.4856,
+        "power_gap": -0.4308,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7487,
+        "surrogate_gap": 9.241,
+        "power_gap": -0.4199,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7472,
+        "surrogate_gap": 9.0049,
+        "power_gap": -0.4093,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7456,
+        "surrogate_gap": 8.7771,
+        "power_gap": -0.399,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.744,
+        "surrogate_gap": 8.5571,
+        "power_gap": -0.3892,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7425,
+        "surrogate_gap": 8.3445,
+        "power_gap": -0.3796,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.741,
+        "surrogate_gap": 8.139,
+        "power_gap": -0.3703,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7395,
+        "surrogate_gap": 7.9404,
+        "power_gap": -0.3614,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.738,
+        "surrogate_gap": 7.7482,
+        "power_gap": -0.3527,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7366,
+        "surrogate_gap": 7.5623,
+        "power_gap": -0.3444,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7352,
+        "surrogate_gap": 7.3824,
+        "power_gap": -0.3362,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7338,
+        "surrogate_gap": 7.2081,
+        "power_gap": -0.3284,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7324,
+        "surrogate_gap": 7.0393,
+        "power_gap": -0.3208,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7311,
+        "surrogate_gap": 6.8758,
+        "power_gap": -0.3134,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7298,
+        "surrogate_gap": 6.7173,
+        "power_gap": -0.3062,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7285,
+        "surrogate_gap": 6.5637,
+        "power_gap": -0.2993,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7272,
+        "surrogate_gap": 6.4147,
+        "power_gap": -0.2925,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.726,
+        "surrogate_gap": 6.2702,
+        "power_gap": -0.286,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7247,
+        "surrogate_gap": 6.1299,
+        "power_gap": -0.2796,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7235,
+        "surrogate_gap": 5.9938,
+        "power_gap": -0.2735,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7224,
+        "surrogate_gap": 5.8616,
+        "power_gap": -0.2675,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7212,
+        "surrogate_gap": 5.7333,
+        "power_gap": -0.2617,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7201,
+        "surrogate_gap": 5.6086,
+        "power_gap": -0.256,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.719,
+        "surrogate_gap": 5.4875,
+        "power_gap": -0.2505,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7179,
+        "surrogate_gap": 5.3698,
+        "power_gap": -0.2452,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7169,
+        "surrogate_gap": 5.2554,
+        "power_gap": -0.24,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7158,
+        "surrogate_gap": 5.1441,
+        "power_gap": -0.235,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7148,
+        "surrogate_gap": 5.0359,
+        "power_gap": -0.2301,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7138,
+        "surrogate_gap": 4.9307,
+        "power_gap": -0.2253,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7128,
+        "surrogate_gap": 4.8283,
+        "power_gap": -0.2206,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7702,
+        "surrogate_gap": 4.6931,
+        "power_gap": -0.215,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7135,
+        "surrogate_gap": 4.631,
+        "power_gap": -0.2113,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7656,
+        "surrogate_gap": 4.5042,
+        "power_gap": -0.2062,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7697,
+        "surrogate_gap": 4.4098,
+        "power_gap": -0.2018,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7681,
+        "surrogate_gap": 4.3215,
+        "power_gap": -0.1976,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7658,
+        "surrogate_gap": 4.2358,
+        "power_gap": -0.1937,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7635,
+        "surrogate_gap": 4.1524,
+        "power_gap": -0.1899,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7613,
+        "surrogate_gap": 4.071,
+        "power_gap": -0.1862,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7591,
+        "surrogate_gap": 3.9917,
+        "power_gap": -0.1826,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.757,
+        "surrogate_gap": 3.9144,
+        "power_gap": -0.1791,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7549,
+        "surrogate_gap": 3.839,
+        "power_gap": -0.1756,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7529,
+        "surrogate_gap": 3.7654,
+        "power_gap": -0.1723,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7509,
+        "surrogate_gap": 3.6937,
+        "power_gap": -0.169,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.749,
+        "surrogate_gap": 3.6237,
+        "power_gap": -0.1658,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7471,
+        "surrogate_gap": 3.5553,
+        "power_gap": -0.1627,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7453,
+        "surrogate_gap": 3.4886,
+        "power_gap": -0.1597,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7436,
+        "surrogate_gap": 3.4235,
+        "power_gap": -0.1567,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7418,
+        "surrogate_gap": 3.3599,
+        "power_gap": -0.1538,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7402,
+        "surrogate_gap": 3.2979,
+        "power_gap": -0.151,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7386,
+        "surrogate_gap": 3.2372,
+        "power_gap": -0.1482,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.737,
+        "surrogate_gap": 3.178,
+        "power_gap": -0.1455,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7354,
+        "surrogate_gap": 3.1202,
+        "power_gap": -0.1429,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7339,
+        "surrogate_gap": 3.0636,
+        "power_gap": -0.1403,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7324,
+        "surrogate_gap": 3.0084,
+        "power_gap": -0.1378,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.731,
+        "surrogate_gap": 2.9544,
+        "power_gap": -0.1353,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7296,
+        "surrogate_gap": 2.9016,
+        "power_gap": -0.1329,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7283,
+        "surrogate_gap": 2.85,
+        "power_gap": -0.1306,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7269,
+        "surrogate_gap": 2.7996,
+        "power_gap": -0.1283,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7256,
+        "surrogate_gap": 2.7503,
+        "power_gap": -0.126,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7244,
+        "surrogate_gap": 2.7021,
+        "power_gap": -0.1238,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7231,
+        "surrogate_gap": 2.6549,
+        "power_gap": -0.1217,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7219,
+        "surrogate_gap": 2.6087,
+        "power_gap": -0.1195,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7208,
+        "surrogate_gap": 2.5636,
+        "power_gap": -0.1175,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7196,
+        "surrogate_gap": 2.5194,
+        "power_gap": -0.1155,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7185,
+        "surrogate_gap": 2.4762,
+        "power_gap": -0.1135,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7174,
+        "surrogate_gap": 2.4339,
+        "power_gap": -0.1116,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7163,
+        "surrogate_gap": 2.3925,
+        "power_gap": -0.1097,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7153,
+        "surrogate_gap": 2.352,
+        "power_gap": -0.1078,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7143,
+        "surrogate_gap": 2.3123,
+        "power_gap": -0.106,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7133,
+        "surrogate_gap": 2.2735,
+        "power_gap": -0.1042,
+        "sinr_gap": -0.0
+      }
+    ],
+    "stdout": "Dual: 6819.5605 | surrogate dual gap: 0.0000 | max power gap: 551.1268 | max SINR gap: 0.0000\nDual: 7466.9497 | surrogate dual gap: 431.9001 | max power gap: 755.6483 | max SINR gap: 0.0000\nDual: 6446.9278 | surrogate dual gap: 1259.1437 | max power gap: 503.7921 | max SINR gap: 0.0000\nDual: 7582.5491 | surrogate dual gap: 780.2923 | max power gap: 638.1926 | max SINR gap: 0.0000\nDual: 7164.3290 | surrogate dual gap: 300.1522 | max power gap: 231.8145 | max SINR gap: 0.0001\nDual: 7741.8656 | surrogate dual gap: 469.9476 | max power gap: 432.3642 | max SINR gap: -0.0000\nDual: 7645.7281 | surrogate dual gap: 60.2320 | max power gap: 85.3997 | max SINR gap: 0.0000\nDual: 7774.6453 | surrogate dual gap: 389.8596 | max power gap: 365.8983 | max SINR gap: -0.0000\nDual: 7747.0353 | surrogate dual gap: 92.5647 | max power gap: 71.6641 | max SINR gap: 0.0001\nDual: 7811.6253 | surrogate dual gap: 245.7129 | max power gap: 227.4970 | max SINR gap: -0.0000\nDual: 7821.1196 | surrogate dual gap: 72.7341 | max power gap: 36.6083 | max SINR gap: 0.0000\nDual: 7832.4854 | surrogate dual gap: 141.2582 | max power gap: 121.6402 | max SINR gap: -0.0000\nDual: 7841.1921 | surrogate dual gap: 24.4367 | max power gap: 14.7180 | max SINR gap: 0.0000\nDual: 7841.2818 | surrogate dual gap: 74.9828 | max power gap: 49.4594 | max SINR gap: -0.0000\nDual: 7844.4126 | surrogate dual gap: 10.8850 | max power gap: 3.4344 | max SINR gap: 0.0000\nDual: 7843.7524 | surrogate dual gap: 42.9654 | max power gap: 13.7008 | max SINR gap: -0.0000\nDual: 7844.5417 | surrogate dual gap: 24.4965 | max power gap: -0.7703 | max SINR gap: -0.0000\nDual: 7844.3167 | surrogate dual gap: 30.9231 | max power gap: 1.8018 | max SINR gap: -0.0000\nDual: 7844.4381 | surrogate dual gap: 26.4622 | max power gap: -1.7674 | max SINR gap: -0.0000\nDual: 7844.4348 | surrogate dual gap: 26.5254 | max power gap: -0.7397 | max SINR gap: -0.0000\nDual: 7844.4702 | surrogate dual gap: 25.0195 | max power gap: -1.2566 | max SINR gap: -0.0000\nDual: 7844.4889 | surrogate dual gap: 24.1386 | max power gap: -1.0356 | max SINR gap: -0.0000\nDual: 7844.5093 | surrogate dual gap: 23.1504 | max power gap: -1.0447 | max SINR gap: -0.0000\nDual: 7844.5266 | surrogate dual gap: 22.2669 | max power gap: -0.9930 | max SINR gap: -0.0000\nDual: 7844.6034 | surrogate dual gap: 21.3844 | max power gap: -0.9591 | max SINR gap: -0.0000\nDual: 7844.6148 | surrogate dual gap: 20.5964 | max power gap: -0.9221 | max SINR gap: -0.0000\nDual: 7844.6242 | surrogate dual gap: 19.8505 | max power gap: -0.8901 | max SINR gap: -0.0000\nDual: 7844.6325 | surrogate dual gap: 19.1453 | max power gap: -0.8592 | max SINR gap: -0.0000\nDual: 7844.6399 | surrogate dual gap: 18.4773 | max power gap: -0.8299 | max SINR gap: -0.0000\nDual: 7844.6466 | surrogate dual gap: 17.8437 | max power gap: -0.8021 | max SINR gap: -0.0000\nDual: 7844.6525 | surrogate dual gap: 17.2420 | max power gap: -0.7756 | max SINR gap: -0.0000\nDual: 7844.6577 | surrogate dual gap: 16.6700 | max power gap: -0.7504 | max SINR gap: -0.0000\nDual: 7844.6625 | surrogate dual gap: 16.1256 | max power gap: -0.7264 | max SINR gap: -0.0000\nDual: 7844.6667 | surrogate dual gap: 15.6069 | max power gap: -0.7035 | max SINR gap: -0.0000\nDual: 7844.6704 | surrogate dual gap: 15.1123 | max power gap: -0.6817 | max SINR gap: -0.0000\nDual: 7844.6738 | surrogate dual gap: 14.6401 | max power gap: -0.6608 | max SINR gap: -0.0000\nDual: 7844.6768 | surrogate dual gap: 14.1891 | max power gap: -0.6408 | max SINR gap: -0.0000\nDual: 7844.6794 | surrogate dual gap: 13.7579 | max power gap: -0.6216 | max SINR gap: -0.0000\nDual: 7844.6818 | surrogate dual gap: 13.3453 | max power gap: -0.6033 | max SINR gap: -0.0000\nDual: 7844.6839 | surrogate dual gap: 12.9501 | max power gap: -0.5857 | max SINR gap: -0.0000\nDual: 7844.6858 | surrogate dual gap: 12.5715 | max power gap: -0.5689 | max SINR gap: -0.0000\nDual: 7844.6874 | surrogate dual gap: 12.2084 | max power gap: -0.5527 | max SINR gap: -0.0000\nDual: 7844.6888 | surrogate dual gap: 11.8600 | max power gap: -0.5372 | max SINR gap: -0.0000\nDual: 7844.6901 | surrogate dual gap: 11.5254 | max power gap: -0.5222 | max SINR gap: -0.0000\nDual: 7844.6912 | surrogate dual gap: 11.2040 | max power gap: -0.5079 | max SINR gap: -0.0000\nDual: 7844.7557 | surrogate dual gap: 10.8544 | max power gap: -0.4934 | max SINR gap: -0.0000\nDual: 7844.7568 | surrogate dual gap: 10.5589 | max power gap: -0.4790 | max SINR gap: -0.0000\nDual: 7844.7553 | surrogate dual gap: 10.2754 | max power gap: -0.4662 | max SINR gap: -0.0000\nDual: 7844.7536 | surrogate dual gap: 10.0023 | max power gap: -0.4540 | max SINR gap: -0.0000\nDual: 7844.7520 | surrogate dual gap: 9.7392 | max power gap: -0.4422 | max SINR gap: -0.0000\nDual: 7844.7504 | surrogate dual gap: 9.4856 | max power gap: -0.4308 | max SINR gap: -0.0000\nDual: 7844.7487 | surrogate dual gap: 9.2410 | max power gap: -0.4199 | max SINR gap: -0.0000\nDual: 7844.7472 | surrogate dual gap: 9.0049 | max power gap: -0.4093 | max SINR gap: -0.0000\nDual: 7844.7456 | surrogate dual gap: 8.7771 | max power gap: -0.3990 | max SINR gap: -0.0000\nDual: 7844.7440 | surrogate dual gap: 8.5571 | max power gap: -0.3892 | max SINR gap: -0.0000\nDual: 7844.7425 | surrogate dual gap: 8.3445 | max power gap: -0.3796 | max SINR gap: -0.0000\nDual: 7844.7410 | surrogate dual gap: 8.1390 | max power gap: -0.3703 | max SINR gap: -0.0000\nDual: 7844.7395 | surrogate dual gap: 7.9404 | max power gap: -0.3614 | max SINR gap: -0.0000\nDual: 7844.7380 | surrogate dual gap: 7.7482 | max power gap: -0.3527 | max SINR gap: -0.0000\nDual: 7844.7366 | surrogate dual gap: 7.5623 | max power gap: -0.3444 | max SINR gap: -0.0000\nDual: 7844.7352 | surrogate dual gap: 7.3824 | max power gap: -0.3362 | max SINR gap: -0.0000\nDual: 7844.7338 | surrogate dual gap: 7.2081 | max power gap: -0.3284 | max SINR gap: -0.0000\nDual: 7844.7324 | surrogate dual gap: 7.0393 | max power gap: -0.3208 | max SINR gap: -0.0000\nDual: 7844.7311 | surrogate dual gap: 6.8758 | max power gap: -0.3134 | max SINR gap: -0.0000\nDual: 7844.7298 | surrogate dual gap: 6.7173 | max power gap: -0.3062 | max SINR gap: -0.0000\nDual: 7844.7285 | surrogate dual gap: 6.5637 | max power gap: -0.2993 | max SINR gap: -0.0000\nDual: 7844.7272 | surrogate dual gap: 6.4147 | max power gap: -0.2925 | max SINR gap: -0.0000\nDual: 7844.7260 | surrogate dual gap: 6.2702 | max power gap: -0.2860 | max SINR gap: -0.0000\nDual: 7844.7247 | surrogate dual gap: 6.1299 | max power gap: -0.2796 | max SINR gap: -0.0000\nDual: 7844.7235 | surrogate dual gap: 5.9938 | max power gap: -0.2735 | max SINR gap: -0.0000\nDual: 7844.7224 | surrogate dual gap: 5.8616 | max power gap: -0.2675 | max SINR gap: -0.0000\nDual: 7844.7212 | surrogate dual gap: 5.7333 | max power gap: -0.2617 | max SINR gap: -0.0000\nDual: 7844.7201 | surrogate dual gap: 5.6086 | max power gap: -0.2560 | max SINR gap: -0.0000\nDual: 7844.7190 | surrogate dual gap: 5.4875 | max power gap: -0.2505 | max SINR gap: -0.0000\nDual: 7844.7179 | surrogate dual gap: 5.3698 | max power gap: -0.2452 | max SINR gap: -0.0000\nDual: 7844.7169 | surrogate dual gap: 5.2554 | max power gap: -0.2400 | max SINR gap: -0.0000\nDual: 7844.7158 | surrogate dual gap: 5.1441 | max power gap: -0.2350 | max SINR gap: -0.0000\nDual: 7844.7148 | surrogate dual gap: 5.0359 | max power gap: -0.2301 | max SINR gap: -0.0000\nDual: 7844.7138 | surrogate dual gap: 4.9307 | max power gap: -0.2253 | max SINR gap: -0.0000\nDual: 7844.7128 | surrogate dual gap: 4.8283 | max power gap: -0.2206 | max SINR gap: -0.0000\nDual: 7844.7702 | surrogate dual gap: 4.6931 | max power gap: -0.2150 | max SINR gap: -0.0000\nDual: 7844.7135 | surrogate dual gap: 4.6310 | max power gap: -0.2113 | max SINR gap: -0.0000\nDual: 7844.7656 | surrogate dual gap: 4.5042 | max power gap: -0.2062 | max SINR gap: -0.0000\nDual: 7844.7697 | surrogate dual gap: 4.4098 | max power gap: -0.2018 | max SINR gap: -0.0000\nDual: 7844.7681 | surrogate dual gap: 4.3215 | max power gap: -0.1976 | max SINR gap: -0.0000\nDual: 7844.7658 | surrogate dual gap: 4.2358 | max power gap: -0.1937 | max SINR gap: -0.0000\nDual: 7844.7635 | surrogate dual gap: 4.1524 | max power gap: -0.1899 | max SINR gap: -0.0000\nDual: 7844.7613 | surrogate dual gap: 4.0710 | max power gap: -0.1862 | max SINR gap: -0.0000\nDual: 7844.7591 | surrogate dual gap: 3.9917 | max power gap: -0.1826 | max SINR gap: -0.0000\nDual: 7844.7570 | surrogate dual gap: 3.9144 | max power gap: -0.1791 | max SINR gap: -0.0000\nDual: 7844.7549 | surrogate dual gap: 3.8390 | max power gap: -0.1756 | max SINR gap: -0.0000\nDual: 7844.7529 | surrogate dual gap: 3.7654 | max power gap: -0.1723 | max SINR gap: -0.0000\nDual: 7844.7509 | surrogate dual gap: 3.6937 | max power gap: -0.1690 | max SINR gap: -0.0000\nDual: 7844.7490 | surrogate dual gap: 3.6237 | max power gap: -0.1658 | max SINR gap: -0.0000\nDual: 7844.7471 | surrogate dual gap: 3.5553 | max power gap: -0.1627 | max SINR gap: -0.0000\nDual: 7844.7453 | surrogate dual gap: 3.4886 | max power gap: -0.1597 | max SINR gap: -0.0000\nDual: 7844.7436 | surrogate dual gap: 3.4235 | max power gap: -0.1567 | max SINR gap: -0.0000\nDual: 7844.7418 | surrogate dual gap: 3.3599 | max power gap: -0.1538 | max SINR gap: -0.0000\nDual: 7844.7402 | surrogate dual gap: 3.2979 | max power gap: -0.1510 | max SINR gap: -0.0000\nDual: 7844.7386 | surrogate dual gap: 3.2372 | max power gap: -0.1482 | max SINR gap: -0.0000\nDual: 7844.7370 | surrogate dual gap: 3.1780 | max power gap: -0.1455 | max SINR gap: -0.0000\nDual: 7844.7354 | surrogate dual gap: 3.1202 | max power gap: -0.1429 | max SINR gap: -0.0000\nDual: 7844.7339 | surrogate dual gap: 3.0636 | max power gap: -0.1403 | max SINR gap: -0.0000\nDual: 7844.7324 | surrogate dual gap: 3.0084 | max power gap: -0.1378 | max SINR gap: -0.0000\nDual: 7844.7310 | surrogate dual gap: 2.9544 | max power gap: -0.1353 | max SINR gap: -0.0000\nDual: 7844.7296 | surrogate dual gap: 2.9016 | max power gap: -0.1329 | max SINR gap: -0.0000\nDual: 7844.7283 | surrogate dual gap: 2.8500 | max power gap: -0.1306 | max SINR gap: -0.0000\nDual: 7844.7269 | surrogate dual gap: 2.7996 | max power gap: -0.1283 | max SINR gap: -0.0000\nDual: 7844.7256 | surrogate dual gap: 2.7503 | max power gap: -0.1260 | max SINR gap: -0.0000\nDual: 7844.7244 | surrogate dual gap: 2.7021 | max power gap: -0.1238 | max SINR gap: -0.0000\nDual: 7844.7231 | surrogate dual gap: 2.6549 | max power gap: -0.1217 | max SINR gap: -0.0000\nDual: 7844.7219 | surrogate dual gap: 2.6087 | max power gap: -0.1195 | max SINR gap: -0.0000\nDual: 7844.7208 | surrogate dual gap: 2.5636 | max power gap: -0.1175 | max SINR gap: -0.0000\nDual: 7844.7196 | surrogate dual gap: 2.5194 | max power gap: -0.1155 | max SINR gap: -0.0000\nDual: 7844.7185 | surrogate dual gap: 2.4762 | max power gap: -0.1135 | max SINR gap: -0.0000\nDual: 7844.7174 | surrogate dual gap: 2.4339 | max power gap: -0.1116 | max SINR gap: -0.0000\nDual: 7844.7163 | surrogate dual gap: 2.3925 | max power gap: -0.1097 | max SINR gap: -0.0000\nDual: 7844.7153 | surrogate dual gap: 2.3520 | max power gap: -0.1078 | max SINR gap: -0.0000\nDual: 7844.7143 | surrogate dual gap: 2.3123 | max power gap: -0.1060 | max SINR gap: -0.0000\nDual: 7844.7133 | surrogate dual gap: 2.2735 | max power gap: -0.1042 | max SINR gap: -0.0000\n"
+  },
+  {
+    "seed": 4,
+    "method": "AdaptiveProblem",
+    "setup_s": 0.02124025020748377,
+    "solve_s": 4.137835499830544,
+    "outer_iterations": 120,
+    "inner_iterations": 553,
+    "solved": false,
+    "feasible_flag": false,
+    "error": null,
+    "dual_objective": [
+      6819.560477631874,
+      7466.9496595787405,
+      6288.920974276132,
+      7534.503747582743,
+      7024.193120299835,
+      7672.009436954157,
+      7381.338975626273,
+      7699.044415128785,
+      7428.642523166731,
+      7714.733706786385,
+      7510.457444647651,
+      7699.999778023346,
+      7497.1480100192675,
+      7759.603490452286,
+      7704.797395428865,
+      7775.527826689817,
+      7754.082604325406,
+      7798.14966575988,
+      7799.700056996311,
+      7816.164633857374,
+      7824.955041341829,
+      7828.86053632453,
+      7836.99631076345,
+      7836.566584849748,
+      7841.55113015043,
+      7840.451234187682,
+      7842.907627142833,
+      7842.266621521736,
+      7843.333590531423,
+      7843.058374492248,
+      7843.5498761342515,
+      7843.4805878516945,
+      7843.742717085044,
+      7843.807857739594,
+      7843.917750879822,
+      7843.989274022388,
+      7844.0657065097275,
+      7844.12812580464,
+      7844.186535515135,
+      7844.237697371918,
+      7844.2839825611445,
+      7844.325294248218,
+      7844.362424316012,
+      7844.395731478311,
+      7844.425658789773,
+      7844.452552958028,
+      7844.476736599496,
+      7844.498490776987,
+      7844.518066770925,
+      7844.535687593241,
+      7844.61402790622,
+      7844.626222806535,
+      7844.636254075569,
+      7844.645137787224,
+      7844.6530175670705,
+      7844.660001567849,
+      7844.666182481091,
+      7844.671642620648,
+      7844.676455463326,
+      7844.68068684241,
+      7844.684395808832,
+      7844.687635381391,
+      7844.690453194435,
+      7844.692892074036,
+      7844.694990545153,
+      7844.696783282849,
+      7844.698301514585,
+      7844.699573374899,
+      7844.700624224146,
+      7844.701476930219,
+      7844.702152123082,
+      7844.702668418249,
+      7844.703042618832,
+      7844.766605719931,
+      7844.766904562035,
+      7844.764646141954,
+      7844.762293939413,
+      7844.759949404201,
+      7844.7576280492485,
+      7844.755336513648,
+      7844.753078681137,
+      7844.750857169343,
+      7844.74867389837,
+      7844.746530331911,
+      7844.744427591977,
+      7844.7423665244205,
+      7844.740347740777,
+      7844.738371649226,
+      7844.736438481152,
+      7844.734548313982,
+      7844.732701090572,
+      7844.730896635034,
+      7844.729134669935,
+      7844.72741482924,
+      7844.725736670718,
+      7844.72409968554,
+      7844.722503310106,
+      7844.7209469331065,
+      7844.719429904317,
+      7844.717951539724,
+      7844.716511129942,
+      7844.715107943213,
+      7844.713741232157,
+      7844.712410236949,
+      7844.770197565367,
+      7844.712392147723,
+      7844.764403673509,
+      7844.767731275606,
+      7844.765474469079,
+      7844.762649090764,
+      7844.759831236672,
+      7844.757087409285,
+      7844.754425378531,
+      7844.751845177661,
+      7844.749345194252,
+      7844.7469232359435,
+      7844.744576882367,
+      7844.742303651934,
+      7844.740101076799,
+      7844.737966743962
+    ],
+    "per_ap_power_mw": [
+      245.03393160932944,
+      999.6785891989736,
+      999.7436112955936,
+      121.67980229948876,
+      999.8176006187621,
+      594.6802907035425,
+      247.80570269075608,
+      83.59598717551691,
+      39.96065231011528,
+      314.4710037000954,
+      136.69343011790653,
+      32.28199880766158,
+      621.8415888221052,
+      628.7469094583918,
+      999.8894643191073,
+      781.2290694356107
+    ],
+    "final_power_violation_mw": -0.11053568089266719,
+    "final_surrogate_gap_mw": 2.4116658189950613,
+    "final_sinr_gap_reported": -0.0,
+    "trace": [
+      {
+        "dual": 6819.5605,
+        "surrogate_gap": 0.0,
+        "power_gap": 551.1268,
+        "sinr_gap": 0.0
+      },
+      {
+        "dual": 7466.9497,
+        "surrogate_gap": 431.9001,
+        "power_gap": 755.6483,
+        "sinr_gap": 0.0
+      },
+      {
+        "dual": 6288.921,
+        "surrogate_gap": 1428.0893,
+        "power_gap": 537.4852,
+        "sinr_gap": 0.0
+      },
+      {
+        "dual": 7534.5037,
+        "surrogate_gap": 889.682,
+        "power_gap": 673.2785,
+        "sinr_gap": 0.0001
+      },
+      {
+        "dual": 7024.1931,
+        "surrogate_gap": 458.9009,
+        "power_gap": 259.4484,
+        "sinr_gap": 0.0001
+      },
+      {
+        "dual": 7672.0094,
+        "surrogate_gap": 690.1437,
+        "power_gap": 571.62,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7381.339,
+        "surrogate_gap": 166.3613,
+        "power_gap": 134.0037,
+        "sinr_gap": 0.0
+      },
+      {
+        "dual": 7699.0444,
+        "surrogate_gap": 671.1334,
+        "power_gap": 563.2659,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7428.6425,
+        "surrogate_gap": 150.7811,
+        "power_gap": 131.7856,
+        "sinr_gap": 0.0
+      },
+      {
+        "dual": 7714.7337,
+        "surrogate_gap": 623.3208,
+        "power_gap": 506.2902,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7510.4574,
+        "surrogate_gap": 101.3799,
+        "power_gap": 135.3439,
+        "sinr_gap": 0.0001
+      },
+      {
+        "dual": 7699.9998,
+        "surrogate_gap": 674.412,
+        "power_gap": 539.2819,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7497.148,
+        "surrogate_gap": 120.0042,
+        "power_gap": 134.0458,
+        "sinr_gap": 0.0001
+      },
+      {
+        "dual": 7759.6035,
+        "surrogate_gap": 482.3422,
+        "power_gap": 369.556,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7704.7974,
+        "surrogate_gap": 5.6191,
+        "power_gap": 85.5167,
+        "sinr_gap": 0.0001
+      },
+      {
+        "dual": 7775.5278,
+        "surrogate_gap": 428.201,
+        "power_gap": 327.9855,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7754.0826,
+        "surrogate_gap": 24.8788,
+        "power_gap": 64.5999,
+        "sinr_gap": 0.0
+      },
+      {
+        "dual": 7798.1497,
+        "surrogate_gap": 339.5391,
+        "power_gap": 253.2535,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7799.7001,
+        "surrogate_gap": 26.5007,
+        "power_gap": 44.129,
+        "sinr_gap": 0.0
+      },
+      {
+        "dual": 7816.1646,
+        "surrogate_gap": 258.2313,
+        "power_gap": 182.8663,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7824.955,
+        "surrogate_gap": 11.1177,
+        "power_gap": 27.6526,
+        "sinr_gap": 0.0001
+      },
+      {
+        "dual": 7828.8605,
+        "surrogate_gap": 188.9993,
+        "power_gap": 120.5999,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7836.9963,
+        "surrogate_gap": 11.1023,
+        "power_gap": 15.0193,
+        "sinr_gap": 0.0
+      },
+      {
+        "dual": 7836.5666,
+        "surrogate_gap": 135.1815,
+        "power_gap": 70.6041,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7841.5511,
+        "surrogate_gap": 31.2892,
+        "power_gap": 6.1757,
+        "sinr_gap": 0.0
+      },
+      {
+        "dual": 7840.4512,
+        "surrogate_gap": 97.5284,
+        "power_gap": 35.4894,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7842.9076,
+        "surrogate_gap": 44.0964,
+        "power_gap": 0.8166,
+        "sinr_gap": 0.0002
+      },
+      {
+        "dual": 7842.2666,
+        "surrogate_gap": 73.5594,
+        "power_gap": 14.5541,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7843.3336,
+        "surrogate_gap": 49.0278,
+        "power_gap": -1.8742,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7843.0584,
+        "surrogate_gap": 59.2883,
+        "power_gap": 4.2196,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7843.5499,
+        "surrogate_gap": 48.6298,
+        "power_gap": -2.8944,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7843.4806,
+        "surrogate_gap": 50.623,
+        "power_gap": 0.022,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7843.7427,
+        "surrogate_gap": 45.6922,
+        "power_gap": -3.0918,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7843.8079,
+        "surrogate_gap": 44.7737,
+        "power_gap": -1.3306,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7843.9178,
+        "surrogate_gap": 41.9953,
+        "power_gap": -2.1415,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7843.9893,
+        "surrogate_gap": 40.3528,
+        "power_gap": -1.6179,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.0657,
+        "surrogate_gap": 38.3393,
+        "power_gap": -1.7491,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.1281,
+        "surrogate_gap": 36.6634,
+        "power_gap": -1.5808,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.1865,
+        "surrogate_gap": 34.9859,
+        "power_gap": -1.5531,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.2377,
+        "surrogate_gap": 33.4467,
+        "power_gap": -1.47,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.284,
+        "surrogate_gap": 31.9762,
+        "power_gap": -1.4149,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.3253,
+        "surrogate_gap": 30.5941,
+        "power_gap": -1.3533,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.3624,
+        "surrogate_gap": 29.2847,
+        "power_gap": -1.2984,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.3957,
+        "surrogate_gap": 28.0467,
+        "power_gap": -1.2451,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.4257,
+        "surrogate_gap": 26.874,
+        "power_gap": -1.1948,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.4526,
+        "surrogate_gap": 25.7628,
+        "power_gap": -1.1469,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.4767,
+        "surrogate_gap": 24.709,
+        "power_gap": -1.1015,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.4985,
+        "surrogate_gap": 23.7089,
+        "power_gap": -1.0582,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.5181,
+        "surrogate_gap": 22.7592,
+        "power_gap": -1.017,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.5357,
+        "surrogate_gap": 21.8568,
+        "power_gap": -0.9777,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.614,
+        "surrogate_gap": 20.9586,
+        "power_gap": -0.94,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.6262,
+        "surrogate_gap": 20.1465,
+        "power_gap": -0.9025,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.6363,
+        "surrogate_gap": 19.3721,
+        "power_gap": -0.8692,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.6451,
+        "surrogate_gap": 18.635,
+        "power_gap": -0.8368,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.653,
+        "surrogate_gap": 17.9323,
+        "power_gap": -0.806,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.66,
+        "surrogate_gap": 17.2622,
+        "power_gap": -0.7765,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.6662,
+        "surrogate_gap": 16.6229,
+        "power_gap": -0.7484,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.6716,
+        "surrogate_gap": 16.0126,
+        "power_gap": -0.7214,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.6765,
+        "surrogate_gap": 15.4298,
+        "power_gap": -0.6957,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.6807,
+        "surrogate_gap": 14.8729,
+        "power_gap": -0.6711,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.6844,
+        "surrogate_gap": 14.3405,
+        "power_gap": -0.6475,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.6876,
+        "surrogate_gap": 13.8314,
+        "power_gap": -0.6249,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.6905,
+        "surrogate_gap": 13.3443,
+        "power_gap": -0.6032,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.6929,
+        "surrogate_gap": 12.878,
+        "power_gap": -0.5825,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.695,
+        "surrogate_gap": 12.4315,
+        "power_gap": -0.5626,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.6968,
+        "surrogate_gap": 12.0038,
+        "power_gap": -0.5436,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.6983,
+        "surrogate_gap": 11.5939,
+        "power_gap": -0.5253,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.6996,
+        "surrogate_gap": 11.201,
+        "power_gap": -0.5077,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7006,
+        "surrogate_gap": 10.8241,
+        "power_gap": -0.4909,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7015,
+        "surrogate_gap": 10.4626,
+        "power_gap": -0.4747,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7022,
+        "surrogate_gap": 10.1156,
+        "power_gap": -0.4592,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7027,
+        "surrogate_gap": 9.7824,
+        "power_gap": -0.4442,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.703,
+        "surrogate_gap": 9.4625,
+        "power_gap": -0.4299,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7666,
+        "surrogate_gap": 9.1147,
+        "power_gap": -0.4154,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7669,
+        "surrogate_gap": 8.8214,
+        "power_gap": -0.4009,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7646,
+        "surrogate_gap": 8.54,
+        "power_gap": -0.3883,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7623,
+        "surrogate_gap": 8.2695,
+        "power_gap": -0.3762,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7599,
+        "surrogate_gap": 8.0093,
+        "power_gap": -0.3645,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7576,
+        "surrogate_gap": 7.7589,
+        "power_gap": -0.3532,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7553,
+        "surrogate_gap": 7.5178,
+        "power_gap": -0.3423,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7531,
+        "surrogate_gap": 7.2857,
+        "power_gap": -0.3319,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7509,
+        "surrogate_gap": 7.0621,
+        "power_gap": -0.3218,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7487,
+        "surrogate_gap": 6.8467,
+        "power_gap": -0.312,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7465,
+        "surrogate_gap": 6.6391,
+        "power_gap": -0.3027,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7444,
+        "surrogate_gap": 6.4389,
+        "power_gap": -0.2936,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7424,
+        "surrogate_gap": 6.246,
+        "power_gap": -0.2849,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7403,
+        "surrogate_gap": 6.0599,
+        "power_gap": -0.2765,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7384,
+        "surrogate_gap": 5.8804,
+        "power_gap": -0.2683,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7364,
+        "surrogate_gap": 5.7071,
+        "power_gap": -0.2605,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7345,
+        "surrogate_gap": 5.54,
+        "power_gap": -0.2529,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7327,
+        "surrogate_gap": 5.3786,
+        "power_gap": -0.2456,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7309,
+        "surrogate_gap": 5.2227,
+        "power_gap": -0.2385,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7291,
+        "surrogate_gap": 5.0722,
+        "power_gap": -0.2317,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7274,
+        "surrogate_gap": 4.9268,
+        "power_gap": -0.2251,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7257,
+        "surrogate_gap": 4.7864,
+        "power_gap": -0.2187,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7241,
+        "surrogate_gap": 4.6506,
+        "power_gap": -0.2126,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7225,
+        "surrogate_gap": 4.5194,
+        "power_gap": -0.2066,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7209,
+        "surrogate_gap": 4.3925,
+        "power_gap": -0.2008,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7194,
+        "surrogate_gap": 4.2698,
+        "power_gap": -0.1952,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.718,
+        "surrogate_gap": 4.1511,
+        "power_gap": -0.1899,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7165,
+        "surrogate_gap": 4.0363,
+        "power_gap": -0.1846,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7151,
+        "surrogate_gap": 3.9253,
+        "power_gap": -0.1796,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7137,
+        "surrogate_gap": 3.8178,
+        "power_gap": -0.1747,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7124,
+        "surrogate_gap": 3.7137,
+        "power_gap": -0.1699,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7702,
+        "surrogate_gap": 3.577,
+        "power_gap": -0.1642,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7124,
+        "surrogate_gap": 3.5151,
+        "power_gap": -0.1604,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7644,
+        "surrogate_gap": 3.388,
+        "power_gap": -0.1555,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7677,
+        "surrogate_gap": 3.2947,
+        "power_gap": -0.1509,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7655,
+        "surrogate_gap": 3.2077,
+        "power_gap": -0.1468,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7626,
+        "surrogate_gap": 3.1238,
+        "power_gap": -0.143,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7598,
+        "surrogate_gap": 3.0424,
+        "power_gap": -0.1393,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7571,
+        "surrogate_gap": 2.9635,
+        "power_gap": -0.1357,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7544,
+        "surrogate_gap": 2.887,
+        "power_gap": -0.1322,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7518,
+        "surrogate_gap": 2.8128,
+        "power_gap": -0.1289,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7493,
+        "surrogate_gap": 2.7409,
+        "power_gap": -0.1256,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7469,
+        "surrogate_gap": 2.671,
+        "power_gap": -0.1224,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7446,
+        "surrogate_gap": 2.6033,
+        "power_gap": -0.1193,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7423,
+        "surrogate_gap": 2.5375,
+        "power_gap": -0.1163,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.7401,
+        "surrogate_gap": 2.4736,
+        "power_gap": -0.1134,
+        "sinr_gap": -0.0
+      },
+      {
+        "dual": 7844.738,
+        "surrogate_gap": 2.4117,
+        "power_gap": -0.1105,
+        "sinr_gap": -0.0
+      }
+    ],
+    "stdout": "Dual: 6819.5605 | surrogate dual gap: 0.0000 | max power gap: 551.1268 | max SINR gap: 0.0000\nDual: 7466.9497 | surrogate dual gap: 431.9001 | max power gap: 755.6483 | max SINR gap: 0.0000\nDual: 6288.9210 | surrogate dual gap: 1428.0893 | max power gap: 537.4852 | max SINR gap: 0.0000\nDual: 7534.5037 | surrogate dual gap: 889.6820 | max power gap: 673.2785 | max SINR gap: 0.0001\nDual: 7024.1931 | surrogate dual gap: 458.9009 | max power gap: 259.4484 | max SINR gap: 0.0001\nDual: 7672.0094 | surrogate dual gap: 690.1437 | max power gap: 571.6200 | max SINR gap: -0.0000\nDual: 7381.3390 | surrogate dual gap: 166.3613 | max power gap: 134.0037 | max SINR gap: 0.0000\nDual: 7699.0444 | surrogate dual gap: 671.1334 | max power gap: 563.2659 | max SINR gap: -0.0000\nDual: 7428.6425 | surrogate dual gap: 150.7811 | max power gap: 131.7856 | max SINR gap: 0.0000\nDual: 7714.7337 | surrogate dual gap: 623.3208 | max power gap: 506.2902 | max SINR gap: -0.0000\nDual: 7510.4574 | surrogate dual gap: 101.3799 | max power gap: 135.3439 | max SINR gap: 0.0001\nDual: 7699.9998 | surrogate dual gap: 674.4120 | max power gap: 539.2819 | max SINR gap: -0.0000\nDual: 7497.1480 | surrogate dual gap: 120.0042 | max power gap: 134.0458 | max SINR gap: 0.0001\nDual: 7759.6035 | surrogate dual gap: 482.3422 | max power gap: 369.5560 | max SINR gap: -0.0000\nDual: 7704.7974 | surrogate dual gap: 5.6191 | max power gap: 85.5167 | max SINR gap: 0.0001\nDual: 7775.5278 | surrogate dual gap: 428.2010 | max power gap: 327.9855 | max SINR gap: -0.0000\nDual: 7754.0826 | surrogate dual gap: 24.8788 | max power gap: 64.5999 | max SINR gap: 0.0000\nDual: 7798.1497 | surrogate dual gap: 339.5391 | max power gap: 253.2535 | max SINR gap: -0.0000\nDual: 7799.7001 | surrogate dual gap: 26.5007 | max power gap: 44.1290 | max SINR gap: 0.0000\nDual: 7816.1646 | surrogate dual gap: 258.2313 | max power gap: 182.8663 | max SINR gap: -0.0000\nDual: 7824.9550 | surrogate dual gap: 11.1177 | max power gap: 27.6526 | max SINR gap: 0.0001\nDual: 7828.8605 | surrogate dual gap: 188.9993 | max power gap: 120.5999 | max SINR gap: -0.0000\nDual: 7836.9963 | surrogate dual gap: 11.1023 | max power gap: 15.0193 | max SINR gap: 0.0000\nDual: 7836.5666 | surrogate dual gap: 135.1815 | max power gap: 70.6041 | max SINR gap: -0.0000\nDual: 7841.5511 | surrogate dual gap: 31.2892 | max power gap: 6.1757 | max SINR gap: 0.0000\nDual: 7840.4512 | surrogate dual gap: 97.5284 | max power gap: 35.4894 | max SINR gap: -0.0000\nDual: 7842.9076 | surrogate dual gap: 44.0964 | max power gap: 0.8166 | max SINR gap: 0.0002\nDual: 7842.2666 | surrogate dual gap: 73.5594 | max power gap: 14.5541 | max SINR gap: -0.0000\nDual: 7843.3336 | surrogate dual gap: 49.0278 | max power gap: -1.8742 | max SINR gap: -0.0000\nDual: 7843.0584 | surrogate dual gap: 59.2883 | max power gap: 4.2196 | max SINR gap: -0.0000\nDual: 7843.5499 | surrogate dual gap: 48.6298 | max power gap: -2.8944 | max SINR gap: -0.0000\nDual: 7843.4806 | surrogate dual gap: 50.6230 | max power gap: 0.0220 | max SINR gap: -0.0000\nDual: 7843.7427 | surrogate dual gap: 45.6922 | max power gap: -3.0918 | max SINR gap: -0.0000\nDual: 7843.8079 | surrogate dual gap: 44.7737 | max power gap: -1.3306 | max SINR gap: -0.0000\nDual: 7843.9178 | surrogate dual gap: 41.9953 | max power gap: -2.1415 | max SINR gap: -0.0000\nDual: 7843.9893 | surrogate dual gap: 40.3528 | max power gap: -1.6179 | max SINR gap: -0.0000\nDual: 7844.0657 | surrogate dual gap: 38.3393 | max power gap: -1.7491 | max SINR gap: -0.0000\nDual: 7844.1281 | surrogate dual gap: 36.6634 | max power gap: -1.5808 | max SINR gap: -0.0000\nDual: 7844.1865 | surrogate dual gap: 34.9859 | max power gap: -1.5531 | max SINR gap: -0.0000\nDual: 7844.2377 | surrogate dual gap: 33.4467 | max power gap: -1.4700 | max SINR gap: -0.0000\nDual: 7844.2840 | surrogate dual gap: 31.9762 | max power gap: -1.4149 | max SINR gap: -0.0000\nDual: 7844.3253 | surrogate dual gap: 30.5941 | max power gap: -1.3533 | max SINR gap: -0.0000\nDual: 7844.3624 | surrogate dual gap: 29.2847 | max power gap: -1.2984 | max SINR gap: -0.0000\nDual: 7844.3957 | surrogate dual gap: 28.0467 | max power gap: -1.2451 | max SINR gap: -0.0000\nDual: 7844.4257 | surrogate dual gap: 26.8740 | max power gap: -1.1948 | max SINR gap: -0.0000\nDual: 7844.4526 | surrogate dual gap: 25.7628 | max power gap: -1.1469 | max SINR gap: -0.0000\nDual: 7844.4767 | surrogate dual gap: 24.7090 | max power gap: -1.1015 | max SINR gap: -0.0000\nDual: 7844.4985 | surrogate dual gap: 23.7089 | max power gap: -1.0582 | max SINR gap: -0.0000\nDual: 7844.5181 | surrogate dual gap: 22.7592 | max power gap: -1.0170 | max SINR gap: -0.0000\nDual: 7844.5357 | surrogate dual gap: 21.8568 | max power gap: -0.9777 | max SINR gap: -0.0000\nDual: 7844.6140 | surrogate dual gap: 20.9586 | max power gap: -0.9400 | max SINR gap: -0.0000\nDual: 7844.6262 | surrogate dual gap: 20.1465 | max power gap: -0.9025 | max SINR gap: -0.0000\nDual: 7844.6363 | surrogate dual gap: 19.3721 | max power gap: -0.8692 | max SINR gap: -0.0000\nDual: 7844.6451 | surrogate dual gap: 18.6350 | max power gap: -0.8368 | max SINR gap: -0.0000\nDual: 7844.6530 | surrogate dual gap: 17.9323 | max power gap: -0.8060 | max SINR gap: -0.0000\nDual: 7844.6600 | surrogate dual gap: 17.2622 | max power gap: -0.7765 | max SINR gap: -0.0000\nDual: 7844.6662 | surrogate dual gap: 16.6229 | max power gap: -0.7484 | max SINR gap: -0.0000\nDual: 7844.6716 | surrogate dual gap: 16.0126 | max power gap: -0.7214 | max SINR gap: -0.0000\nDual: 7844.6765 | surrogate dual gap: 15.4298 | max power gap: -0.6957 | max SINR gap: -0.0000\nDual: 7844.6807 | surrogate dual gap: 14.8729 | max power gap: -0.6711 | max SINR gap: -0.0000\nDual: 7844.6844 | surrogate dual gap: 14.3405 | max power gap: -0.6475 | max SINR gap: -0.0000\nDual: 7844.6876 | surrogate dual gap: 13.8314 | max power gap: -0.6249 | max SINR gap: -0.0000\nDual: 7844.6905 | surrogate dual gap: 13.3443 | max power gap: -0.6032 | max SINR gap: -0.0000\nDual: 7844.6929 | surrogate dual gap: 12.8780 | max power gap: -0.5825 | max SINR gap: -0.0000\nDual: 7844.6950 | surrogate dual gap: 12.4315 | max power gap: -0.5626 | max SINR gap: -0.0000\nDual: 7844.6968 | surrogate dual gap: 12.0038 | max power gap: -0.5436 | max SINR gap: -0.0000\nDual: 7844.6983 | surrogate dual gap: 11.5939 | max power gap: -0.5253 | max SINR gap: -0.0000\nDual: 7844.6996 | surrogate dual gap: 11.2010 | max power gap: -0.5077 | max SINR gap: -0.0000\nDual: 7844.7006 | surrogate dual gap: 10.8241 | max power gap: -0.4909 | max SINR gap: -0.0000\nDual: 7844.7015 | surrogate dual gap: 10.4626 | max power gap: -0.4747 | max SINR gap: -0.0000\nDual: 7844.7022 | surrogate dual gap: 10.1156 | max power gap: -0.4592 | max SINR gap: -0.0000\nDual: 7844.7027 | surrogate dual gap: 9.7824 | max power gap: -0.4442 | max SINR gap: -0.0000\nDual: 7844.7030 | surrogate dual gap: 9.4625 | max power gap: -0.4299 | max SINR gap: -0.0000\nDual: 7844.7666 | surrogate dual gap: 9.1147 | max power gap: -0.4154 | max SINR gap: -0.0000\nDual: 7844.7669 | surrogate dual gap: 8.8214 | max power gap: -0.4009 | max SINR gap: -0.0000\nDual: 7844.7646 | surrogate dual gap: 8.5400 | max power gap: -0.3883 | max SINR gap: -0.0000\nDual: 7844.7623 | surrogate dual gap: 8.2695 | max power gap: -0.3762 | max SINR gap: -0.0000\nDual: 7844.7599 | surrogate dual gap: 8.0093 | max power gap: -0.3645 | max SINR gap: -0.0000\nDual: 7844.7576 | surrogate dual gap: 7.7589 | max power gap: -0.3532 | max SINR gap: -0.0000\nDual: 7844.7553 | surrogate dual gap: 7.5178 | max power gap: -0.3423 | max SINR gap: -0.0000\nDual: 7844.7531 | surrogate dual gap: 7.2857 | max power gap: -0.3319 | max SINR gap: -0.0000\nDual: 7844.7509 | surrogate dual gap: 7.0621 | max power gap: -0.3218 | max SINR gap: -0.0000\nDual: 7844.7487 | surrogate dual gap: 6.8467 | max power gap: -0.3120 | max SINR gap: -0.0000\nDual: 7844.7465 | surrogate dual gap: 6.6391 | max power gap: -0.3027 | max SINR gap: -0.0000\nDual: 7844.7444 | surrogate dual gap: 6.4389 | max power gap: -0.2936 | max SINR gap: -0.0000\nDual: 7844.7424 | surrogate dual gap: 6.2460 | max power gap: -0.2849 | max SINR gap: -0.0000\nDual: 7844.7403 | surrogate dual gap: 6.0599 | max power gap: -0.2765 | max SINR gap: -0.0000\nDual: 7844.7384 | surrogate dual gap: 5.8804 | max power gap: -0.2683 | max SINR gap: -0.0000\nDual: 7844.7364 | surrogate dual gap: 5.7071 | max power gap: -0.2605 | max SINR gap: -0.0000\nDual: 7844.7345 | surrogate dual gap: 5.5400 | max power gap: -0.2529 | max SINR gap: -0.0000\nDual: 7844.7327 | surrogate dual gap: 5.3786 | max power gap: -0.2456 | max SINR gap: -0.0000\nDual: 7844.7309 | surrogate dual gap: 5.2227 | max power gap: -0.2385 | max SINR gap: -0.0000\nDual: 7844.7291 | surrogate dual gap: 5.0722 | max power gap: -0.2317 | max SINR gap: -0.0000\nDual: 7844.7274 | surrogate dual gap: 4.9268 | max power gap: -0.2251 | max SINR gap: -0.0000\nDual: 7844.7257 | surrogate dual gap: 4.7864 | max power gap: -0.2187 | max SINR gap: -0.0000\nDual: 7844.7241 | surrogate dual gap: 4.6506 | max power gap: -0.2126 | max SINR gap: -0.0000\nDual: 7844.7225 | surrogate dual gap: 4.5194 | max power gap: -0.2066 | max SINR gap: -0.0000\nDual: 7844.7209 | surrogate dual gap: 4.3925 | max power gap: -0.2008 | max SINR gap: -0.0000\nDual: 7844.7194 | surrogate dual gap: 4.2698 | max power gap: -0.1952 | max SINR gap: -0.0000\nDual: 7844.7180 | surrogate dual gap: 4.1511 | max power gap: -0.1899 | max SINR gap: -0.0000\nDual: 7844.7165 | surrogate dual gap: 4.0363 | max power gap: -0.1846 | max SINR gap: -0.0000\nDual: 7844.7151 | surrogate dual gap: 3.9253 | max power gap: -0.1796 | max SINR gap: -0.0000\nDual: 7844.7137 | surrogate dual gap: 3.8178 | max power gap: -0.1747 | max SINR gap: -0.0000\nDual: 7844.7124 | surrogate dual gap: 3.7137 | max power gap: -0.1699 | max SINR gap: -0.0000\nDual: 7844.7702 | surrogate dual gap: 3.5770 | max power gap: -0.1642 | max SINR gap: -0.0000\nDual: 7844.7124 | surrogate dual gap: 3.5151 | max power gap: -0.1604 | max SINR gap: -0.0000\nDual: 7844.7644 | surrogate dual gap: 3.3880 | max power gap: -0.1555 | max SINR gap: -0.0000\nDual: 7844.7677 | surrogate dual gap: 3.2947 | max power gap: -0.1509 | max SINR gap: -0.0000\nDual: 7844.7655 | surrogate dual gap: 3.2077 | max power gap: -0.1468 | max SINR gap: -0.0000\nDual: 7844.7626 | surrogate dual gap: 3.1238 | max power gap: -0.1430 | max SINR gap: -0.0000\nDual: 7844.7598 | surrogate dual gap: 3.0424 | max power gap: -0.1393 | max SINR gap: -0.0000\nDual: 7844.7571 | surrogate dual gap: 2.9635 | max power gap: -0.1357 | max SINR gap: -0.0000\nDual: 7844.7544 | surrogate dual gap: 2.8870 | max power gap: -0.1322 | max SINR gap: -0.0000\nDual: 7844.7518 | surrogate dual gap: 2.8128 | max power gap: -0.1289 | max SINR gap: -0.0000\nDual: 7844.7493 | surrogate dual gap: 2.7409 | max power gap: -0.1256 | max SINR gap: -0.0000\nDual: 7844.7469 | surrogate dual gap: 2.6710 | max power gap: -0.1224 | max SINR gap: -0.0000\nDual: 7844.7446 | surrogate dual gap: 2.6033 | max power gap: -0.1193 | max SINR gap: -0.0000\nDual: 7844.7423 | surrogate dual gap: 2.5375 | max power gap: -0.1163 | max SINR gap: -0.0000\nDual: 7844.7401 | surrogate dual gap: 2.4736 | max power gap: -0.1134 | max SINR gap: -0.0000\nDual: 7844.7380 | surrogate dual gap: 2.4117 | max power gap: -0.1105 | max SINR gap: -0.0000\n"
+  }
+]

@@ -56,6 +56,8 @@ def execute(cls, seed, cfg):
             traces.append(dict(zip(("dual", "surrogate_gap", "power_gap", "sinr_gap"),
                                    map(float, match.groups()))))
     final_powers = np.asarray(problem.powers[-1]).tolist() if problem.powers else None
+    power_gaps = [float(np.max(np.asarray(x) - cfg.p_max)) for x in problem.powers]
+    dual_gaps = [float(np.sum(x) - d) for x, d in zip(problem.powers, problem.dual_obj)]
     result = {
         "seed": seed, "method": cls.__name__, "setup_s": setup_s,
         "solve_s": solve_s, "outer_iterations": len(problem.dual_obj),
@@ -65,6 +67,9 @@ def execute(cls, seed, cfg):
         "per_ap_power_mw": final_powers,
         "final_power_violation_mw": (max(final_powers)-cfg.p_max if final_powers else None),
         "final_surrogate_gap_mw": (sum(final_powers)-problem.dual_obj[-1] if final_powers else None),
+        "power_gap_trace_mw": power_gaps,
+        "surrogate_gap_trace_mw": dual_gaps,
+        "step_trace": getattr(problem, "step_trace", None),
         "final_sinr_gap_reported": (traces[-1]["sinr_gap"] if traces else None),
         "trace": traces, "stdout": log,
     }
