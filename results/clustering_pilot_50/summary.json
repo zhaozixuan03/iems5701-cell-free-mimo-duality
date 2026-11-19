@@ -1,0 +1,24 @@
+[
+  {
+    "rate": 3.5,
+    "n": 50,
+    "mean_changed_user_clusters": 4.52,
+    "methods": {
+      "OptimizedProblem": {
+        "solved": 49,
+        "feasible": 30,
+        "unresolved": 1,
+        "total_solve_s": 6.093895001336932
+      },
+      "LoadAwareProblem": {
+        "solved": 48,
+        "feasible": 29,
+        "unresolved": 2,
+        "total_solve_s": 6.031575747299939
+      }
+    },
+    "feasibility_mismatch_seeds": [
+      26
+    ]
+  }
+]

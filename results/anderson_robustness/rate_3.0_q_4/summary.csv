@@ -1,0 +1,25 @@
+seed,method,solve_s,outer_iterations,inner_iterations,solved,feasible_flag,error,final_power_violation_mw,final_surrogate_gap_mw,final_sinr_gap_reported,first_strict_iteration,anderson_stats
+76,OptimizedProblem,0.4414930837228894,5,73,True,True,,-0.10748848884509243,0.05798987106845743,-0.0,5,
+76,AndersonProblem,0.2943965829908848,5,48,True,True,,-0.12253575260501748,0.06610997179268452,0.0,5,"{'accepted': 23, 'rejected': 0, 'resets': 0}"
+77,AndersonProblem,0.07854624977335334,1,13,True,True,,-377.9281828395101,0.0,0.0,1,"{'accepted': 0, 'rejected': 0, 'resets': 0}"
+77,OptimizedProblem,0.08466812502592802,1,13,True,True,,-377.9281828395101,0.0,0.0,1,
+78,OptimizedProblem,0.07513970835134387,1,12,True,True,,-648.4825581577009,4.547473508864641e-13,0.0,1,
+78,AndersonProblem,0.07595979189500213,1,12,True,True,,-648.4825581577009,4.547473508864641e-13,0.0,1,"{'accepted': 0, 'rejected': 0, 'resets': 0}"
+79,AndersonProblem,4.6017490001395345,120,747,False,False,,34.84195915400551,-1135.4564281773073,0.0,,"{'accepted': 610, 'rejected': 2, 'resets': 0}"
+79,OptimizedProblem,6.838610083330423,120,1096,False,False,,34.833339963712206,-1135.0431666982859,0.0001,,
+80,OptimizedProblem,0.077718292362988,1,12,True,True,,-476.996641312836,0.0,0.0,1,
+80,AndersonProblem,0.09147612517699599,1,12,True,True,,-476.996641312836,0.0,0.0,1,"{'accepted': 0, 'rejected': 0, 'resets': 0}"
+81,AndersonProblem,0.07195033319294453,1,11,True,True,,-286.1233685326938,-9.094947017729282e-13,0.0,1,"{'accepted': 0, 'rejected': 0, 'resets': 0}"
+81,OptimizedProblem,0.07093120785430074,1,11,True,True,,-286.1233685326938,-9.094947017729282e-13,0.0,1,
+82,OptimizedProblem,0.9811980840750039,21,159,True,True,,-0.03911780940779863,0.07121243423807755,-0.0,21,
+82,AndersonProblem,0.9849957088008523,20,160,True,True,,-0.05280066277430251,0.09612416531763301,-0.0,20,"{'accepted': 5, 'rejected': 119, 'resets': 0}"
+83,AndersonProblem,0.13849687483161688,1,20,True,True,,-432.74395899671185,-4.547473508864641e-13,0.0,1,"{'accepted': 0, 'rejected': 0, 'resets': 0}"
+83,OptimizedProblem,0.12445825012400746,1,20,True,True,,-432.74395899671185,-4.547473508864641e-13,0.0,1,
+84,OptimizedProblem,0.07636970793828368,1,12,True,True,,-278.58862423761855,0.0,0.0,1,
+84,AndersonProblem,0.07474033301696181,1,12,True,True,,-278.58862423761855,0.0,0.0,1,"{'accepted': 0, 'rejected': 0, 'resets': 0}"
+85,AndersonProblem,0.10017275018617511,1,15,True,True,,-186.43165516210524,-3.183231456205249e-12,0.0,1,"{'accepted': 0, 'rejected': 0, 'resets': 0}"
+85,OptimizedProblem,0.09581049997359514,1,15,True,True,,-186.43165516210524,-3.183231456205249e-12,0.0,1,
+86,OptimizedProblem,0.08639108343049884,1,14,True,True,,-667.7358488291434,0.0,0.0,1,
+86,AndersonProblem,0.08735004207119346,1,14,True,True,,-667.7358488291434,0.0,0.0,1,"{'accepted': 0, 'rejected': 0, 'resets': 0}"
+87,AndersonProblem,0.06112954160198569,1,10,True,True,,-359.1736122629179,0.0,0.0,1,"{'accepted': 0, 'rejected': 0, 'resets': 0}"
+87,OptimizedProblem,0.06145416712388396,1,10,True,True,,-359.1736122629179,0.0,0.0,1,

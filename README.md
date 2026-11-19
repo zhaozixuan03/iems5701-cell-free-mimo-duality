@@ -18,6 +18,8 @@
 
 作者算法每次调整 AP 约束权重后，会反复更新 UE 功率直到接近固定点。我们加入带保护的 Anderson 加速：利用最近几轮的变化提出下一步功率；若候选不合理，就采用作者原更新。第一次外层迭代保留作者的不可行性初筛，外层步长和停止规则不变。它预期减少**内层迭代**，与前述“每轮矩阵运算更快”是两项不同的改进。代码见 [anderson_problem.py](anderson_problem.py)，规则、参数与实验见 [docs/ANDERSON_ACCELERATION.md](docs/ANDERSON_ACCELERATION.md)。
 
+我们也试过用 AP 当前服务人数调整用户的 AP 选择，尝试提高无线可行率。低成本开发试验在 50 个网络中得到原规则 30 个被判为可行、候选规则 29 个；另有未在迭代预算内解出的样本，因此**没有**将其作为性能改进。方法和失败数据见 [docs/LOAD_AWARE_PILOT.md](docs/LOAD_AWARE_PILOT.md)。
+
 ## 实际结果
 
 | 检查 | 结果 |
@@ -30,6 +32,7 @@
 | 自适应步长独立验证 | 30 个新场景，两版均成功 15 个；固定/自适应合计外层轮数 745/773、求解时间 47.14/48.32 秒；总体未改善 |
 | 内层 Anderson 独立验证 | 另 30 个新场景，两版均成功 15 个；内层轮数 **3880→3019**，求解时间 **24.60→19.41 秒** |
 | Anderson 重复计时 | 3 个非平凡场景各重复 3 次；相对现有缓存版的速度比中位数为 **1.25 倍** |
+| 改变速率和簇大小 | 另 4 组、每组 12 个新场景；成功判定均一致，内层迭代与总时间每组均下降；两组无成功样本，不能用来主张可行率提高 |
 
 这些时间来自一台 macOS arm64 机器、Python 3.12 和单线程 OpenBLAS；换机器可能不同。Figure 2 中速率为 4 bit/s/Hz 时，每 AP 功率约束下，本地 CSI 的可行比例为 0.18，集中式 CSI 为 0.43；总功率约束下分别为 0.31 和 0.83。比例按**已求解的样本**计算，与作者脚本一致；完整表格和 95% Wilson 区间见 [Figure 2 结果目录](results/figure2_full/)。
 
@@ -44,6 +47,8 @@
 - [复用前后独立配对](results/figure3_response_reuse/summary.json)
 - [自适应步长逐场景对照图](results/adaptive_new_seeds/outer_iterations.png)和[全部原始记录](results/adaptive_new_seeds/runs.jsonl)
 - [内层加速逐场景对照图](results/anderson_new_seeds/inner_iterations.png)、[完整配对数据](results/anderson_new_seeds/aggregate.json)和[重复计时](results/anderson_repeats/timings.csv)
+- [不同计算时间预算下的描述性成功数](results/anderson_new_seeds/budget_success.png)
+- [不同速率和簇大小的补充结果](results/anderson_robustness/aggregate.json)
 - [完整实验记录](docs/EXPERIMENT_LOG.md)：参数、运行命令、数值对照、边界样本和局限
 
 ## 重新运行
@@ -67,6 +72,8 @@ python experiments/analyze_adaptive.py results/adaptive_new_seeds
 python experiments/benchmark_anderson.py
 python experiments/analyze_anderson.py results/anderson_new_seeds
 python experiments/benchmark_anderson_repeats.py
+python experiments/run_anderson_robustness.py
+python experiments/analyze_compute_budget.py results/anderson_new_seeds
 ```
 
 Figure 2 的续跑程序逐个保存完成的样本，可以从已有记录继续。`results/` 内包含原始输出、配置、随机种子、失败或未收敛的案例及图表。

@@ -1,0 +1,154 @@
+[
+  {
+    "rate": 3.0,
+    "Q": 4,
+    "seeds": [
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87
+    ],
+    "baseline": {
+      "author_success_count": 11,
+      "strict_success_count": 11,
+      "total_solve_seconds": 9.014242293313146,
+      "total_outer_iterations": 155,
+      "total_inner_iterations": 1447,
+      "budget_exhausted": 1,
+      "errors": 0
+    },
+    "anderson": {
+      "author_success_count": 11,
+      "strict_success_count": 11,
+      "total_solve_seconds": 6.6609633336775005,
+      "total_outer_iterations": 154,
+      "total_inner_iterations": 1074,
+      "budget_exhausted": 1,
+      "errors": 0
+    },
+    "status_mismatches": [],
+    "strict_mismatches": []
+  },
+  {
+    "rate": 4.0,
+    "Q": 4,
+    "seeds": [
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87
+    ],
+    "baseline": {
+      "author_success_count": 0,
+      "strict_success_count": 0,
+      "total_solve_seconds": 34.12947162613273,
+      "total_outer_iterations": 492,
+      "total_inner_iterations": 5121,
+      "budget_exhausted": 4,
+      "errors": 0
+    },
+    "anderson": {
+      "author_success_count": 0,
+      "strict_success_count": 0,
+      "total_solve_seconds": 30.795736416708678,
+      "total_outer_iterations": 492,
+      "total_inner_iterations": 4538,
+      "budget_exhausted": 4,
+      "errors": 0
+    },
+    "status_mismatches": [],
+    "strict_mismatches": []
+  },
+  {
+    "rate": 3.5,
+    "Q": 2,
+    "seeds": [
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87
+    ],
+    "baseline": {
+      "author_success_count": 0,
+      "strict_success_count": 0,
+      "total_solve_seconds": 7.075593498535454,
+      "total_outer_iterations": 95,
+      "total_inner_iterations": 1179,
+      "budget_exhausted": 0,
+      "errors": 0
+    },
+    "anderson": {
+      "author_success_count": 0,
+      "strict_success_count": 0,
+      "total_solve_seconds": 5.074279499705881,
+      "total_outer_iterations": 95,
+      "total_inner_iterations": 825,
+      "budget_exhausted": 0,
+      "errors": 0
+    },
+    "status_mismatches": [],
+    "strict_mismatches": []
+  },
+  {
+    "rate": 3.5,
+    "Q": 8,
+    "seeds": [
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87
+    ],
+    "baseline": {
+      "author_success_count": 11,
+      "strict_success_count": 11,
+      "total_solve_seconds": 9.242042668629438,
+      "total_outer_iterations": 78,
+      "total_inner_iterations": 849,
+      "budget_exhausted": 0,
+      "errors": 0
+    },
+    "anderson": {
+      "author_success_count": 11,
+      "strict_success_count": 11,
+      "total_solve_seconds": 6.826057916972786,
+      "total_outer_iterations": 78,
+      "total_inner_iterations": 623,
+      "budget_exhausted": 0,
+      "errors": 0
+    },
+    "status_mismatches": [],
+    "strict_mismatches": []
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "config": {
+    "seeds": [
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87
+    ],
+    "output": "results/anderson_robustness/rate_3.5_q_8",
+    "max_outer": 120,
+    "kappa": 17,
+    "rate": 3.5,
+    "Q": 8,
+    "n_sim": 100,
+    "L": 16,
+    "K": 16,
+    "N": 4,
+    "size": 1000,
+    "p_max": 1000,
+    "tol_fp": 1e-05,
+    "tol_psg": 0.1
+  },
+  "python": "3.12.2 (v3.12.2:6abddd9f6a, Feb  6 2024, 17:02:06) [Clang 13.0.0 (clang-1300.0.29.30)]",
+  "platform": "macOS-15.6.1-arm64-arm-64bit",
+  "numpy": "1.26.4",
+  "scipy": "1.17.1",
+  "openblas_num_threads": "1",
+  "comparison": "cached optimized baseline versus safeguarded Anderson inner power update"
+}

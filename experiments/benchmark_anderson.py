@@ -23,9 +23,12 @@ def main():
     parser.add_argument('--output', type=Path, default=Path('results/anderson_new_seeds'))
     parser.add_argument('--max-outer', type=int, default=120)
     parser.add_argument('--kappa', type=float, default=17)
+    parser.add_argument('--rate', type=float, default=3.5)
+    parser.add_argument('--Q', type=int, default=4)
+    parser.add_argument('--n-sim', type=int, default=100)
     cfg = parser.parse_args()
-    cfg.L, cfg.K, cfg.N, cfg.Q = 16, 16, 4, 4
-    cfg.size, cfg.n_sim, cfg.p_max, cfg.rate = 1000, 100, 1000, 3.5
+    cfg.L, cfg.K, cfg.N = 16, 16, 4
+    cfg.size, cfg.p_max = 1000, 1000
     cfg.tol_fp, cfg.tol_psg = 1e-5, 0.1
     cfg.output.mkdir(parents=True, exist_ok=True)
     metadata = {'config': {k: str(v.relative_to(ROOT)) if isinstance(v, Path)
