@@ -19,7 +19,7 @@
     "tol_fp": 1e-05,
     "tol_psg": 100,
     "max_outer": 20,
-    "output": "/Users/zhaozixuan/.codex/.chatgpt-projects/g-p-6aa79c9f0cc88191bdfe34da6140c6b2/duality-course-project/results/figure3_scaled"
+    "output": "results/figure3_scaled"
   },
   "python": "3.12.2 (v3.12.2:6abddd9f6a, Feb  6 2024, 17:02:06) [Clang 13.0.0 (clang-1300.0.29.30)]",
   "platform": "macOS-15.6.1-arm64-arm-64bit",

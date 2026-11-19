@@ -1,52 +1,36 @@
-# Experiment and decision log
+# 实验记录与判断依据
 
-Date: 2026-11-19 (Asia/Hong_Kong).
+实验日期：2026-11-19。作者仓库提交：`5a968b40fa43e7d18b62641bb46073f57442f227`。主要环境：macOS arm64、Python 3.12.2、NumPy 1.26.4、SciPy 1.17.1、Matplotlib 3.10.1、`OPENBLAS_NUM_THREADS=1`。精确参数和版本另见各结果目录的 `metadata.json` 或 `metadata_final.json`。
 
-## Requirements and source audit
+## 复现范围与原版
 
-The IEMS5701 course project asks for paper reproduction plus a new idea supported by simulations; the individual technical report must be written by each student without generative-AI prose. The authors link Figure 2 to `local_vs_centralized_rate.py` and Figure 3 to `algorithm_convergence.py`. The source code has GPLv2 headers and a license file. Only NumPy, SciPy, and Matplotlib are imported by the official code; there is no package manifest upstream.
+- `upstream/` 中的五个文件与作者仓库对应提交逐字节一致；校验值见 [PROVENANCE.md](PROVENANCE.md)。Figure 2 对应作者的 `local_vs_centralized_rate.py`，Figure 3 对应 `algorithm_convergence.py`。
+- `experiments/run_official_figure3.py` 执行未修改的 Figure 3 脚本，仅保存原本显示的两张图和标准输出。结果位于 `results/figure3_official/`。
+- Figure 2 使用 16 个 AP、每 AP 4 根天线、16 个 UE、每 UE 的簇大小 4、1000 m 正方形区域、每 AP 1000 mW、每个网络 100 个信道样本；8 个速率从 2 到 4 bit/s/Hz，各速率各 CSI 模式 100 个网络样本。每组随机数从种子 0 开始，之后依次生成 100 个网络。未解出时按 `kappa=10,30,90,270` 重试；`toll_fp=1e-3`、`toll_psg=1`、`feas_only=True`、外层最多 100 次。
 
-## Environment and failed starts
+## 为什么及如何加速
 
-- The initial shell `git clone` failed because the configured 127.0.0.1:1086 proxy was unreachable. Removing the proxy inside the restricted command environment did not help. A connected GitHub reader supplied the exact five-file snapshot. A later direct-network clone succeeded; all five files were byte-compared and the complete official history was pushed as `upstream-baseline`.
-- `gh auth status` showed an invalid CLI credential; `gh auth login --web` failed at the proxy before receiving a device code. The user created the new public repository in their browser. Direct-network `git push` succeeded using the machine's Git credential helper. Three workflow Issues were created prematurely and then closed as not planned after the user clarified that the priority is full reproduction and optimization. PR #4 remains open for code review. The connected GitHub API reader had read access but returned 403 for write calls.
-- Homebrew Python 3.13 lacked NumPy. Experiments used the installed Python 3.12 at `/Library/Frameworks/Python.framework/Versions/3.12/bin/python3`.
-- The first Matplotlib import warned that its default cache was not writable; runs use `MPLCONFIGDIR=/tmp`. Fontconfig printed a cache warning on the first smoke run; plots were generated and inspected.
+本地 CSI 的 TMMSE 计算对每个信道样本反复形成小矩阵、求逆和累加。`optimized_problem.py` 将信道样本堆叠后批量计算协方差和等效信道，并将逆矩阵乘向量改为直接求解线性方程。预期是降低单次迭代的计算时间，同时保持数学问题、约束、更新和停止判据一致。集中式 CSI 仍使用原版实现。
 
-## Improvement hypothesis
+这是计算实现上的优化。没有更改步长策略，因此不预期减少外层或内层迭代数；也不预期改变可行性。我们用相同随机网络逐一验证这些不变量，再用交替顺序的重复计时估算实际加速。
 
-The local TMMSE routine repeatedly forms explicit matrix inverses and loops over channel realizations. Replacing inverse-multiply operations with linear solves, and batching the covariance calculation across realizations, should reduce computation while preserving the mathematical iteration. This is a computational acceleration; it does not claim a new beamforming objective or better radio performance.
+## Figure 3：原始图与配对实验
 
-## Run sequence
+1. 作者原始脚本完整运行，保存 `results/figure3_official/dual_objective.png` 和 `max_power.png`。论文使用随机种子 4、`kappa=10` 和 `17`、外层上限 20、`toll_fp=1e-5`、`toll_psg=0.1`。
+2. 早期小规模检查包括 `results/figure3_scaled/` 和 `figure3_medium/`；它们只用于确认程序可运行，不用于最终速度结论。第一次完整维度、五种子单次配对记录在 `figure3_full_params/`，当时仅做矩阵求解和部分批量化，测得约 1.73 倍速度比。之后增加了等效信道的整批计算，因而最终速度以新的重复实验为准。
+3. `experiments/benchmark_repeats.py` 对随机种子 4–8 各重复 5 次，每次原版与优化版看到相同的网络，交替谁先运行。25 次配对中，两版的外层和内层迭代数全部一致，最大目标值差为 `2.2919e-10 mW`，最终 AP 功率最大差为 `4.3883e-11 mW`。每种子速度比中位数再取中位数为 `7.3811`；单次配对速度比介于 `6.2478` 与 `8.0390`。累计求解时间为原版 `71.0221 s`、优化版 `9.6862 s`。原始测量及运行顺序见 `results/figure3_repeats/`。这是同一机器上的耗时观察，不是跨硬件保证。
+4. `kappa=17`、种子 4 另做一组最终优化配对：两版均为 20 次外层、150 次内层迭代，达到迭代上限；一次求解时间分别是 `9.7556 s` 与 `1.2024 s`。这组单次测量不纳入 25 次重复计时。结果见 `results/figure3_vectorized_kappa17/`。
+5. 种子 4、`kappa=10` 运行至 20 次上限时最大 AP 功率超限约 `23.58 mW`。`kappa=17` 的最大 AP 功率差约 `-0.74 mW`，但代理对偶差约 `26.53 mW`，仍未满足作者程序的停止判据。曲线有参考价值，不应写成已收敛。
+6. 额外的种子 6、`kappa=10` 在首次外层迭代被作者程序标为已求解但不可行：对偶目标值 `17,933.51 mW`，高于合计功率上限 `16,000 mW`；报告的最大 SINR 缺口为 `1.0349`，最大单 AP 功率超限 `2,046.53 mW`。原版和优化版完全一致。这是该随机网络与目标速率的约束判定，不是优化程序异常。作者的进度输出只保留四位小数的 SINR 缺口，未保存最终逐 UE 的全精度 SINR。
 
-1. Smoke test, L=4, K=4, N=2, 3 channel samples, seed 4: original solver ran and solved in one outer iteration. No scientific claim from this tiny check.
-2. Exploratory `results/figure3_scaled`, L=4/K=6/N=2/Q=2/10 samples, seeds 4–8: both versions finished in one outer iteration each. Good functional check, weak timing evidence.
-3. Exploratory `results/figure3_medium`, L=16/K=16/N=4/Q=4/20 samples, seeds 4–6: identical iterations and outcomes. Seed 4 reached the 20-iteration cap.
-4. Main `results/figure3_full_params`, author's Figure 3 physical dimensions and 100 samples, kappa 10, seeds 4–8: all five paired runs completed without exceptions. Outer/inner counts match for each pair: 20/149, 1/16, 1/5, 2/52, 1/12. Upstream versus optimized total solver time: 14.0814 s versus 8.1296 s; median paired solver time: 0.9315 s versus 0.5321 s. Paired ratios are 1.71–1.79×. Absolute objective differences are at most 2.43e-10, final AP power differences at most 2.94e-11 mW. These time observations are limited to one Mac/Python environment and one timed run per seed.
-5. `results/figure3_kappa17`, seed 4 with original paper's second step size: 20/150 outer/inner iterations in both implementations. Original versus optimized solve time: 9.0754 s versus 5.3198 s. Both reached the cap. The original's final maximum AP power gap is -0.7397 mW, but its surrogate dual gap is +26.5254 mW, above the 0.1 mW stopping tolerance.
-6. `results/figure3_paper_pair/figure3_pair.png` plots the original solver's kappa 10 and 17 seed-4 trajectories. The maximum power trace was recovered from the original printed max-power gap, rounded by the author's print format to 4 decimals.
-7. Reduced `results/figure2_scaled`: 3 seeds per rate, rates 2/3/4, both local and centralized CSI, 20 channel samples and 20 outer iterations max per attempt. At rate 4, per-AP feasibility was 1/3 local and 2/3 centralized; sum-power feasibility was 1/3 local and 3/3 centralized. All 18 cases were marked solved. These tiny fractions are illustrative only and **cannot** stand in for the paper's 100-setup Figure 2.
+## Figure 2：1600 个网络样本
 
-The author's progress print reports maximum SINR gap rounded to four decimals. The final gap for seed 6, kappa 10, is +1.0349, consistent with its infeasible flag. Full-precision final SINR vectors are not retained by the upstream solver.
+顺序运行的慢边界样本耗时较长，已完成的记录保存在 `attempts.jsonl`。`experiments/finish_figure2_parallel.py` 通过重放作者的顺序网络生成过程，为每个网络恢复生成前的 NumPy 随机数状态，再将未完成的独立网络分给多个进程。求解过程本身不再抽样随机数；每个网络的求解器参数和四次重试规则与作者脚本一致。续跑前，针对已有记录中的样本 1、420、690 核验了状态、迭代数和数值结果。
 
-After the runs, the saved Figure 3 JSON/CSV summaries were augmented from their already captured stdout traces with `final_sinr_gap_reported`; the simulations and timings were not rerun. The reduced Figure 2 experiment was rerun with identical parameters to add an explicit `environment.json`; all 18 solved/feasible outcomes matched the initial run.
+原版和优化版均完成 1600 个样本，均有 1599 个被标记为已求解。对全部 1600 个样本，两版的已求解状态、每 AP 可行性、总功率可行性、最终重试次数、外层迭代数全部一致。共享尝试中的最大最终对偶值差为 `3.1147e-7 mW`，最大最终 AP 功率违例差为 `2.5239e-8 mW`。唯一未求解的样本是编号 570，速率 `2.5714 bit/s/Hz`、集中式 CSI，四次尝试后仍达到迭代上限。按作者脚本，它不计入该曲线的分母，所以该点分母为 99。
 
-## Complete Figure 2 reproduction
+速率 4 bit/s/Hz 时，每 AP 功率约束下本地/集中式 CSI 的可行比例分别为 `0.18/0.43`；总功率约束下分别为 `0.31/0.83`。完整逐样本记录、原始输出、汇总表、曲线及 95% Wilson 区间见 `results/figure2_full/`；优化版记录见 `results/figure2_full_optimized/`。每点只有 100 个网络样本，曲线仍受蒙特卡洛抽样误差影响。
 
-The unmodified `upstream/local_vs_centralized_rate.py` was started through `experiments/run_official_figure2.py` so its decisions and hidden sum-power flags could be logged. It used the author's eight rates, 100 setups for each rate and CSI mode, 100 channel realizations, per-AP limit 1000 mW, kappa retries 10/30/90/270, and original tolerances. Sequential execution became slow on a few boundary setups. Both serial runs were interrupted deliberately; partial logs and interruption notes remain in `results/figure2_full/` and `results/figure2_full_optimized/`.
+## 可复核的结论与下一步
 
-`experiments/finish_figure2_parallel.py` reconstructed the exact NumPy state immediately before each original setup by replaying the author's sequential Problem constructions. Solver execution itself does not draw random numbers. Independent unfinished setups were then scheduled in parallel, with all original solver calls and retry rules unchanged. Already completed serial setup records were retained. The last serial setup was rerun to avoid including a partially interrupted record. Exact setup IDs 1, 420, and 690 were separately checked against the serial records before the full continuation; flags and iteration counts matched, and final dual values differed by at most `3.6e-12 mW` in those spot checks.
-
-The full run completed all **1600** setups for both methods. Both marked **1599 solved**. Every setup matched between original and optimized methods for solved status, per-AP and sum-power feasibility, final retry number, and outer iteration count. The largest difference across shared attempts was `3.1147e-7 mW` in final dual objective and `2.5239e-8 mW` in final AP-power violation. These are numerical differences, not feasibility changes. The single unsolved case was setup 570, rate 2.5714, centralized CSI, after all four attempts. Following the author's script, its classification is excluded from that curve's denominator (99 rather than 100). At rate 4, the original per-AP probabilities were 0.18 local and 0.43 centralized; sum-power probabilities were 0.31 and 0.83. `summary.csv`, `summary_with_ci.csv`, `figure2_full.png`, `figure2_with_ci.png`, individual attempt records and logs contain the complete evidence. Wilson bands show sampling uncertainty; 100 setups per rate are still finite Monte Carlo estimates.
-
-## Final acceleration test
-
-The initial 1.73× result in `results/figure3_full_params/` predates batched equivalent-channel calculations. The final implementation batches the local-CSI covariance and channel calculations over 100 channel realizations and replaces inverse-multiply operations with linear solves. It retains the author's objective, update rules, constraints, and stopping criteria. Centralized CSI uses the inherited original routines.
-
-`experiments/benchmark_repeats.py` timed five Figure 3 parameter-matched seeds (4–8) five times each, alternating method order. Each paired run saw the same seeded setup. All 25 pairs had equal outer and inner iteration counts and equal solver outcomes. The median of per-seed median solve-time ratios was **7.3811×**; individual pair ratios were 6.2478–8.0390×. Total solve time across pairs was 71.0221 s original versus 9.6862 s optimized. The largest absolute dual-objective difference was `2.2919e-10 mW` and final AP-power difference was `4.3883e-11 mW`. Timing is specific to macOS arm64, Python 3.12.2, NumPy 1.26.4, SciPy 1.17.1, and one OpenBLAS thread; it is not evidence of iteration-count improvement or hardware-independent acceleration. Raw timing, seed order, parity metrics and environment are saved in `results/figure3_repeats/`.
-
-The second Figure 3 step size, kappa 17, was also rerun with the final implementation on seed 4 (`results/figure3_vectorized_kappa17/`). Both methods used 20 outer and 150 inner iterations, reached the cap, and had the same feasibility and solved flags. Solve times in this single pair were 9.7556 s original and 1.2024 s optimized; this one pair is not used in the repeated timing estimate. Final AP power violation differed by `4.32e-12 mW`.
-
-## Interpretation and limitations
-
-The acceleration preserves observed outputs and iteration counts at tested seeds and improves solve time in this environment. It has no demonstrated convergence-iteration gain. Feasibility is a property of the original optimization outcome, not of this algebraic speedup. Seed 4's 20-iteration Figure 3 curves are informative traces but not certified converged. The original inner fixed-point loop has no iteration cap, so harder new seeds may require an external runtime limit. Independent checks on other hardware and with different numerical libraries remain useful. The project provides code, data, and experimental decisions; each student must write their own technical report text under the course restriction.
+当前优化**成功降低了计算耗时**，并在已测的网络、参数和机器环境下保持数值与判定一致；没有展示减少迭代次数或提升无线可行率。若继续追求收敛迭代数改善，应单独设计步长或初始化方案，在相同随机样本、相同终止精度下比较总耗时、迭代数、目标值和约束违例，只有实际测得收益才写入结论。当前的 7.38 倍收益不依赖这种后续尝试。
