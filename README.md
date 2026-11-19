@@ -35,15 +35,9 @@ Seed 4 at kappa 10 reached the 20-iteration cap with +23.58 mW maximum AP power 
 
 The author's printed final maximum SINR gaps are also retained in each run's `trace` (rounded to four decimals). Seed 6 has a +1.0349 SINR gap and is marked infeasible. See [docs/EXPERIMENT_LOG.md](docs/EXPERIMENT_LOG.md) for all decisions and limitations, and the JSON/CSV files in `results/` for raw data. Run `python experiments/check_results.py` to verify the saved paired comparisons.
 
-## Team workflow
+## Collaboration
 
-Use three roles that can rotate:
-
-1. **Reproduction owner:** verify the model and exact Figure 2/3 settings, expand seeds and check figures against the paper.
-2. **Method owner:** inspect the optimization, profile bottlenecks, propose one further algorithmic idea, and independently verify constraints.
-3. **Validation and presentation owner:** audit raw logs and statistical claims, prepare the group mini-lecture and Q&A. Each student writes their **own** personal report without AI-generated report text, as required by the course.
-
-For each task, open an Issue with a specific acceptance criterion. Create a short branch (for example `experiment/figure2-more-seeds`), commit code and raw results together, then open a PR. Another member should review the commands, seed pairing, numerical checks, and claim wording before merge. See [CONTRIBUTING.md](CONTRIBUTING.md) and the [initial Issue plan](docs/ISSUES_TO_CREATE.md).
+The current work is available for inspection in a single review PR. Team members can review its commands, seed pairing, numerical checks, and claim wording before merge. Future changes can use short branches and PRs when needed. Each student writes their **own** personal report without AI-generated report text, as required by the course. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## License and attribution
 

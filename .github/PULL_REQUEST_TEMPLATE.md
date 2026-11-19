@@ -1,4 +1,4 @@
-## Scope and linked Issue
+## Scope
 
 ## Exact run command, environment, seeds, and result paths
 
