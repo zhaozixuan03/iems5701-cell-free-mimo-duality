@@ -1,0 +1,312 @@
+[
+  {
+    "seed": 4,
+    "method": "Problem",
+    "setup_s": 0.003272125031799078,
+    "solve_s": 0.0027326252311468124,
+    "outer_iterations": 1,
+    "inner_iterations": 1,
+    "solved": true,
+    "feasible_flag": false,
+    "error": null,
+    "dual_objective": [
+      5418.552805738234
+    ],
+    "per_ap_power_mw": [
+      6.308167067101398,
+      2091.184618044847,
+      1115.128762094934,
+      2205.931258531332
+    ],
+    "final_power_violation_mw": 1205.9312585313319,
+    "final_surrogate_gap_mw": -2.000888343900442e-11,
+    "trace": [
+      {
+        "dual": 5418.5528,
+        "surrogate_gap": 0.0,
+        "power_gap": 1205.9313,
+        "sinr_gap": 8.9669
+      }
+    ],
+    "stdout": "Dual: 5418.5528 | surrogate dual gap: 0.0000 | max power gap: 1205.9313 | max SINR gap: 8.9669\n"
+  },
+  {
+    "seed": 4,
+    "method": "OptimizedProblem",
+    "setup_s": 0.0007922910153865814,
+    "solve_s": 0.0016722921282052994,
+    "outer_iterations": 1,
+    "inner_iterations": 1,
+    "solved": true,
+    "feasible_flag": false,
+    "error": null,
+    "dual_objective": [
+      5418.552805738234
+    ],
+    "per_ap_power_mw": [
+      6.308167067101454,
+      2091.1846180448583,
+      1115.1287620949392,
+      2205.931258531342
+    ],
+    "final_power_violation_mw": 1205.9312585313419,
+    "final_surrogate_gap_mw": 6.366462912410498e-12,
+    "trace": [
+      {
+        "dual": 5418.5528,
+        "surrogate_gap": 0.0,
+        "power_gap": 1205.9313,
+        "sinr_gap": 8.9669
+      }
+    ],
+    "stdout": "Dual: 5418.5528 | surrogate dual gap: 0.0000 | max power gap: 1205.9313 | max SINR gap: 8.9669\n"
+  },
+  {
+    "seed": 5,
+    "method": "Problem",
+    "setup_s": 0.0007122079841792583,
+    "solve_s": 0.004463291727006435,
+    "outer_iterations": 1,
+    "inner_iterations": 3,
+    "solved": true,
+    "feasible_flag": false,
+    "error": null,
+    "dual_objective": [
+      7244.600336890437
+    ],
+    "per_ap_power_mw": [
+      982.9614025847595,
+      791.0709170768209,
+      6.358573273277623,
+      5464.209443955539
+    ],
+    "final_power_violation_mw": 4464.209443955539,
+    "final_surrogate_gap_mw": -3.9108272176235914e-11,
+    "trace": [
+      {
+        "dual": 7244.6003,
+        "surrogate_gap": 0.0,
+        "power_gap": 4464.2094,
+        "sinr_gap": 7.9529
+      }
+    ],
+    "stdout": "Dual: 7244.6003 | surrogate dual gap: 0.0000 | max power gap: 4464.2094 | max SINR gap: 7.9529\n"
+  },
+  {
+    "seed": 5,
+    "method": "OptimizedProblem",
+    "setup_s": 0.0006253328174352646,
+    "solve_s": 0.002742958255112171,
+    "outer_iterations": 1,
+    "inner_iterations": 3,
+    "solved": true,
+    "feasible_flag": false,
+    "error": null,
+    "dual_objective": [
+      7244.600336890435
+    ],
+    "per_ap_power_mw": [
+      982.9614025847586,
+      791.0709170768199,
+      6.358573273277588,
+      5464.20944395553
+    ],
+    "final_power_violation_mw": 4464.20944395553,
+    "final_surrogate_gap_mw": -4.8203219193965197e-11,
+    "trace": [
+      {
+        "dual": 7244.6003,
+        "surrogate_gap": 0.0,
+        "power_gap": 4464.2094,
+        "sinr_gap": 7.9529
+      }
+    ],
+    "stdout": "Dual: 7244.6003 | surrogate dual gap: 0.0000 | max power gap: 4464.2094 | max SINR gap: 7.9529\n"
+  },
+  {
+    "seed": 6,
+    "method": "Problem",
+    "setup_s": 0.0005738330073654652,
+    "solve_s": 0.0030400422401726246,
+    "outer_iterations": 1,
+    "inner_iterations": 2,
+    "solved": true,
+    "feasible_flag": false,
+    "error": null,
+    "dual_objective": [
+      10899.661711981298
+    ],
+    "per_ap_power_mw": [
+      6478.659205599129,
+      3014.4167298845127,
+      947.641341797628,
+      458.9444347000074
+    ],
+    "final_power_violation_mw": 5478.659205599129,
+    "final_surrogate_gap_mw": -2.1827872842550278e-11,
+    "trace": [
+      {
+        "dual": 10899.6617,
+        "surrogate_gap": 0.0,
+        "power_gap": 5478.6592,
+        "sinr_gap": 7.3734
+      }
+    ],
+    "stdout": "Dual: 10899.6617 | surrogate dual gap: 0.0000 | max power gap: 5478.6592 | max SINR gap: 7.3734\n"
+  },
+  {
+    "seed": 6,
+    "method": "OptimizedProblem",
+    "setup_s": 0.0007507079280912876,
+    "solve_s": 0.0019317916594445705,
+    "outer_iterations": 1,
+    "inner_iterations": 2,
+    "solved": true,
+    "feasible_flag": false,
+    "error": null,
+    "dual_objective": [
+      10899.661711981305
+    ],
+    "per_ap_power_mw": [
+      6478.659205599152,
+      3014.4167298845214,
+      947.6413417976324,
+      458.94443470000766
+    ],
+    "final_power_violation_mw": 5478.659205599152,
+    "final_surrogate_gap_mw": 9.094947017729282e-12,
+    "trace": [
+      {
+        "dual": 10899.6617,
+        "surrogate_gap": 0.0,
+        "power_gap": 5478.6592,
+        "sinr_gap": 7.3734
+      }
+    ],
+    "stdout": "Dual: 10899.6617 | surrogate dual gap: 0.0000 | max power gap: 5478.6592 | max SINR gap: 7.3734\n"
+  },
+  {
+    "seed": 7,
+    "method": "Problem",
+    "setup_s": 0.0006663748063147068,
+    "solve_s": 0.0030506248585879803,
+    "outer_iterations": 1,
+    "inner_iterations": 2,
+    "solved": true,
+    "feasible_flag": false,
+    "error": null,
+    "dual_objective": [
+      7766.13169979261
+    ],
+    "per_ap_power_mw": [
+      3245.5284796741616,
+      898.2834914858973,
+      1010.5945357732969,
+      2611.72519285928
+    ],
+    "final_power_violation_mw": 2245.5284796741616,
+    "final_surrogate_gap_mw": 2.637534635141492e-11,
+    "trace": [
+      {
+        "dual": 7766.1317,
+        "surrogate_gap": 0.0,
+        "power_gap": 2245.5285,
+        "sinr_gap": 8.4761
+      }
+    ],
+    "stdout": "Dual: 7766.1317 | surrogate dual gap: 0.0000 | max power gap: 2245.5285 | max SINR gap: 8.4761\n"
+  },
+  {
+    "seed": 7,
+    "method": "OptimizedProblem",
+    "setup_s": 0.0006518340669572353,
+    "solve_s": 0.0020093750208616257,
+    "outer_iterations": 1,
+    "inner_iterations": 2,
+    "solved": true,
+    "feasible_flag": false,
+    "error": null,
+    "dual_objective": [
+      7766.131699792621
+    ],
+    "per_ap_power_mw": [
+      3245.528479674145,
+      898.2834914858926,
+      1010.5945357732926,
+      2611.7251928592786
+    ],
+    "final_power_violation_mw": 2245.528479674145,
+    "final_surrogate_gap_mw": -1.1823431123048067e-11,
+    "trace": [
+      {
+        "dual": 7766.1317,
+        "surrogate_gap": 0.0,
+        "power_gap": 2245.5285,
+        "sinr_gap": 8.4761
+      }
+    ],
+    "stdout": "Dual: 7766.1317 | surrogate dual gap: 0.0000 | max power gap: 2245.5285 | max SINR gap: 8.4761\n"
+  },
+  {
+    "seed": 8,
+    "method": "Problem",
+    "setup_s": 0.0006050001829862595,
+    "solve_s": 0.0014860830269753933,
+    "outer_iterations": 1,
+    "inner_iterations": 1,
+    "solved": true,
+    "feasible_flag": false,
+    "error": null,
+    "dual_objective": [
+      6348.1119465488755
+    ],
+    "per_ap_power_mw": [
+      1614.2178570352285,
+      1738.0672866542457,
+      1632.5879172747912,
+      1363.238885584591
+    ],
+    "final_power_violation_mw": 738.0672866542457,
+    "final_surrogate_gap_mw": -1.9099388737231493e-11,
+    "trace": [
+      {
+        "dual": 6348.1119,
+        "surrogate_gap": 0.0,
+        "power_gap": 738.0673,
+        "sinr_gap": 8.2143
+      }
+    ],
+    "stdout": "Dual: 6348.1119 | surrogate dual gap: 0.0000 | max power gap: 738.0673 | max SINR gap: 8.2143\n"
+  },
+  {
+    "seed": 8,
+    "method": "OptimizedProblem",
+    "setup_s": 0.0006342502310872078,
+    "solve_s": 0.0010343329049646854,
+    "outer_iterations": 1,
+    "inner_iterations": 1,
+    "solved": true,
+    "feasible_flag": false,
+    "error": null,
+    "dual_objective": [
+      6348.111946548871
+    ],
+    "per_ap_power_mw": [
+      1614.2178570352282,
+      1738.0672866542445,
+      1632.5879172747912,
+      1363.2388855845934
+    ],
+    "final_power_violation_mw": 738.0672866542445,
+    "final_surrogate_gap_mw": -1.3642420526593924e-11,
+    "trace": [
+      {
+        "dual": 6348.1119,
+        "surrogate_gap": 0.0,
+        "power_gap": 738.0673,
+        "sinr_gap": 8.2143
+      }
+    ],
+    "stdout": "Dual: 6348.1119 | surrogate dual gap: 0.0000 | max power gap: 738.0673 | max SINR gap: 8.2143\n"
+  }
+]

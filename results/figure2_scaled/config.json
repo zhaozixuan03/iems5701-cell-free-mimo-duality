@@ -1,0 +1,16 @@
+{
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "rates": [
+    2.0,
+    3.0,
+    4.0
+  ],
+  "n_sim": 20,
+  "max_outer": 20,
+  "attempts": 2,
+  "output": "/Users/zhaozixuan/.codex/.chatgpt-projects/g-p-6aa79c9f0cc88191bdfe34da6140c6b2/duality-course-project/results/figure2_scaled"
+}
