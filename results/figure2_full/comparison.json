@@ -1,0 +1,10 @@
+{
+  "baseline_attempts": 1685,
+  "optimized_attempts": 1686,
+  "shared_attempts": 1684,
+  "setup_mismatches": [],
+  "max_abs_final_dual_difference_mw": 3.114691935479641e-07,
+  "max_abs_final_power_violation_difference_mw": 2.5238023226847872e-08,
+  "baseline_solved": 1599,
+  "optimized_solved": 1599
+}

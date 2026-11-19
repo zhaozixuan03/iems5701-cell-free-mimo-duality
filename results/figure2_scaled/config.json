@@ -1,0 +1,16 @@
+{
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "rates": [
+    2.0,
+    3.0,
+    4.0
+  ],
+  "n_sim": 20,
+  "max_outer": 20,
+  "attempts": 2,
+  "output": "results/figure2_scaled"
+}

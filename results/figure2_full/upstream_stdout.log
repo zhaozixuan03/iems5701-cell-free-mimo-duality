@@ -1,0 +1,981 @@
+R =  2.0 , CSI =  local , setup number =  1 / 100
+Dual: 1505.0475 | surrogate dual gap: 0.0000 | max power gap: -594.1530 | max SINR gap: 0.0009
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  local , setup number =  2 / 100
+Dual: 2016.2344 | surrogate dual gap: 0.0000 | max power gap: -636.2507 | max SINR gap: 0.0008
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  local , setup number =  3 / 100
+Dual: 2203.7330 | surrogate dual gap: 0.0000 | max power gap: -562.2778 | max SINR gap: 0.0015
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  local , setup number =  4 / 100
+Dual: 1159.9244 | surrogate dual gap: 0.0000 | max power gap: -735.3372 | max SINR gap: 0.0015
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  local , setup number =  5 / 100
+Dual: 1045.9976 | surrogate dual gap: 0.0000 | max power gap: -741.6601 | max SINR gap: 0.0018
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  local , setup number =  6 / 100
+Dual: 1774.7140 | surrogate dual gap: 0.0000 | max power gap: -744.9253 | max SINR gap: 0.0014
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  local , setup number =  7 / 100
+Dual: 982.2663 | surrogate dual gap: 0.0000 | max power gap: -838.8934 | max SINR gap: 0.0008
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  local , setup number =  8 / 100
+Dual: 867.8254 | surrogate dual gap: 0.0000 | max power gap: -862.0054 | max SINR gap: 0.0013
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  local , setup number =  9 / 100
+Dual: 894.3665 | surrogate dual gap: 0.0000 | max power gap: -823.9588 | max SINR gap: 0.0019
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  local , setup number =  10 / 100
+Dual: 1386.3420 | surrogate dual gap: 0.0000 | max power gap: -791.3836 | max SINR gap: 0.0013
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  local , setup number =  11 / 100
+Dual: 1367.4851 | surrogate dual gap: 0.0000 | max power gap: -686.0409 | max SINR gap: 0.0004
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  local , setup number =  12 / 100
+Dual: 549.3040 | surrogate dual gap: 0.0000 | max power gap: -902.2158 | max SINR gap: 0.0030
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  local , setup number =  13 / 100
+Dual: 1127.2754 | surrogate dual gap: 0.0000 | max power gap: -745.0332 | max SINR gap: 0.0013
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  local , setup number =  14 / 100
+Dual: 1257.7118 | surrogate dual gap: 0.0000 | max power gap: -695.5393 | max SINR gap: 0.0017
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  local , setup number =  15 / 100
+Dual: 676.7032 | surrogate dual gap: 0.0000 | max power gap: -835.3630 | max SINR gap: 0.0004
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  local , setup number =  16 / 100
+Dual: 1270.0819 | surrogate dual gap: 0.0000 | max power gap: -646.6829 | max SINR gap: 0.0009
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  local , setup number =  17 / 100
+Dual: 733.2686 | surrogate dual gap: 0.0000 | max power gap: -886.5940 | max SINR gap: 0.0015
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  local , setup number =  18 / 100
+Dual: 560.3999 | surrogate dual gap: 0.0000 | max power gap: -882.0695 | max SINR gap: 0.0007
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  local , setup number =  19 / 100
+Dual: 1240.1308 | surrogate dual gap: 0.0000 | max power gap: -786.3289 | max SINR gap: 0.0019
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  local , setup number =  20 / 100
+Dual: 928.9176 | surrogate dual gap: 0.0000 | max power gap: -757.3531 | max SINR gap: 0.0004
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  local , setup number =  21 / 100
+Dual: 469.2825 | surrogate dual gap: 0.0000 | max power gap: -925.0855 | max SINR gap: 0.0008
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  local , setup number =  22 / 100
+Dual: 419.1331 | surrogate dual gap: 0.0000 | max power gap: -942.2597 | max SINR gap: 0.0019
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  local , setup number =  23 / 100
+Dual: 501.0497 | surrogate dual gap: 0.0000 | max power gap: -867.3663 | max SINR gap: 0.0007
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  local , setup number =  24 / 100
+Dual: 1538.1515 | surrogate dual gap: 0.0000 | max power gap: -732.3910 | max SINR gap: 0.0025
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  local , setup number =  25 / 100
+Dual: 1365.3244 | surrogate dual gap: 0.0000 | max power gap: -723.8310 | max SINR gap: 0.0004
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  local , setup number =  26 / 100
+Dual: 1054.5721 | surrogate dual gap: 0.0000 | max power gap: -798.8228 | max SINR gap: 0.0014
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  local , setup number =  27 / 100
+Dual: 1743.3087 | surrogate dual gap: 0.0000 | max power gap: -749.3990 | max SINR gap: 0.0009
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  local , setup number =  28 / 100
+Dual: 1091.3763 | surrogate dual gap: 0.0000 | max power gap: -791.0200 | max SINR gap: 0.0005
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  local , setup number =  29 / 100
+Dual: 867.1084 | surrogate dual gap: 0.0000 | max power gap: -815.1563 | max SINR gap: 0.0006
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  local , setup number =  30 / 100
+Dual: 1185.2596 | surrogate dual gap: 0.0000 | max power gap: -706.2590 | max SINR gap: 0.0009
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  local , setup number =  31 / 100
+Dual: 1404.4039 | surrogate dual gap: 0.0000 | max power gap: -715.5442 | max SINR gap: 0.0004
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  local , setup number =  32 / 100
+Dual: 2229.4667 | surrogate dual gap: 0.0000 | max power gap: -592.5720 | max SINR gap: 0.0013
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  local , setup number =  33 / 100
+Dual: 739.2525 | surrogate dual gap: 0.0000 | max power gap: -773.4091 | max SINR gap: 0.0019
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  local , setup number =  34 / 100
+Dual: 546.8543 | surrogate dual gap: 0.0000 | max power gap: -897.3298 | max SINR gap: 0.0004
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  local , setup number =  35 / 100
+Dual: 1858.3422 | surrogate dual gap: 0.0000 | max power gap: -367.6933 | max SINR gap: 0.0019
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  local , setup number =  36 / 100
+Dual: 628.7310 | surrogate dual gap: 0.0000 | max power gap: -868.7259 | max SINR gap: 0.0006
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  local , setup number =  37 / 100
+Dual: 3090.7857 | surrogate dual gap: 0.0000 | max power gap: -194.8789 | max SINR gap: 0.0015
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  local , setup number =  38 / 100
+Dual: 1977.6839 | surrogate dual gap: 0.0000 | max power gap: -630.0837 | max SINR gap: 0.0010
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  local , setup number =  39 / 100
+Dual: 600.7703 | surrogate dual gap: 0.0000 | max power gap: -859.3055 | max SINR gap: 0.0012
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  local , setup number =  40 / 100
+Dual: 709.5557 | surrogate dual gap: 0.0000 | max power gap: -851.3408 | max SINR gap: 0.0008
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  local , setup number =  41 / 100
+Dual: 1712.1693 | surrogate dual gap: 0.0000 | max power gap: -769.7819 | max SINR gap: 0.0010
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  local , setup number =  42 / 100
+Dual: 1850.9909 | surrogate dual gap: 0.0000 | max power gap: -509.7752 | max SINR gap: 0.0007
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  local , setup number =  43 / 100
+Dual: 1645.1790 | surrogate dual gap: 0.0000 | max power gap: -589.4031 | max SINR gap: 0.0007
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  local , setup number =  44 / 100
+Dual: 873.1902 | surrogate dual gap: 0.0000 | max power gap: -807.5398 | max SINR gap: 0.0017
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  local , setup number =  45 / 100
+Dual: 1128.9740 | surrogate dual gap: 0.0000 | max power gap: -809.5469 | max SINR gap: 0.0013
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  local , setup number =  46 / 100
+Dual: 1098.6098 | surrogate dual gap: 0.0000 | max power gap: -767.5318 | max SINR gap: 0.0008
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  local , setup number =  47 / 100
+Dual: 1238.0630 | surrogate dual gap: 0.0000 | max power gap: -763.5407 | max SINR gap: 0.0007
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  local , setup number =  48 / 100
+Dual: 876.7103 | surrogate dual gap: 0.0000 | max power gap: -890.0734 | max SINR gap: 0.0007
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  local , setup number =  49 / 100
+Dual: 1266.6813 | surrogate dual gap: 0.0000 | max power gap: -697.4012 | max SINR gap: 0.0005
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  local , setup number =  50 / 100
+Dual: 1104.7496 | surrogate dual gap: 0.0000 | max power gap: -749.3147 | max SINR gap: 0.0006
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  local , setup number =  51 / 100
+Dual: 732.6376 | surrogate dual gap: 0.0000 | max power gap: -880.9899 | max SINR gap: 0.0004
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  local , setup number =  52 / 100
+Dual: 1298.7895 | surrogate dual gap: 0.0000 | max power gap: -756.8413 | max SINR gap: 0.0005
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  local , setup number =  53 / 100
+Dual: 1581.0886 | surrogate dual gap: 0.0000 | max power gap: -648.7850 | max SINR gap: 0.0007
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  local , setup number =  54 / 100
+Dual: 533.4215 | surrogate dual gap: 0.0000 | max power gap: -866.0967 | max SINR gap: 0.0011
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  local , setup number =  55 / 100
+Dual: 1593.9826 | surrogate dual gap: 0.0000 | max power gap: -679.8906 | max SINR gap: 0.0011
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  local , setup number =  56 / 100
+Dual: 3408.9615 | surrogate dual gap: 0.0000 | max power gap: -169.9986 | max SINR gap: 0.0008
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  local , setup number =  57 / 100
+Dual: 904.4741 | surrogate dual gap: 0.0000 | max power gap: -856.2509 | max SINR gap: 0.0013
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  local , setup number =  58 / 100
+Dual: 1012.0443 | surrogate dual gap: 0.0000 | max power gap: -670.6875 | max SINR gap: 0.0013
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  local , setup number =  59 / 100
+Dual: 1228.0061 | surrogate dual gap: 0.0000 | max power gap: -619.3741 | max SINR gap: 0.0005
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  local , setup number =  60 / 100
+Dual: 2308.5382 | surrogate dual gap: 0.0000 | max power gap: -311.3030 | max SINR gap: 0.0008
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  local , setup number =  61 / 100
+Dual: 1453.1086 | surrogate dual gap: 0.0000 | max power gap: -536.8977 | max SINR gap: 0.0005
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  local , setup number =  62 / 100
+Dual: 1875.8116 | surrogate dual gap: 0.0000 | max power gap: -596.8863 | max SINR gap: 0.0023
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  local , setup number =  63 / 100
+Dual: 1317.1345 | surrogate dual gap: 0.0000 | max power gap: -797.0572 | max SINR gap: 0.0007
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  local , setup number =  64 / 100
+Dual: 1891.2674 | surrogate dual gap: 0.0000 | max power gap: -701.0617 | max SINR gap: 0.0007
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  local , setup number =  65 / 100
+Dual: 518.9904 | surrogate dual gap: 0.0000 | max power gap: -818.5959 | max SINR gap: 0.0008
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  local , setup number =  66 / 100
+Dual: 1827.3256 | surrogate dual gap: 0.0000 | max power gap: -653.1563 | max SINR gap: 0.0007
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  local , setup number =  67 / 100
+Dual: 645.8247 | surrogate dual gap: 0.0000 | max power gap: -881.5846 | max SINR gap: 0.0027
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  local , setup number =  68 / 100
+Dual: 1523.5063 | surrogate dual gap: 0.0000 | max power gap: -802.4589 | max SINR gap: 0.0012
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  local , setup number =  69 / 100
+Dual: 1055.0249 | surrogate dual gap: 0.0000 | max power gap: -823.5478 | max SINR gap: 0.0058
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  local , setup number =  70 / 100
+Dual: 3448.4176 | surrogate dual gap: 0.0000 | max power gap: 379.7660 | max SINR gap: 0.0009
+Dual: 3421.1662 | surrogate dual gap: 358.2920 | max power gap: -73.4958 | max SINR gap: 0.0019
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  local , setup number =  71 / 100
+Dual: 1428.5793 | surrogate dual gap: 0.0000 | max power gap: -724.8004 | max SINR gap: 0.0009
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  local , setup number =  72 / 100
+Dual: 1623.7649 | surrogate dual gap: 0.0000 | max power gap: -704.1628 | max SINR gap: 0.0024
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  local , setup number =  73 / 100
+Dual: 1440.7601 | surrogate dual gap: 0.0000 | max power gap: -769.8185 | max SINR gap: 0.0006
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  local , setup number =  74 / 100
+Dual: 1961.3388 | surrogate dual gap: 0.0000 | max power gap: -407.8778 | max SINR gap: 0.0005
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  local , setup number =  75 / 100
+Dual: 841.8020 | surrogate dual gap: 0.0000 | max power gap: -860.2672 | max SINR gap: 0.0006
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  local , setup number =  76 / 100
+Dual: 497.3052 | surrogate dual gap: 0.0000 | max power gap: -887.0546 | max SINR gap: 0.0020
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  local , setup number =  77 / 100
+Dual: 566.5377 | surrogate dual gap: 0.0000 | max power gap: -814.1126 | max SINR gap: 0.0009
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  local , setup number =  78 / 100
+Dual: 1099.2284 | surrogate dual gap: 0.0000 | max power gap: -820.3507 | max SINR gap: 0.0011
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  local , setup number =  79 / 100
+Dual: 1143.3850 | surrogate dual gap: 0.0000 | max power gap: -764.3872 | max SINR gap: 0.0007
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  local , setup number =  80 / 100
+Dual: 1204.0209 | surrogate dual gap: 0.0000 | max power gap: -759.1433 | max SINR gap: 0.0009
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  local , setup number =  81 / 100
+Dual: 843.3962 | surrogate dual gap: 0.0000 | max power gap: -728.0088 | max SINR gap: 0.0007
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  local , setup number =  82 / 100
+Dual: 1253.9455 | surrogate dual gap: 0.0000 | max power gap: -766.3439 | max SINR gap: 0.0006
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  local , setup number =  83 / 100
+Dual: 1433.0831 | surrogate dual gap: 0.0000 | max power gap: -776.4702 | max SINR gap: 0.0019
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  local , setup number =  84 / 100
+Dual: 2191.9251 | surrogate dual gap: 0.0000 | max power gap: -492.6227 | max SINR gap: 0.0005
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  local , setup number =  85 / 100
+Dual: 1216.1447 | surrogate dual gap: 0.0000 | max power gap: -706.4156 | max SINR gap: 0.0006
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  local , setup number =  86 / 100
+Dual: 1010.3285 | surrogate dual gap: 0.0000 | max power gap: -733.2709 | max SINR gap: 0.0017
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  local , setup number =  87 / 100
+Dual: 1260.6795 | surrogate dual gap: 0.0000 | max power gap: -715.5873 | max SINR gap: 0.0009
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  local , setup number =  88 / 100
+Dual: 400.6012 | surrogate dual gap: 0.0000 | max power gap: -930.4325 | max SINR gap: 0.0005
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  local , setup number =  89 / 100
+Dual: 848.8261 | surrogate dual gap: 0.0000 | max power gap: -865.9332 | max SINR gap: 0.0007
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  local , setup number =  90 / 100
+Dual: 1905.8834 | surrogate dual gap: 0.0000 | max power gap: -620.9705 | max SINR gap: 0.0013
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  local , setup number =  91 / 100
+Dual: 1094.6370 | surrogate dual gap: 0.0000 | max power gap: -748.0089 | max SINR gap: 0.0019
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  local , setup number =  92 / 100
+Dual: 569.1199 | surrogate dual gap: 0.0000 | max power gap: -818.9647 | max SINR gap: 0.0005
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  local , setup number =  93 / 100
+Dual: 844.9035 | surrogate dual gap: 0.0000 | max power gap: -878.2100 | max SINR gap: 0.0004
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  local , setup number =  94 / 100
+Dual: 843.5344 | surrogate dual gap: 0.0000 | max power gap: -823.6215 | max SINR gap: 0.0010
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  local , setup number =  95 / 100
+Dual: 1260.5843 | surrogate dual gap: 0.0000 | max power gap: -705.5780 | max SINR gap: 0.0021
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  local , setup number =  96 / 100
+Dual: 2073.9038 | surrogate dual gap: 0.0000 | max power gap: -371.4183 | max SINR gap: 0.0015
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  local , setup number =  97 / 100
+Dual: 1460.3958 | surrogate dual gap: 0.0000 | max power gap: -558.5822 | max SINR gap: 0.0006
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  local , setup number =  98 / 100
+Dual: 569.9895 | surrogate dual gap: 0.0000 | max power gap: -843.1293 | max SINR gap: 0.0018
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  local , setup number =  99 / 100
+Dual: 978.5470 | surrogate dual gap: 0.0000 | max power gap: -800.8553 | max SINR gap: 0.0007
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  local , setup number =  100 / 100
+Dual: 1687.8910 | surrogate dual gap: 0.0000 | max power gap: -730.4262 | max SINR gap: 0.0012
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  1 / 100
+Dual: 1350.2915 | surrogate dual gap: 0.0000 | max power gap: -652.7794 | max SINR gap: 0.0006
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  2 / 100
+Dual: 1708.3761 | surrogate dual gap: 0.0000 | max power gap: -682.1812 | max SINR gap: 0.0007
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  3 / 100
+Dual: 1825.8868 | surrogate dual gap: 0.0000 | max power gap: -659.2218 | max SINR gap: 0.0013
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  4 / 100
+Dual: 1009.8255 | surrogate dual gap: 0.0000 | max power gap: -761.4755 | max SINR gap: 0.0017
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  5 / 100
+Dual: 847.4932 | surrogate dual gap: 0.0000 | max power gap: -810.1158 | max SINR gap: 0.0011
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  6 / 100
+Dual: 1523.0391 | surrogate dual gap: 0.0000 | max power gap: -771.5628 | max SINR gap: 0.0014
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  7 / 100
+Dual: 817.4897 | surrogate dual gap: 0.0000 | max power gap: -865.7034 | max SINR gap: 0.0009
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  8 / 100
+Dual: 765.5804 | surrogate dual gap: 0.0000 | max power gap: -880.4512 | max SINR gap: 0.0009
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  9 / 100
+Dual: 764.0673 | surrogate dual gap: 0.0000 | max power gap: -856.6561 | max SINR gap: 0.0006
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  10 / 100
+Dual: 1117.9457 | surrogate dual gap: 0.0000 | max power gap: -807.0713 | max SINR gap: 0.0008
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  11 / 100
+Dual: 1203.6638 | surrogate dual gap: 0.0000 | max power gap: -719.2037 | max SINR gap: 0.0002
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  12 / 100
+Dual: 510.6335 | surrogate dual gap: 0.0000 | max power gap: -913.4688 | max SINR gap: 0.0019
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  13 / 100
+Dual: 991.1862 | surrogate dual gap: 0.0000 | max power gap: -779.9155 | max SINR gap: 0.0015
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  14 / 100
+Dual: 1032.9988 | surrogate dual gap: 0.0000 | max power gap: -749.5944 | max SINR gap: 0.0013
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  15 / 100
+Dual: 596.5703 | surrogate dual gap: 0.0000 | max power gap: -860.6034 | max SINR gap: 0.0002
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  16 / 100
+Dual: 1053.8446 | surrogate dual gap: 0.0000 | max power gap: -718.3363 | max SINR gap: 0.0020
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  17 / 100
+Dual: 652.2188 | surrogate dual gap: 0.0000 | max power gap: -904.0629 | max SINR gap: 0.0005
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  18 / 100
+Dual: 481.6682 | surrogate dual gap: 0.0000 | max power gap: -906.7278 | max SINR gap: 0.0003
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  19 / 100
+Dual: 1064.4593 | surrogate dual gap: 0.0000 | max power gap: -817.6279 | max SINR gap: 0.0007
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  20 / 100
+Dual: 812.3965 | surrogate dual gap: 0.0000 | max power gap: -796.1155 | max SINR gap: 0.0002
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  21 / 100
+Dual: 414.2374 | surrogate dual gap: 0.0000 | max power gap: -940.1720 | max SINR gap: 0.0008
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  22 / 100
+Dual: 383.4581 | surrogate dual gap: 0.0000 | max power gap: -947.5757 | max SINR gap: 0.0005
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  23 / 100
+Dual: 466.7670 | surrogate dual gap: 0.0000 | max power gap: -882.7442 | max SINR gap: 0.0010
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  24 / 100
+Dual: 1329.7879 | surrogate dual gap: 0.0000 | max power gap: -769.6754 | max SINR gap: 0.0010
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  25 / 100
+Dual: 1209.1888 | surrogate dual gap: 0.0000 | max power gap: -740.0508 | max SINR gap: 0.0004
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  26 / 100
+Dual: 946.3605 | surrogate dual gap: 0.0000 | max power gap: -817.3820 | max SINR gap: 0.0004
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  27 / 100
+Dual: 1536.4546 | surrogate dual gap: 0.0000 | max power gap: -770.1693 | max SINR gap: 0.0004
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  28 / 100
+Dual: 995.1765 | surrogate dual gap: 0.0000 | max power gap: -811.1954 | max SINR gap: 0.0008
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  29 / 100
+Dual: 763.8403 | surrogate dual gap: 0.0000 | max power gap: -843.4918 | max SINR gap: 0.0002
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  30 / 100
+Dual: 1047.2500 | surrogate dual gap: 0.0000 | max power gap: -746.9996 | max SINR gap: 0.0006
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  31 / 100
+Dual: 1262.7066 | surrogate dual gap: 0.0000 | max power gap: -746.6847 | max SINR gap: 0.0003
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  32 / 100
+Dual: 1869.3440 | surrogate dual gap: 0.0000 | max power gap: -665.4830 | max SINR gap: 0.0003
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  33 / 100
+Dual: 623.6549 | surrogate dual gap: 0.0000 | max power gap: -826.6267 | max SINR gap: 0.0006
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  34 / 100
+Dual: 507.6573 | surrogate dual gap: 0.0000 | max power gap: -902.1779 | max SINR gap: 0.0007
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  35 / 100
+Dual: 1298.8855 | surrogate dual gap: 0.0000 | max power gap: -546.5426 | max SINR gap: 0.0009
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  36 / 100
+Dual: 580.5745 | surrogate dual gap: 0.0000 | max power gap: -882.0077 | max SINR gap: 0.0007
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  37 / 100
+Dual: 2646.5264 | surrogate dual gap: 0.0000 | max power gap: -263.8082 | max SINR gap: 0.0005
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  38 / 100
+Dual: 1674.5375 | surrogate dual gap: 0.0000 | max power gap: -707.9409 | max SINR gap: 0.0010
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  39 / 100
+Dual: 502.9171 | surrogate dual gap: 0.0000 | max power gap: -893.8311 | max SINR gap: 0.0011
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  40 / 100
+Dual: 663.4693 | surrogate dual gap: 0.0000 | max power gap: -859.7379 | max SINR gap: 0.0011
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  41 / 100
+Dual: 1516.5793 | surrogate dual gap: 0.0000 | max power gap: -790.5188 | max SINR gap: 0.0008
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  42 / 100
+Dual: 1651.5671 | surrogate dual gap: 0.0000 | max power gap: -595.9564 | max SINR gap: 0.0007
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  43 / 100
+Dual: 1473.5265 | surrogate dual gap: 0.0000 | max power gap: -631.9064 | max SINR gap: 0.0003
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  44 / 100
+Dual: 737.1608 | surrogate dual gap: 0.0000 | max power gap: -868.4558 | max SINR gap: 0.0020
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  45 / 100
+Dual: 995.8094 | surrogate dual gap: 0.0000 | max power gap: -812.4953 | max SINR gap: 0.0005
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  46 / 100
+Dual: 864.5485 | surrogate dual gap: 0.0000 | max power gap: -811.4908 | max SINR gap: 0.0011
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  47 / 100
+Dual: 1129.4553 | surrogate dual gap: 0.0000 | max power gap: -793.9340 | max SINR gap: 0.0005
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  48 / 100
+Dual: 749.1365 | surrogate dual gap: 0.0000 | max power gap: -904.5917 | max SINR gap: 0.0008
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  49 / 100
+Dual: 1089.1717 | surrogate dual gap: 0.0000 | max power gap: -751.5590 | max SINR gap: 0.0005
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  50 / 100
+Dual: 986.4860 | surrogate dual gap: 0.0000 | max power gap: -776.4046 | max SINR gap: 0.0003
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  51 / 100
+Dual: 663.3188 | surrogate dual gap: 0.0000 | max power gap: -889.2788 | max SINR gap: 0.0004
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  52 / 100
+Dual: 1141.0169 | surrogate dual gap: 0.0000 | max power gap: -776.2739 | max SINR gap: 0.0017
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  53 / 100
+Dual: 1391.7111 | surrogate dual gap: 0.0000 | max power gap: -705.2235 | max SINR gap: 0.0007
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  54 / 100
+Dual: 478.0784 | surrogate dual gap: 0.0000 | max power gap: -882.0239 | max SINR gap: 0.0010
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  55 / 100
+Dual: 1436.3481 | surrogate dual gap: 0.0000 | max power gap: -708.0807 | max SINR gap: 0.0010
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  56 / 100
+Dual: 3035.9885 | surrogate dual gap: 0.0000 | max power gap: -271.9623 | max SINR gap: 0.0006
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  57 / 100
+Dual: 721.6727 | surrogate dual gap: 0.0000 | max power gap: -884.7758 | max SINR gap: 0.0008
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  58 / 100
+Dual: 849.3278 | surrogate dual gap: 0.0000 | max power gap: -754.6804 | max SINR gap: 0.0009
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  59 / 100
+Dual: 1060.0374 | surrogate dual gap: 0.0000 | max power gap: -676.0515 | max SINR gap: 0.0015
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  60 / 100
+Dual: 1844.5930 | surrogate dual gap: 0.0000 | max power gap: -447.6861 | max SINR gap: 0.0005
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  61 / 100
+Dual: 1313.3943 | surrogate dual gap: 0.0000 | max power gap: -609.2060 | max SINR gap: 0.0004
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  62 / 100
+Dual: 1505.6660 | surrogate dual gap: 0.0000 | max power gap: -702.8588 | max SINR gap: 0.0008
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  63 / 100
+Dual: 1168.7452 | surrogate dual gap: 0.0000 | max power gap: -834.1685 | max SINR gap: 0.0004
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  64 / 100
+Dual: 1659.1405 | surrogate dual gap: 0.0000 | max power gap: -737.6046 | max SINR gap: 0.0003
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  65 / 100
+Dual: 473.8993 | surrogate dual gap: 0.0000 | max power gap: -842.5905 | max SINR gap: 0.0006
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  66 / 100
+Dual: 1487.5142 | surrogate dual gap: 0.0000 | max power gap: -719.7270 | max SINR gap: 0.0006
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  67 / 100
+Dual: 537.7428 | surrogate dual gap: 0.0000 | max power gap: -902.6325 | max SINR gap: 0.0032
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  68 / 100
+Dual: 1316.0265 | surrogate dual gap: 0.0000 | max power gap: -826.1544 | max SINR gap: 0.0005
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  69 / 100
+Dual: 884.1624 | surrogate dual gap: 0.0000 | max power gap: -853.3980 | max SINR gap: 0.0028
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  70 / 100
+Dual: 3176.5483 | surrogate dual gap: 0.0000 | max power gap: 249.3869 | max SINR gap: 0.0012
+Dual: 3155.1091 | surrogate dual gap: 176.1430 | max power gap: -243.1103 | max SINR gap: 0.0006
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  71 / 100
+Dual: 1246.4332 | surrogate dual gap: 0.0000 | max power gap: -789.3348 | max SINR gap: 0.0008
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  72 / 100
+Dual: 1442.1551 | surrogate dual gap: 0.0000 | max power gap: -743.7966 | max SINR gap: 0.0011
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  73 / 100
+Dual: 1233.4227 | surrogate dual gap: 0.0000 | max power gap: -792.7362 | max SINR gap: 0.0012
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  74 / 100
+Dual: 1794.8884 | surrogate dual gap: 0.0000 | max power gap: -466.4644 | max SINR gap: 0.0007
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  75 / 100
+Dual: 742.7610 | surrogate dual gap: 0.0000 | max power gap: -873.5098 | max SINR gap: 0.0002
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  76 / 100
+Dual: 459.4580 | surrogate dual gap: 0.0000 | max power gap: -899.6034 | max SINR gap: 0.0026
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  77 / 100
+Dual: 536.6979 | surrogate dual gap: 0.0000 | max power gap: -821.8365 | max SINR gap: 0.0003
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  78 / 100
+Dual: 944.5998 | surrogate dual gap: 0.0000 | max power gap: -848.9781 | max SINR gap: 0.0009
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  79 / 100
+Dual: 1045.2591 | surrogate dual gap: 0.0000 | max power gap: -794.4006 | max SINR gap: 0.0005
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  80 / 100
+Dual: 1006.5142 | surrogate dual gap: 0.0000 | max power gap: -806.3509 | max SINR gap: 0.0007
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  81 / 100
+Dual: 745.9276 | surrogate dual gap: 0.0000 | max power gap: -759.0869 | max SINR gap: 0.0006
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  82 / 100
+Dual: 1110.1033 | surrogate dual gap: 0.0000 | max power gap: -815.6847 | max SINR gap: 0.0003
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  83 / 100
+Dual: 1261.4040 | surrogate dual gap: 0.0000 | max power gap: -805.8190 | max SINR gap: 0.0007
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  84 / 100
+Dual: 1908.9293 | surrogate dual gap: 0.0000 | max power gap: -594.0260 | max SINR gap: 0.0008
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  85 / 100
+Dual: 1039.2888 | surrogate dual gap: 0.0000 | max power gap: -753.5151 | max SINR gap: 0.0011
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  86 / 100
+Dual: 927.8718 | surrogate dual gap: 0.0000 | max power gap: -761.6082 | max SINR gap: 0.0004
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  87 / 100
+Dual: 1129.9415 | surrogate dual gap: 0.0000 | max power gap: -739.5806 | max SINR gap: 0.0010
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  88 / 100
+Dual: 369.1732 | surrogate dual gap: 0.0000 | max power gap: -934.6439 | max SINR gap: 0.0006
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  89 / 100
+Dual: 756.9201 | surrogate dual gap: 0.0000 | max power gap: -885.7100 | max SINR gap: 0.0005
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  90 / 100
+Dual: 1649.3281 | surrogate dual gap: 0.0000 | max power gap: -685.7987 | max SINR gap: 0.0006
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  91 / 100
+Dual: 983.2737 | surrogate dual gap: 0.0000 | max power gap: -769.7200 | max SINR gap: 0.0016
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  92 / 100
+Dual: 505.3122 | surrogate dual gap: 0.0000 | max power gap: -845.8571 | max SINR gap: 0.0009
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  93 / 100
+Dual: 763.4713 | surrogate dual gap: 0.0000 | max power gap: -885.7908 | max SINR gap: 0.0003
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  94 / 100
+Dual: 752.0764 | surrogate dual gap: 0.0000 | max power gap: -852.5054 | max SINR gap: 0.0001
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  95 / 100
+Dual: 1013.9461 | surrogate dual gap: 0.0000 | max power gap: -734.5986 | max SINR gap: 0.0016
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  96 / 100
+Dual: 1549.2606 | surrogate dual gap: 0.0000 | max power gap: -541.3014 | max SINR gap: 0.0003
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  97 / 100
+Dual: 1342.9136 | surrogate dual gap: 0.0000 | max power gap: -614.9523 | max SINR gap: 0.0013
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  98 / 100
+Dual: 519.7244 | surrogate dual gap: 0.0000 | max power gap: -856.0827 | max SINR gap: 0.0014
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  99 / 100
+Dual: 867.8717 | surrogate dual gap: 0.0000 | max power gap: -828.2258 | max SINR gap: 0.0010
+Solved =  True , feasible =  True
+R =  2.0 , CSI =  centr , setup number =  100 / 100
+Dual: 1460.3606 | surrogate dual gap: 0.0000 | max power gap: -767.5060 | max SINR gap: 0.0010
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  1 / 100
+Dual: 2117.3777 | surrogate dual gap: 0.0000 | max power gap: -420.4011 | max SINR gap: 0.0007
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  2 / 100
+Dual: 2946.2834 | surrogate dual gap: 0.0000 | max power gap: -492.6116 | max SINR gap: 0.0009
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  3 / 100
+Dual: 3369.3157 | surrogate dual gap: 0.0000 | max power gap: -357.4699 | max SINR gap: 0.0020
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  4 / 100
+Dual: 1689.5946 | surrogate dual gap: 0.0000 | max power gap: -627.9306 | max SINR gap: 0.0041
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  5 / 100
+Dual: 1544.8664 | surrogate dual gap: 0.0000 | max power gap: -612.5866 | max SINR gap: 0.0020
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  6 / 100
+Dual: 2588.4088 | surrogate dual gap: 0.0000 | max power gap: -646.0017 | max SINR gap: 0.0016
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  7 / 100
+Dual: 1432.4011 | surrogate dual gap: 0.0000 | max power gap: -769.6351 | max SINR gap: 0.0024
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  8 / 100
+Dual: 1233.0716 | surrogate dual gap: 0.0000 | max power gap: -799.2860 | max SINR gap: 0.0007
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  9 / 100
+Dual: 1275.0795 | surrogate dual gap: 0.0000 | max power gap: -745.1124 | max SINR gap: 0.0015
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  10 / 100
+Dual: 2081.2676 | surrogate dual gap: 0.0000 | max power gap: -674.3536 | max SINR gap: 0.0017
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  11 / 100
+Dual: 1927.4040 | surrogate dual gap: 0.0000 | max power gap: -566.3207 | max SINR gap: 0.0010
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  12 / 100
+Dual: 760.1424 | surrogate dual gap: 0.0000 | max power gap: -862.8691 | max SINR gap: 0.0011
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  13 / 100
+Dual: 1632.0554 | surrogate dual gap: 0.0000 | max power gap: -626.8910 | max SINR gap: 0.0024
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  14 / 100
+Dual: 1926.3794 | surrogate dual gap: 0.0000 | max power gap: -566.9351 | max SINR gap: 0.0022
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  15 / 100
+Dual: 952.2590 | surrogate dual gap: 0.0000 | max power gap: -770.8570 | max SINR gap: 0.0011
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  16 / 100
+Dual: 1856.3362 | surrogate dual gap: 0.0000 | max power gap: -478.2940 | max SINR gap: 0.0009
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  17 / 100
+Dual: 1047.3071 | surrogate dual gap: 0.0000 | max power gap: -837.8571 | max SINR gap: 0.0013
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  18 / 100
+Dual: 795.2380 | surrogate dual gap: 0.0000 | max power gap: -833.3470 | max SINR gap: 0.0016
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  19 / 100
+Dual: 1841.0195 | surrogate dual gap: 0.0000 | max power gap: -702.7303 | max SINR gap: 0.0019
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  20 / 100
+Dual: 1305.4551 | surrogate dual gap: 0.0000 | max power gap: -660.8224 | max SINR gap: 0.0010
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  21 / 100
+Dual: 652.3640 | surrogate dual gap: 0.0000 | max power gap: -895.0824 | max SINR gap: 0.0004
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  22 / 100
+Dual: 576.1148 | surrogate dual gap: 0.0000 | max power gap: -920.8911 | max SINR gap: 0.0007
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  23 / 100
+Dual: 692.9050 | surrogate dual gap: 0.0000 | max power gap: -812.7663 | max SINR gap: 0.0013
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  24 / 100
+Dual: 2268.6546 | surrogate dual gap: 0.0000 | max power gap: -606.1450 | max SINR gap: 0.0028
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  25 / 100
+Dual: 1916.2165 | surrogate dual gap: 0.0000 | max power gap: -615.7835 | max SINR gap: 0.0010
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  26 / 100
+Dual: 1518.8282 | surrogate dual gap: 0.0000 | max power gap: -697.4312 | max SINR gap: 0.0011
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  27 / 100
+Dual: 2535.4007 | surrogate dual gap: 0.0000 | max power gap: -624.0008 | max SINR gap: 0.0025
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  28 / 100
+Dual: 1544.1136 | surrogate dual gap: 0.0000 | max power gap: -712.0858 | max SINR gap: 0.0015
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  29 / 100
+Dual: 1229.4743 | surrogate dual gap: 0.0000 | max power gap: -739.3802 | max SINR gap: 0.0016
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  30 / 100
+Dual: 1693.0482 | surrogate dual gap: 0.0000 | max power gap: -575.2881 | max SINR gap: 0.0006
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  31 / 100
+Dual: 1958.1350 | surrogate dual gap: 0.0000 | max power gap: -601.5140 | max SINR gap: 0.0011
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  32 / 100
+Dual: 3337.2937 | surrogate dual gap: 0.0000 | max power gap: -389.4944 | max SINR gap: 0.0019
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  33 / 100
+Dual: 1090.3485 | surrogate dual gap: 0.0000 | max power gap: -667.5305 | max SINR gap: 0.0016
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  34 / 100
+Dual: 765.0198 | surrogate dual gap: 0.0000 | max power gap: -862.0237 | max SINR gap: 0.0006
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  35 / 100
+Dual: 3070.2316 | surrogate dual gap: 0.0000 | max power gap: 28.1806 | max SINR gap: 0.0020
+Dual: 3070.6967 | surrogate dual gap: 1.6906 | max power gap: -20.3206 | max SINR gap: 0.0028
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  36 / 100
+Dual: 869.9730 | surrogate dual gap: 0.0000 | max power gap: -812.8153 | max SINR gap: 0.0011
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  37 / 100
+Dual: 4549.0750 | surrogate dual gap: 0.0000 | max power gap: 118.6937 | max SINR gap: 0.0021
+Dual: 4549.6705 | surrogate dual gap: 41.7858 | max power gap: 189.7480 | max SINR gap: 0.0013
+Dual: 4499.8742 | surrogate dual gap: 117.7241 | max power gap: 343.6039 | max SINR gap: -0.0007
+Dual: 4456.9861 | surrogate dual gap: 224.4733 | max power gap: 405.2303 | max SINR gap: 0.0022
+Dual: 4491.7759 | surrogate dual gap: 144.8720 | max power gap: 302.8732 | max SINR gap: -0.0007
+Dual: 4502.8720 | surrogate dual gap: 85.6036 | max power gap: 146.3638 | max SINR gap: 0.0679
+Dual: 4569.6010 | surrogate dual gap: 20.9461 | max power gap: 39.9756 | max SINR gap: -0.0002
+Dual: 4573.2591 | surrogate dual gap: 15.0012 | max power gap: 8.9071 | max SINR gap: -0.0000
+Dual: 4574.5801 | surrogate dual gap: 8.5159 | max power gap: -5.6781 | max SINR gap: -0.0003
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  38 / 100
+Dual: 2985.2386 | surrogate dual gap: 0.0000 | max power gap: -466.5534 | max SINR gap: 0.0013
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  39 / 100
+Dual: 903.5548 | surrogate dual gap: 0.0000 | max power gap: -779.5515 | max SINR gap: 0.0013
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  40 / 100
+Dual: 967.5029 | surrogate dual gap: 0.0000 | max power gap: -800.7905 | max SINR gap: 0.0015
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  41 / 100
+Dual: 2469.3377 | surrogate dual gap: 0.0000 | max power gap: -694.3475 | max SINR gap: 0.0010
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  42 / 100
+Dual: 2619.5006 | surrogate dual gap: 0.0000 | max power gap: -288.5827 | max SINR gap: 0.0017
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  43 / 100
+Dual: 2287.9010 | surrogate dual gap: 0.0000 | max power gap: -447.4397 | max SINR gap: 0.0019
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  44 / 100
+Dual: 1310.2126 | surrogate dual gap: 0.0000 | max power gap: -696.5630 | max SINR gap: 0.0018
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  45 / 100
+Dual: 1647.5602 | surrogate dual gap: 0.0000 | max power gap: -740.8313 | max SINR gap: 0.0014
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  46 / 100
+Dual: 1763.3764 | surrogate dual gap: 0.0000 | max power gap: -650.0675 | max SINR gap: 0.0018
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  47 / 100
+Dual: 1718.9781 | surrogate dual gap: 0.0000 | max power gap: -664.8841 | max SINR gap: 0.0016
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  48 / 100
+Dual: 1278.7374 | surrogate dual gap: 0.0000 | max power gap: -845.7490 | max SINR gap: 0.0018
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  49 / 100
+Dual: 1830.2600 | surrogate dual gap: 0.0000 | max power gap: -564.1387 | max SINR gap: 0.0013
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  50 / 100
+Dual: 1559.1628 | surrogate dual gap: 0.0000 | max power gap: -654.5506 | max SINR gap: 0.0016
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  51 / 100
+Dual: 1038.3150 | surrogate dual gap: 0.0000 | max power gap: -835.3601 | max SINR gap: 0.0011
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  52 / 100
+Dual: 1879.0868 | surrogate dual gap: 0.0000 | max power gap: -668.3021 | max SINR gap: 0.0014
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  53 / 100
+Dual: 2244.5693 | surrogate dual gap: 0.0000 | max power gap: -498.4275 | max SINR gap: 0.0018
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  54 / 100
+Dual: 748.8725 | surrogate dual gap: 0.0000 | max power gap: -812.0898 | max SINR gap: 0.0026
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  55 / 100
+Dual: 2253.0600 | surrogate dual gap: 0.0000 | max power gap: -569.1709 | max SINR gap: 0.0008
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  56 / 100
+Dual: 4976.3691 | surrogate dual gap: 0.0000 | max power gap: 198.6789 | max SINR gap: 0.0022
+Dual: 5001.9697 | surrogate dual gap: 64.4047 | max power gap: -97.6070 | max SINR gap: 0.0024
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  57 / 100
+Dual: 1403.1280 | surrogate dual gap: 0.0000 | max power gap: -781.5264 | max SINR gap: 0.0020
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  58 / 100
+Dual: 1482.0705 | surrogate dual gap: 0.0000 | max power gap: -491.7774 | max SINR gap: 0.0033
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  59 / 100
+Dual: 1782.8358 | surrogate dual gap: 0.0000 | max power gap: -449.7979 | max SINR gap: 0.0012
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  60 / 100
+Dual: 3420.0805 | surrogate dual gap: 0.0000 | max power gap: 20.4420 | max SINR gap: 0.0008
+Dual: 3420.0111 | surrogate dual gap: 1.6843 | max power gap: -27.1449 | max SINR gap: 0.0008
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  61 / 100
+Dual: 2040.8784 | surrogate dual gap: 0.0000 | max power gap: -352.5418 | max SINR gap: 0.0011
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  62 / 100
+Dual: 2873.4671 | surrogate dual gap: 0.0000 | max power gap: -415.4922 | max SINR gap: 0.0032
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  63 / 100
+Dual: 1874.5131 | surrogate dual gap: 0.0000 | max power gap: -698.1990 | max SINR gap: 0.0016
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  64 / 100
+Dual: 2774.6625 | surrogate dual gap: 0.0000 | max power gap: -573.8765 | max SINR gap: 0.0021
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  65 / 100
+Dual: 723.8337 | surrogate dual gap: 0.0000 | max power gap: -742.3223 | max SINR gap: 0.0015
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  66 / 100
+Dual: 2774.0313 | surrogate dual gap: 0.0000 | max power gap: -505.3615 | max SINR gap: 0.0022
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  67 / 100
+Dual: 935.2310 | surrogate dual gap: 0.0000 | max power gap: -830.9232 | max SINR gap: 0.0022
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  68 / 100
+Dual: 2231.3303 | surrogate dual gap: 0.0000 | max power gap: -721.8285 | max SINR gap: 0.0013
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  69 / 100
+Dual: 1602.5704 | surrogate dual gap: 0.0000 | max power gap: -741.5616 | max SINR gap: 0.0045
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  70 / 100
+Dual: 4823.6096 | surrogate dual gap: 0.0000 | max power gap: 917.0691 | max SINR gap: 0.0020
+Dual: 4775.1142 | surrogate dual gap: 1356.6524 | max power gap: 870.4258 | max SINR gap: 0.0018
+Dual: 4652.1902 | surrogate dual gap: 809.6017 | max power gap: 313.4426 | max SINR gap: 0.0019
+Dual: 5210.0776 | surrogate dual gap: 264.3070 | max power gap: 141.1933 | max SINR gap: -0.0001
+Dual: 5237.9014 | surrogate dual gap: 199.2200 | max power gap: -6.4471 | max SINR gap: -0.0001
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  71 / 100
+Dual: 2047.1132 | surrogate dual gap: 0.0000 | max power gap: -594.0939 | max SINR gap: 0.0019
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  72 / 100
+Dual: 2349.9080 | surrogate dual gap: 0.0000 | max power gap: -558.6612 | max SINR gap: 0.0021
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  73 / 100
+Dual: 2102.9564 | surrogate dual gap: 0.0000 | max power gap: -664.8165 | max SINR gap: 0.0017
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  74 / 100
+Dual: 2747.2558 | surrogate dual gap: 0.0000 | max power gap: -170.0331 | max SINR gap: 0.0011
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  75 / 100
+Dual: 1176.0477 | surrogate dual gap: 0.0000 | max power gap: -801.8068 | max SINR gap: 0.0013
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  76 / 100
+Dual: 691.2493 | surrogate dual gap: 0.0000 | max power gap: -846.3277 | max SINR gap: 0.0032
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  77 / 100
+Dual: 785.9209 | surrogate dual gap: 0.0000 | max power gap: -744.3719 | max SINR gap: 0.0004
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  78 / 100
+Dual: 1568.4964 | surrogate dual gap: 0.0000 | max power gap: -744.9759 | max SINR gap: 0.0007
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  79 / 100
+Dual: 1611.3069 | surrogate dual gap: 0.0000 | max power gap: -672.8594 | max SINR gap: 0.0014
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  80 / 100
+Dual: 1823.0883 | surrogate dual gap: 0.0000 | max power gap: -635.1415 | max SINR gap: 0.0013
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  81 / 100
+Dual: 1203.4193 | surrogate dual gap: 0.0000 | max power gap: -622.5050 | max SINR gap: 0.0020
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  82 / 100
+Dual: 1785.8350 | surrogate dual gap: 0.0000 | max power gap: -657.6994 | max SINR gap: 0.0004
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  83 / 100
+Dual: 2059.4353 | surrogate dual gap: 0.0000 | max power gap: -695.7642 | max SINR gap: 0.0014
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  84 / 100
+Dual: 3175.5736 | surrogate dual gap: 0.0000 | max power gap: -270.0283 | max SINR gap: 0.0015
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  85 / 100
+Dual: 1745.8599 | surrogate dual gap: 0.0000 | max power gap: -569.4254 | max SINR gap: 0.0013
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  86 / 100
+Dual: 1396.0266 | surrogate dual gap: 0.0000 | max power gap: -631.6160 | max SINR gap: 0.0009
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  87 / 100
+Dual: 1786.2723 | surrogate dual gap: 0.0000 | max power gap: -613.9028 | max SINR gap: 0.0023
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  88 / 100
+Dual: 556.2830 | surrogate dual gap: 0.0000 | max power gap: -903.4249 | max SINR gap: 0.0012
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  89 / 100
+Dual: 1183.7646 | surrogate dual gap: 0.0000 | max power gap: -811.6220 | max SINR gap: 0.0013
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  90 / 100
+Dual: 2750.5975 | surrogate dual gap: 0.0000 | max power gap: -445.2351 | max SINR gap: 0.0012
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  91 / 100
+Dual: 1546.0968 | surrogate dual gap: 0.0000 | max power gap: -651.5880 | max SINR gap: 0.0013
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  92 / 100
+Dual: 803.6458 | surrogate dual gap: 0.0000 | max power gap: -746.1433 | max SINR gap: 0.0011
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  93 / 100
+Dual: 1194.5758 | surrogate dual gap: 0.0000 | max power gap: -830.3233 | max SINR gap: 0.0011
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  94 / 100
+Dual: 1177.1015 | surrogate dual gap: 0.0000 | max power gap: -745.9777 | max SINR gap: 0.0005
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  95 / 100
+Dual: 1946.9318 | surrogate dual gap: 0.0000 | max power gap: -601.0147 | max SINR gap: 0.0025
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  96 / 100
+Dual: 3261.4317 | surrogate dual gap: 0.0000 | max power gap: -12.0114 | max SINR gap: 0.0012
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  97 / 100
+Dual: 2062.7348 | surrogate dual gap: 0.0000 | max power gap: -363.7608 | max SINR gap: 0.0010
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  98 / 100
+Dual: 801.2457 | surrogate dual gap: 0.0000 | max power gap: -786.3313 | max SINR gap: 0.0015
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  99 / 100
+Dual: 1422.4687 | surrogate dual gap: 0.0000 | max power gap: -711.4397 | max SINR gap: 0.0020
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  local , setup number =  100 / 100
+Dual: 2403.9269 | surrogate dual gap: 0.0000 | max power gap: -609.4306 | max SINR gap: 0.0010
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  centr , setup number =  1 / 100
+Dual: 1829.9254 | surrogate dual gap: 0.0000 | max power gap: -531.7573 | max SINR gap: 0.0008
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  centr , setup number =  2 / 100
+Dual: 2358.3046 | surrogate dual gap: 0.0000 | max power gap: -576.1312 | max SINR gap: 0.0003
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  centr , setup number =  3 / 100
+Dual: 2591.9372 | surrogate dual gap: 0.0000 | max power gap: -521.2841 | max SINR gap: 0.0007
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  centr , setup number =  4 / 100
+Dual: 1401.4756 | surrogate dual gap: 0.0000 | max power gap: -675.9223 | max SINR gap: 0.0007
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  centr , setup number =  5 / 100
+Dual: 1159.5428 | surrogate dual gap: 0.0000 | max power gap: -743.6277 | max SINR gap: 0.0018
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  centr , setup number =  6 / 100
+Dual: 2101.9723 | surrogate dual gap: 0.0000 | max power gap: -692.2500 | max SINR gap: 0.0007
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  centr , setup number =  7 / 100
+Dual: 1119.8594 | surrogate dual gap: 0.0000 | max power gap: -818.7009 | max SINR gap: 0.0015
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  centr , setup number =  8 / 100
+Dual: 1045.5430 | surrogate dual gap: 0.0000 | max power gap: -835.6358 | max SINR gap: 0.0011
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  centr , setup number =  9 / 100
+Dual: 1031.5866 | surrogate dual gap: 0.0000 | max power gap: -805.4081 | max SINR gap: 0.0007
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  centr , setup number =  10 / 100
+Dual: 1550.1072 | surrogate dual gap: 0.0000 | max power gap: -743.4605 | max SINR gap: 0.0004
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  centr , setup number =  11 / 100
+Dual: 1631.0983 | surrogate dual gap: 0.0000 | max power gap: -625.1537 | max SINR gap: 0.0003
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  centr , setup number =  12 / 100
+Dual: 691.7934 | surrogate dual gap: 0.0000 | max power gap: -882.8823 | max SINR gap: 0.0024
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  centr , setup number =  13 / 100
+Dual: 1375.8333 | surrogate dual gap: 0.0000 | max power gap: -693.9801 | max SINR gap: 0.0020
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  centr , setup number =  14 / 100
+Dual: 1456.4674 | surrogate dual gap: 0.0000 | max power gap: -657.6100 | max SINR gap: 0.0021
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  centr , setup number =  15 / 100
+Dual: 807.5625 | surrogate dual gap: 0.0000 | max power gap: -814.8178 | max SINR gap: 0.0004
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  centr , setup number =  16 / 100
+Dual: 1443.6278 | surrogate dual gap: 0.0000 | max power gap: -613.7472 | max SINR gap: 0.0007
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  centr , setup number =  17 / 100
+Dual: 892.4505 | surrogate dual gap: 0.0000 | max power gap: -869.4108 | max SINR gap: 0.0009
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  centr , setup number =  18 / 100
+Dual: 652.6756 | surrogate dual gap: 0.0000 | max power gap: -877.7815 | max SINR gap: 0.0005
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  centr , setup number =  19 / 100
+Dual: 1489.4254 | surrogate dual gap: 0.0000 | max power gap: -757.0262 | max SINR gap: 0.0011
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  centr , setup number =  20 / 100
+Dual: 1095.9888 | surrogate dual gap: 0.0000 | max power gap: -729.7487 | max SINR gap: 0.0003
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  centr , setup number =  21 / 100
+Dual: 556.5492 | surrogate dual gap: 0.0000 | max power gap: -920.6226 | max SINR gap: 0.0014
+Solved =  True , feasible =  True
+R =  2.2857142857142856 , CSI =  centr , setup number =  22 / 100
