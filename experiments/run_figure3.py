@@ -70,6 +70,7 @@ def execute(cls, seed, cfg):
         "power_gap_trace_mw": power_gaps,
         "surrogate_gap_trace_mw": dual_gaps,
         "step_trace": getattr(problem, "step_trace", None),
+        "anderson_stats": getattr(problem, "anderson_stats", None),
         "final_sinr_gap_reported": (traces[-1]["sinr_gap"] if traces else None),
         "trace": traces, "stdout": log,
     }

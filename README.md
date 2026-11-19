@@ -1,4 +1,4 @@
-# Cell-free Massive MIMO：复现、计算加速与步长评测
+# Cell-free Massive MIMO：复现与求解器加速
 
 本项目复现 [Miretti 等人的论文](https://doi.org/10.1109/TSP.2024.3376809)中的 Figure 2 和 Figure 3，并加快作者程序的计算。论文代码来自[作者仓库](https://github.com/lorenzomiretti/duality)。
 
@@ -12,7 +12,11 @@
 
 作者的本地 CSI 求解器要对每个信道样本重复做小矩阵求逆和逐个累加。我们把同一批信道样本堆叠起来，让 NumPy 一次处理整批矩阵，并用线性方程求解替代“先求逆、再相乘”。进一步发现：内层连续两步需要解**相同的**矩阵方程，因此在输入未变化时复用第一次求得的结果。预期是在**不改变数学问题和迭代规则**的前提下，减少每次迭代的计算时间。改动位于 [optimized_problem.py](optimized_problem.py)，集中式 CSI 仍调用原版实现；复用的独立对照见 [docs/RESPONSE_REUSE.md](docs/RESPONSE_REUSE.md)。
 
-这是一个**已测得成功的计算加速**，没有改变迭代次数或可行率。另行测试了根据 AP 功率违例调步长的算法；它在一些场景更快，但 30 个新随机场景的总体结果没有改善，因此未把它作为成功结论。设计、完整数据和失败案例见 [docs/ADAPTIVE_STEP.md](docs/ADAPTIVE_STEP.md)。
+这是一个**已测得成功的单轮计算加速**，本身没有改变迭代次数或可行率。另行测试了根据 AP 功率违例调步长的算法；它在一些场景更快，但 30 个新随机场景的总体结果没有改善，因此未把它作为成功结论。设计、完整数据和失败案例见 [docs/ADAPTIVE_STEP.md](docs/ADAPTIVE_STEP.md)。
+
+## 新的收敛改进：减少内层功率迭代
+
+作者算法每次调整 AP 约束权重后，会反复更新 UE 功率直到接近固定点。我们加入带保护的 Anderson 加速：利用最近几轮的变化提出下一步功率；若候选不合理，就采用作者原更新。第一次外层迭代保留作者的不可行性初筛，外层步长和停止规则不变。它预期减少**内层迭代**，与前述“每轮矩阵运算更快”是两项不同的改进。代码见 [anderson_problem.py](anderson_problem.py)，规则、参数与实验见 [docs/ANDERSON_ACCELERATION.md](docs/ANDERSON_ACCELERATION.md)。
 
 ## 实际结果
 
@@ -24,6 +28,8 @@
 | Figure 3 累计求解时间 | 原版 71.27 秒；加速版 7.93 秒，共 25 次配对 |
 | Figure 3 数值一致性 | 25 次配对的内外层迭代数均一致；最大目标值差 `2.52e-10 mW`，最终 AP 功率最大差 `4.71e-11 mW` |
 | 自适应步长独立验证 | 30 个新场景，两版均成功 15 个；固定/自适应合计外层轮数 745/773、求解时间 47.14/48.32 秒；总体未改善 |
+| 内层 Anderson 独立验证 | 另 30 个新场景，两版均成功 15 个；内层轮数 **3880→3019**，求解时间 **24.60→19.41 秒** |
+| Anderson 重复计时 | 3 个非平凡场景各重复 3 次；相对现有缓存版的速度比中位数为 **1.25 倍** |
 
 这些时间来自一台 macOS arm64 机器、Python 3.12 和单线程 OpenBLAS；换机器可能不同。Figure 2 中速率为 4 bit/s/Hz 时，每 AP 功率约束下，本地 CSI 的可行比例为 0.18，集中式 CSI 为 0.43；总功率约束下分别为 0.31 和 0.83。比例按**已求解的样本**计算，与作者脚本一致；完整表格和 95% Wilson 区间见 [Figure 2 结果目录](results/figure2_full/)。
 
@@ -37,6 +43,7 @@
 - [25 次新版配对计时](results/figure3_repeats_cached/timings.csv)和[汇总](results/figure3_repeats_cached/summary.json)
 - [复用前后独立配对](results/figure3_response_reuse/summary.json)
 - [自适应步长逐场景对照图](results/adaptive_new_seeds/outer_iterations.png)和[全部原始记录](results/adaptive_new_seeds/runs.jsonl)
+- [内层加速逐场景对照图](results/anderson_new_seeds/inner_iterations.png)、[完整配对数据](results/anderson_new_seeds/aggregate.json)和[重复计时](results/anderson_repeats/timings.csv)
 - [完整实验记录](docs/EXPERIMENT_LOG.md)：参数、运行命令、数值对照、边界样本和局限
 
 ## 重新运行
@@ -57,6 +64,9 @@ python experiments/benchmark_repeats.py --output results/figure3_repeats_cached
 python experiments/benchmark_response_reuse.py --output results/figure3_response_reuse
 python experiments/benchmark_adaptive.py --output results/adaptive_new_seeds
 python experiments/analyze_adaptive.py results/adaptive_new_seeds
+python experiments/benchmark_anderson.py
+python experiments/analyze_anderson.py results/anderson_new_seeds
+python experiments/benchmark_anderson_repeats.py
 ```
 
 Figure 2 的续跑程序逐个保存完成的样本，可以从已有记录继续。`results/` 内包含原始输出、配置、随机种子、失败或未收敛的案例及图表。

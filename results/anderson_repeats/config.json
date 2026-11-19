@@ -1,0 +1,21 @@
+{
+  "seeds": [
+    51,
+    72,
+    75
+  ],
+  "repeats": 3,
+  "output": "results/anderson_repeats",
+  "L": 16,
+  "K": 16,
+  "N": 4,
+  "Q": 4,
+  "size": 1000,
+  "n_sim": 100,
+  "p_max": 1000,
+  "rate": 3.5,
+  "tol_fp": 1e-05,
+  "tol_psg": 0.1,
+  "max_outer": 120,
+  "kappa": 17
+}
