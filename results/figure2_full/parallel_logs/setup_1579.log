@@ -1,0 +1,22 @@
+setup_id=1579 rate=4.0 csi=centr attempt=1
+Dual: 9477.1131 | surrogate dual gap: 0.0000 | max power gap: 520.8136 | max SINR gap: 0.0076
+Dual: 10068.5910 | surrogate dual gap: 406.1580 | max power gap: 241.4415 | max SINR gap: 0.0061
+Dual: 10086.8413 | surrogate dual gap: 48.4968 | max power gap: 126.4650 | max SINR gap: 0.0056
+Dual: 10196.6239 | surrogate dual gap: 161.4178 | max power gap: 196.1623 | max SINR gap: -0.0025
+Dual: 10195.0922 | surrogate dual gap: 56.6498 | max power gap: 54.6930 | max SINR gap: 0.0084
+Dual: 10239.6197 | surrogate dual gap: 8.1947 | max power gap: 74.4743 | max SINR gap: -0.0026
+Dual: 10226.1971 | surrogate dual gap: 6.7100 | max power gap: 45.1540 | max SINR gap: 0.0076
+Dual: 10243.5418 | surrogate dual gap: 20.0673 | max power gap: 19.7556 | max SINR gap: 0.0122
+Dual: 10236.6815 | surrogate dual gap: 6.4704 | max power gap: 14.6658 | max SINR gap: 0.0065
+Dual: 10231.9622 | surrogate dual gap: 8.4351 | max power gap: 2.7178 | max SINR gap: 0.0125
+Dual: 10234.4559 | surrogate dual gap: 7.1106 | max power gap: 2.0630 | max SINR gap: 0.0034
+Dual: 10233.2343 | surrogate dual gap: 6.6833 | max power gap: 1.7495 | max SINR gap: 0.0054
+Dual: 10233.8450 | surrogate dual gap: 6.3477 | max power gap: 1.5343 | max SINR gap: 0.0040
+Dual: 10233.9742 | surrogate dual gap: 6.0288 | max power gap: 1.4111 | max SINR gap: 0.0040
+Dual: 10234.2578 | surrogate dual gap: 5.7622 | max power gap: 1.3088 | max SINR gap: 0.0037
+Dual: 10234.5067 | surrogate dual gap: 5.5157 | max power gap: 1.2285 | max SINR gap: 0.0034
+Dual: 10234.7501 | surrogate dual gap: 5.2887 | max power gap: 1.1612 | max SINR gap: 0.0032
+Dual: 10234.9770 | surrogate dual gap: 5.0766 | max power gap: 1.1035 | max SINR gap: 0.0030
+Dual: 10235.1878 | surrogate dual gap: 4.8773 | max power gap: 1.0525 | max SINR gap: 0.0028
+Dual: 10235.3824 | surrogate dual gap: 4.6891 | max power gap: 1.0067 | max SINR gap: 0.0026
+Dual: 10235.5616 | surrogate dual gap: 4.5110 | max power gap: 0.9650 | max SINR gap: 0.0024
