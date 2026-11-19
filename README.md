@@ -1,4 +1,4 @@
-# Cell-free Massive MIMO：复现与计算加速
+# Cell-free Massive MIMO：复现、计算加速与步长评测
 
 本项目复现 [Miretti 等人的论文](https://doi.org/10.1109/TSP.2024.3376809)中的 Figure 2 和 Figure 3，并加快作者程序的计算。论文代码来自[作者仓库](https://github.com/lorenzomiretti/duality)。
 
@@ -10,9 +10,9 @@
 
 ## 加速方法：为什么做、做了什么
 
-作者的本地 CSI 求解器要对每个信道样本重复做小矩阵求逆和逐个累加。我们把同一批信道样本堆叠起来，让 NumPy 一次处理整批矩阵，并用线性方程求解替代“先求逆、再相乘”。预期是在**不改变数学问题和迭代规则**的前提下，减少每次迭代的计算时间。改动位于 [optimized_problem.py](optimized_problem.py)，集中式 CSI 仍调用原版实现。
+作者的本地 CSI 求解器要对每个信道样本重复做小矩阵求逆和逐个累加。我们把同一批信道样本堆叠起来，让 NumPy 一次处理整批矩阵，并用线性方程求解替代“先求逆、再相乘”。进一步发现：内层连续两步需要解**相同的**矩阵方程，因此在输入未变化时复用第一次求得的结果。预期是在**不改变数学问题和迭代规则**的前提下，减少每次迭代的计算时间。改动位于 [optimized_problem.py](optimized_problem.py)，集中式 CSI 仍调用原版实现；复用的独立对照见 [docs/RESPONSE_REUSE.md](docs/RESPONSE_REUSE.md)。
 
-这是一个**已测得成功的计算加速**，不是新的无线性能算法。它没有减少迭代次数，也没有提高可行率；这两点不应作为改进收益。若下一步专门追求更少的迭代，需要另设算法对照，不能把本次速度提升说成收敛次数改善。
+这是一个**已测得成功的计算加速**，没有改变迭代次数或可行率。另行测试了根据 AP 功率违例调步长的算法；它在一些场景更快，但 30 个新随机场景的总体结果没有改善，因此未把它作为成功结论。设计、完整数据和失败案例见 [docs/ADAPTIVE_STEP.md](docs/ADAPTIVE_STEP.md)。
 
 ## 实际结果
 
@@ -20,9 +20,10 @@
 | --- | --- |
 | Figure 2 样本 | 1600 个；原版和加速版均有 1599 个被作者算法判定为已求解 |
 | Figure 2 两版对照 | 每个样本的求解状态、每 AP/总功率可行性、重试次数和外层迭代数全部一致 |
-| Figure 3 时间对照 | 5 个随机种子，每个重复 5 次，交替运行顺序；各随机种子的加速比中位数再取中位数为 **7.38 倍** |
-| Figure 3 累计求解时间 | 原版 71.02 秒；加速版 9.69 秒，共 25 次配对 |
-| Figure 3 数值一致性 | 25 次配对的内外层迭代数均一致；最大目标值差 `2.30e-10 mW`，最终 AP 功率最大差 `4.39e-11 mW` |
+| Figure 3 时间对照 | 5 个随机种子，每个重复 5 次，交替运行顺序；各随机种子的加速比中位数再取中位数为 **8.90 倍** |
+| Figure 3 累计求解时间 | 原版 71.27 秒；加速版 7.93 秒，共 25 次配对 |
+| Figure 3 数值一致性 | 25 次配对的内外层迭代数均一致；最大目标值差 `2.52e-10 mW`，最终 AP 功率最大差 `4.71e-11 mW` |
+| 自适应步长独立验证 | 30 个新场景，两版均成功 15 个；固定/自适应合计外层轮数 745/773、求解时间 47.14/48.32 秒；总体未改善 |
 
 这些时间来自一台 macOS arm64 机器、Python 3.12 和单线程 OpenBLAS；换机器可能不同。Figure 2 中速率为 4 bit/s/Hz 时，每 AP 功率约束下，本地 CSI 的可行比例为 0.18，集中式 CSI 为 0.43；总功率约束下分别为 0.31 和 0.83。比例按**已求解的样本**计算，与作者脚本一致；完整表格和 95% Wilson 区间见 [Figure 2 结果目录](results/figure2_full/)。
 
@@ -33,7 +34,9 @@
 - [Figure 2 完整曲线与抽样区间](results/figure2_full/figure2_with_ci.png)
 - [Figure 3 原始对偶目标值曲线](results/figure3_official/dual_objective.png)
 - [Figure 3 原始最大 AP 功率曲线](results/figure3_official/max_power.png)
-- [25 次配对计时](results/figure3_repeats/timings.csv)和[汇总](results/figure3_repeats/summary.json)
+- [25 次新版配对计时](results/figure3_repeats_cached/timings.csv)和[汇总](results/figure3_repeats_cached/summary.json)
+- [复用前后独立配对](results/figure3_response_reuse/summary.json)
+- [自适应步长逐场景对照图](results/adaptive_new_seeds/outer_iterations.png)和[全部原始记录](results/adaptive_new_seeds/runs.jsonl)
 - [完整实验记录](docs/EXPERIMENT_LOG.md)：参数、运行命令、数值对照、边界样本和局限
 
 ## 重新运行
@@ -50,7 +53,10 @@ python experiments/finish_figure2_parallel.py --workers 6
 python experiments/finish_figure2_parallel.py --optimized --workers 4
 python experiments/compare_full_figure2.py
 python experiments/analyze_full_figure2.py
-python experiments/benchmark_repeats.py
+python experiments/benchmark_repeats.py --output results/figure3_repeats_cached
+python experiments/benchmark_response_reuse.py --output results/figure3_response_reuse
+python experiments/benchmark_adaptive.py --output results/adaptive_new_seeds
+python experiments/analyze_adaptive.py results/adaptive_new_seeds
 ```
 
 Figure 2 的续跑程序逐个保存完成的样本，可以从已有记录继续。`results/` 内包含原始输出、配置、随机种子、失败或未收敛的案例及图表。
