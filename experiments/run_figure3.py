@@ -1,4 +1,4 @@
-"""Paired, reduced-scale Figure 3 convergence and runtime experiment."""
+"""Paired Figure 3 convergence and runtime experiment at chosen dimensions."""
 import argparse
 import contextlib
 import csv
