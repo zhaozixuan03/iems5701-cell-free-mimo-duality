@@ -65,6 +65,7 @@ def execute(cls, seed, cfg):
         "per_ap_power_mw": final_powers,
         "final_power_violation_mw": (max(final_powers)-cfg.p_max if final_powers else None),
         "final_surrogate_gap_mw": (sum(final_powers)-problem.dual_obj[-1] if final_powers else None),
+        "final_sinr_gap_reported": (traces[-1]["sinr_gap"] if traces else None),
         "trace": traces, "stdout": log,
     }
     return result
@@ -104,7 +105,8 @@ def main():
     (cfg.output/"metadata.json").write_text(json.dumps(metadata, indent=2))
     (cfg.output/"runs.json").write_text(json.dumps(records, indent=2, allow_nan=False))
     fields = ["seed","method","setup_s","solve_s","outer_iterations","inner_iterations",
-              "solved","feasible_flag","error","final_power_violation_mw","final_surrogate_gap_mw"]
+              "solved","feasible_flag","error","final_power_violation_mw",
+              "final_surrogate_gap_mw","final_sinr_gap_reported"]
     with (cfg.output/"summary.csv").open("w", newline="") as f:
         writer = csv.DictWriter(f, fields)
         writer.writeheader()

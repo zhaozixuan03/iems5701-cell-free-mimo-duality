@@ -28,7 +28,8 @@
         "sinr_gap": 8.9669
       }
     ],
-    "stdout": "Dual: 5418.5528 | surrogate dual gap: 0.0000 | max power gap: 1205.9313 | max SINR gap: 8.9669\n"
+    "stdout": "Dual: 5418.5528 | surrogate dual gap: 0.0000 | max power gap: 1205.9313 | max SINR gap: 8.9669\n",
+    "final_sinr_gap_reported": 8.9669
   },
   {
     "seed": 4,
@@ -59,7 +60,8 @@
         "sinr_gap": 8.9669
       }
     ],
-    "stdout": "Dual: 5418.5528 | surrogate dual gap: 0.0000 | max power gap: 1205.9313 | max SINR gap: 8.9669\n"
+    "stdout": "Dual: 5418.5528 | surrogate dual gap: 0.0000 | max power gap: 1205.9313 | max SINR gap: 8.9669\n",
+    "final_sinr_gap_reported": 8.9669
   },
   {
     "seed": 5,
@@ -90,7 +92,8 @@
         "sinr_gap": 7.9529
       }
     ],
-    "stdout": "Dual: 7244.6003 | surrogate dual gap: 0.0000 | max power gap: 4464.2094 | max SINR gap: 7.9529\n"
+    "stdout": "Dual: 7244.6003 | surrogate dual gap: 0.0000 | max power gap: 4464.2094 | max SINR gap: 7.9529\n",
+    "final_sinr_gap_reported": 7.9529
   },
   {
     "seed": 5,
@@ -121,7 +124,8 @@
         "sinr_gap": 7.9529
       }
     ],
-    "stdout": "Dual: 7244.6003 | surrogate dual gap: 0.0000 | max power gap: 4464.2094 | max SINR gap: 7.9529\n"
+    "stdout": "Dual: 7244.6003 | surrogate dual gap: 0.0000 | max power gap: 4464.2094 | max SINR gap: 7.9529\n",
+    "final_sinr_gap_reported": 7.9529
   },
   {
     "seed": 6,
@@ -152,7 +156,8 @@
         "sinr_gap": 7.3734
       }
     ],
-    "stdout": "Dual: 10899.6617 | surrogate dual gap: 0.0000 | max power gap: 5478.6592 | max SINR gap: 7.3734\n"
+    "stdout": "Dual: 10899.6617 | surrogate dual gap: 0.0000 | max power gap: 5478.6592 | max SINR gap: 7.3734\n",
+    "final_sinr_gap_reported": 7.3734
   },
   {
     "seed": 6,
@@ -183,7 +188,8 @@
         "sinr_gap": 7.3734
       }
     ],
-    "stdout": "Dual: 10899.6617 | surrogate dual gap: 0.0000 | max power gap: 5478.6592 | max SINR gap: 7.3734\n"
+    "stdout": "Dual: 10899.6617 | surrogate dual gap: 0.0000 | max power gap: 5478.6592 | max SINR gap: 7.3734\n",
+    "final_sinr_gap_reported": 7.3734
   },
   {
     "seed": 7,
@@ -214,7 +220,8 @@
         "sinr_gap": 8.4761
       }
     ],
-    "stdout": "Dual: 7766.1317 | surrogate dual gap: 0.0000 | max power gap: 2245.5285 | max SINR gap: 8.4761\n"
+    "stdout": "Dual: 7766.1317 | surrogate dual gap: 0.0000 | max power gap: 2245.5285 | max SINR gap: 8.4761\n",
+    "final_sinr_gap_reported": 8.4761
   },
   {
     "seed": 7,
@@ -245,7 +252,8 @@
         "sinr_gap": 8.4761
       }
     ],
-    "stdout": "Dual: 7766.1317 | surrogate dual gap: 0.0000 | max power gap: 2245.5285 | max SINR gap: 8.4761\n"
+    "stdout": "Dual: 7766.1317 | surrogate dual gap: 0.0000 | max power gap: 2245.5285 | max SINR gap: 8.4761\n",
+    "final_sinr_gap_reported": 8.4761
   },
   {
     "seed": 8,
@@ -276,7 +284,8 @@
         "sinr_gap": 8.2143
       }
     ],
-    "stdout": "Dual: 6348.1119 | surrogate dual gap: 0.0000 | max power gap: 738.0673 | max SINR gap: 8.2143\n"
+    "stdout": "Dual: 6348.1119 | surrogate dual gap: 0.0000 | max power gap: 738.0673 | max SINR gap: 8.2143\n",
+    "final_sinr_gap_reported": 8.2143
   },
   {
     "seed": 8,
@@ -307,6 +316,7 @@
         "sinr_gap": 8.2143
       }
     ],
-    "stdout": "Dual: 6348.1119 | surrogate dual gap: 0.0000 | max power gap: 738.0673 | max SINR gap: 8.2143\n"
+    "stdout": "Dual: 6348.1119 | surrogate dual gap: 0.0000 | max power gap: 738.0673 | max SINR gap: 8.2143\n",
+    "final_sinr_gap_reported": 8.2143
   }
 ]

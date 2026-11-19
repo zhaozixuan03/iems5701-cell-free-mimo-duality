@@ -29,6 +29,8 @@ The local TMMSE routine repeatedly forms explicit matrix inverses and loops over
 
 The author's progress print reports maximum SINR gap rounded to four decimals. The final gap for seed 6, kappa 10, is +1.0349, consistent with its infeasible flag. Full-precision final SINR vectors are not retained by the upstream solver.
 
+After the runs, the saved Figure 3 JSON/CSV summaries were augmented from their already captured stdout traces with `final_sinr_gap_reported`; the simulations and timings were not rerun. The reduced Figure 2 experiment was rerun with identical parameters to add an explicit `environment.json`; all 18 solved/feasible outcomes matched the initial run.
+
 ## Interpretation and remaining work
 
 The acceleration preserves observed outputs and iteration counts at tested seeds, and improved solve time in this environment. It has no demonstrated convergence-iteration gain; that should not be claimed. Feasibility is a property of the original optimization outcome, not of this algebraic speedup. Seed 4's 20-iteration Figure 3 curves are informative traces but not certified converged. The original inner fixed-point loop has no iteration cap, so harder new seeds may require an external runtime limit. More seeds, repeated timing trials, full Figure 2 Monte Carlo, independent checks of numerical tolerance and other hardware are worthwhile follow-up Issues.

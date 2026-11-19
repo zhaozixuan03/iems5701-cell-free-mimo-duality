@@ -173,7 +173,8 @@
         "sinr_gap": 0.0001
       }
     ],
-    "stdout": "Dual: 6819.5605 | surrogate dual gap: 0.0000 | max power gap: 551.1268 | max SINR gap: 0.0000\nDual: 7518.4784 | surrogate dual gap: 171.1578 | max power gap: 620.9125 | max SINR gap: 0.0001\nDual: 7443.1408 | surrogate dual gap: 63.9763 | max power gap: 317.1467 | max SINR gap: 0.0000\nDual: 7746.8429 | surrogate dual gap: 173.3321 | max power gap: 182.9570 | max SINR gap: 0.0000\nDual: 7777.5908 | surrogate dual gap: 244.8816 | max power gap: 74.0659 | max SINR gap: 0.0001\nDual: 7786.6755 | surrogate dual gap: 191.8960 | max power gap: 44.1068 | max SINR gap: 0.0001\nDual: 7794.7709 | surrogate dual gap: 224.4907 | max power gap: 45.6650 | max SINR gap: 0.0000\nDual: 7799.0897 | surrogate dual gap: 184.9074 | max power gap: 36.7793 | max SINR gap: 0.0000\nDual: 7804.0344 | surrogate dual gap: 199.6678 | max power gap: 38.4908 | max SINR gap: 0.0001\nDual: 7807.3287 | surrogate dual gap: 180.9837 | max power gap: 34.3418 | max SINR gap: 0.0000\nDual: 7810.5720 | surrogate dual gap: 180.6857 | max power gap: 33.6625 | max SINR gap: 0.0000\nDual: 7813.1755 | surrogate dual gap: 172.9468 | max power gap: 31.7520 | max SINR gap: 0.0000\nDual: 7815.5243 | surrogate dual gap: 168.4203 | max power gap: 30.5036 | max SINR gap: 0.0000\nDual: 7817.5755 | surrogate dual gap: 163.3842 | max power gap: 29.2309 | max SINR gap: 0.0000\nDual: 7819.4041 | surrogate dual gap: 158.8368 | max power gap: 28.1005 | max SINR gap: 0.0000\nDual: 7821.0391 | surrogate dual gap: 154.5152 | max power gap: 27.0557 | max SINR gap: 0.0000\nDual: 7822.4604 | surrogate dual gap: 150.4058 | max power gap: 26.0880 | max SINR gap: 0.0001\nDual: 7823.7933 | surrogate dual gap: 146.5434 | max power gap: 25.1939 | max SINR gap: 0.0001\nDual: 7825.0040 | surrogate dual gap: 142.8747 | max power gap: 24.3617 | max SINR gap: 0.0001\nDual: 7826.1080 | surrogate dual gap: 139.3850 | max power gap: 23.5847 | max SINR gap: 0.0001\n"
+    "stdout": "Dual: 6819.5605 | surrogate dual gap: 0.0000 | max power gap: 551.1268 | max SINR gap: 0.0000\nDual: 7518.4784 | surrogate dual gap: 171.1578 | max power gap: 620.9125 | max SINR gap: 0.0001\nDual: 7443.1408 | surrogate dual gap: 63.9763 | max power gap: 317.1467 | max SINR gap: 0.0000\nDual: 7746.8429 | surrogate dual gap: 173.3321 | max power gap: 182.9570 | max SINR gap: 0.0000\nDual: 7777.5908 | surrogate dual gap: 244.8816 | max power gap: 74.0659 | max SINR gap: 0.0001\nDual: 7786.6755 | surrogate dual gap: 191.8960 | max power gap: 44.1068 | max SINR gap: 0.0001\nDual: 7794.7709 | surrogate dual gap: 224.4907 | max power gap: 45.6650 | max SINR gap: 0.0000\nDual: 7799.0897 | surrogate dual gap: 184.9074 | max power gap: 36.7793 | max SINR gap: 0.0000\nDual: 7804.0344 | surrogate dual gap: 199.6678 | max power gap: 38.4908 | max SINR gap: 0.0001\nDual: 7807.3287 | surrogate dual gap: 180.9837 | max power gap: 34.3418 | max SINR gap: 0.0000\nDual: 7810.5720 | surrogate dual gap: 180.6857 | max power gap: 33.6625 | max SINR gap: 0.0000\nDual: 7813.1755 | surrogate dual gap: 172.9468 | max power gap: 31.7520 | max SINR gap: 0.0000\nDual: 7815.5243 | surrogate dual gap: 168.4203 | max power gap: 30.5036 | max SINR gap: 0.0000\nDual: 7817.5755 | surrogate dual gap: 163.3842 | max power gap: 29.2309 | max SINR gap: 0.0000\nDual: 7819.4041 | surrogate dual gap: 158.8368 | max power gap: 28.1005 | max SINR gap: 0.0000\nDual: 7821.0391 | surrogate dual gap: 154.5152 | max power gap: 27.0557 | max SINR gap: 0.0000\nDual: 7822.4604 | surrogate dual gap: 150.4058 | max power gap: 26.0880 | max SINR gap: 0.0001\nDual: 7823.7933 | surrogate dual gap: 146.5434 | max power gap: 25.1939 | max SINR gap: 0.0001\nDual: 7825.0040 | surrogate dual gap: 142.8747 | max power gap: 24.3617 | max SINR gap: 0.0001\nDual: 7826.1080 | surrogate dual gap: 139.3850 | max power gap: 23.5847 | max SINR gap: 0.0001\n",
+    "final_sinr_gap_reported": 0.0001
   },
   {
     "seed": 4,
@@ -349,7 +350,8 @@
         "sinr_gap": 0.0001
       }
     ],
-    "stdout": "Dual: 6819.5605 | surrogate dual gap: 0.0000 | max power gap: 551.1268 | max SINR gap: 0.0000\nDual: 7518.4784 | surrogate dual gap: 171.1578 | max power gap: 620.9125 | max SINR gap: 0.0001\nDual: 7443.1408 | surrogate dual gap: 63.9763 | max power gap: 317.1467 | max SINR gap: 0.0000\nDual: 7746.8429 | surrogate dual gap: 173.3321 | max power gap: 182.9570 | max SINR gap: 0.0000\nDual: 7777.5908 | surrogate dual gap: 244.8816 | max power gap: 74.0659 | max SINR gap: 0.0001\nDual: 7786.6755 | surrogate dual gap: 191.8960 | max power gap: 44.1068 | max SINR gap: 0.0001\nDual: 7794.7709 | surrogate dual gap: 224.4907 | max power gap: 45.6650 | max SINR gap: 0.0000\nDual: 7799.0897 | surrogate dual gap: 184.9074 | max power gap: 36.7793 | max SINR gap: 0.0000\nDual: 7804.0344 | surrogate dual gap: 199.6678 | max power gap: 38.4908 | max SINR gap: 0.0001\nDual: 7807.3287 | surrogate dual gap: 180.9837 | max power gap: 34.3418 | max SINR gap: 0.0000\nDual: 7810.5720 | surrogate dual gap: 180.6857 | max power gap: 33.6625 | max SINR gap: 0.0000\nDual: 7813.1755 | surrogate dual gap: 172.9468 | max power gap: 31.7520 | max SINR gap: 0.0000\nDual: 7815.5243 | surrogate dual gap: 168.4203 | max power gap: 30.5036 | max SINR gap: 0.0000\nDual: 7817.5755 | surrogate dual gap: 163.3842 | max power gap: 29.2309 | max SINR gap: 0.0000\nDual: 7819.4041 | surrogate dual gap: 158.8368 | max power gap: 28.1005 | max SINR gap: 0.0000\nDual: 7821.0391 | surrogate dual gap: 154.5152 | max power gap: 27.0557 | max SINR gap: 0.0000\nDual: 7822.4604 | surrogate dual gap: 150.4058 | max power gap: 26.0880 | max SINR gap: 0.0001\nDual: 7823.7933 | surrogate dual gap: 146.5434 | max power gap: 25.1939 | max SINR gap: 0.0001\nDual: 7825.0040 | surrogate dual gap: 142.8747 | max power gap: 24.3617 | max SINR gap: 0.0001\nDual: 7826.1080 | surrogate dual gap: 139.3850 | max power gap: 23.5847 | max SINR gap: 0.0001\n"
+    "stdout": "Dual: 6819.5605 | surrogate dual gap: 0.0000 | max power gap: 551.1268 | max SINR gap: 0.0000\nDual: 7518.4784 | surrogate dual gap: 171.1578 | max power gap: 620.9125 | max SINR gap: 0.0001\nDual: 7443.1408 | surrogate dual gap: 63.9763 | max power gap: 317.1467 | max SINR gap: 0.0000\nDual: 7746.8429 | surrogate dual gap: 173.3321 | max power gap: 182.9570 | max SINR gap: 0.0000\nDual: 7777.5908 | surrogate dual gap: 244.8816 | max power gap: 74.0659 | max SINR gap: 0.0001\nDual: 7786.6755 | surrogate dual gap: 191.8960 | max power gap: 44.1068 | max SINR gap: 0.0001\nDual: 7794.7709 | surrogate dual gap: 224.4907 | max power gap: 45.6650 | max SINR gap: 0.0000\nDual: 7799.0897 | surrogate dual gap: 184.9074 | max power gap: 36.7793 | max SINR gap: 0.0000\nDual: 7804.0344 | surrogate dual gap: 199.6678 | max power gap: 38.4908 | max SINR gap: 0.0001\nDual: 7807.3287 | surrogate dual gap: 180.9837 | max power gap: 34.3418 | max SINR gap: 0.0000\nDual: 7810.5720 | surrogate dual gap: 180.6857 | max power gap: 33.6625 | max SINR gap: 0.0000\nDual: 7813.1755 | surrogate dual gap: 172.9468 | max power gap: 31.7520 | max SINR gap: 0.0000\nDual: 7815.5243 | surrogate dual gap: 168.4203 | max power gap: 30.5036 | max SINR gap: 0.0000\nDual: 7817.5755 | surrogate dual gap: 163.3842 | max power gap: 29.2309 | max SINR gap: 0.0000\nDual: 7819.4041 | surrogate dual gap: 158.8368 | max power gap: 28.1005 | max SINR gap: 0.0000\nDual: 7821.0391 | surrogate dual gap: 154.5152 | max power gap: 27.0557 | max SINR gap: 0.0000\nDual: 7822.4604 | surrogate dual gap: 150.4058 | max power gap: 26.0880 | max SINR gap: 0.0001\nDual: 7823.7933 | surrogate dual gap: 146.5434 | max power gap: 25.1939 | max SINR gap: 0.0001\nDual: 7825.0040 | surrogate dual gap: 142.8747 | max power gap: 24.3617 | max SINR gap: 0.0001\nDual: 7826.1080 | surrogate dual gap: 139.3850 | max power gap: 23.5847 | max SINR gap: 0.0001\n",
+    "final_sinr_gap_reported": 0.0001
   },
   {
     "seed": 5,
@@ -392,7 +394,8 @@
         "sinr_gap": 0.0001
       }
     ],
-    "stdout": "Dual: 6103.5324 | surrogate dual gap: 0.0000 | max power gap: -142.9928 | max SINR gap: 0.0001\n"
+    "stdout": "Dual: 6103.5324 | surrogate dual gap: 0.0000 | max power gap: -142.9928 | max SINR gap: 0.0001\n",
+    "final_sinr_gap_reported": 0.0001
   },
   {
     "seed": 5,
@@ -435,7 +438,8 @@
         "sinr_gap": 0.0001
       }
     ],
-    "stdout": "Dual: 6103.5324 | surrogate dual gap: 0.0000 | max power gap: -142.9928 | max SINR gap: 0.0001\n"
+    "stdout": "Dual: 6103.5324 | surrogate dual gap: 0.0000 | max power gap: -142.9928 | max SINR gap: 0.0001\n",
+    "final_sinr_gap_reported": 0.0001
   },
   {
     "seed": 6,
@@ -478,7 +482,8 @@
         "sinr_gap": 1.0349
       }
     ],
-    "stdout": "Dual: 17933.5076 | surrogate dual gap: 0.0000 | max power gap: 2046.5292 | max SINR gap: 1.0349\n"
+    "stdout": "Dual: 17933.5076 | surrogate dual gap: 0.0000 | max power gap: 2046.5292 | max SINR gap: 1.0349\n",
+    "final_sinr_gap_reported": 1.0349
   },
   {
     "seed": 6,
@@ -521,7 +526,8 @@
         "sinr_gap": 1.0349
       }
     ],
-    "stdout": "Dual: 17933.5076 | surrogate dual gap: 0.0000 | max power gap: 2046.5292 | max SINR gap: 1.0349\n"
+    "stdout": "Dual: 17933.5076 | surrogate dual gap: 0.0000 | max power gap: 2046.5292 | max SINR gap: 1.0349\n",
+    "final_sinr_gap_reported": 1.0349
   },
   {
     "seed": 7,
@@ -571,7 +577,8 @@
         "sinr_gap": 0.0001
       }
     ],
-    "stdout": "Dual: 12385.9996 | surrogate dual gap: 0.0000 | max power gap: 1293.7584 | max SINR gap: 0.0001\nDual: 16380.8925 | surrogate dual gap: 2134.9348 | max power gap: 520.1732 | max SINR gap: 0.0001\n"
+    "stdout": "Dual: 12385.9996 | surrogate dual gap: 0.0000 | max power gap: 1293.7584 | max SINR gap: 0.0001\nDual: 16380.8925 | surrogate dual gap: 2134.9348 | max power gap: 520.1732 | max SINR gap: 0.0001\n",
+    "final_sinr_gap_reported": 0.0001
   },
   {
     "seed": 7,
@@ -621,7 +628,8 @@
         "sinr_gap": 0.0001
       }
     ],
-    "stdout": "Dual: 12385.9996 | surrogate dual gap: 0.0000 | max power gap: 1293.7584 | max SINR gap: 0.0001\nDual: 16380.8925 | surrogate dual gap: 2134.9348 | max power gap: 520.1732 | max SINR gap: 0.0001\n"
+    "stdout": "Dual: 12385.9996 | surrogate dual gap: 0.0000 | max power gap: 1293.7584 | max SINR gap: 0.0001\nDual: 16380.8925 | surrogate dual gap: 2134.9348 | max power gap: 520.1732 | max SINR gap: 0.0001\n",
+    "final_sinr_gap_reported": 0.0001
   },
   {
     "seed": 8,
@@ -664,7 +672,8 @@
         "sinr_gap": 0.0001
       }
     ],
-    "stdout": "Dual: 2881.0909 | surrogate dual gap: 0.0000 | max power gap: -558.0810 | max SINR gap: 0.0001\n"
+    "stdout": "Dual: 2881.0909 | surrogate dual gap: 0.0000 | max power gap: -558.0810 | max SINR gap: 0.0001\n",
+    "final_sinr_gap_reported": 0.0001
   },
   {
     "seed": 8,
@@ -707,6 +716,7 @@
         "sinr_gap": 0.0001
       }
     ],
-    "stdout": "Dual: 2881.0909 | surrogate dual gap: 0.0000 | max power gap: -558.0810 | max SINR gap: 0.0001\n"
+    "stdout": "Dual: 2881.0909 | surrogate dual gap: 0.0000 | max power gap: -558.0810 | max SINR gap: 0.0001\n",
+    "final_sinr_gap_reported": 0.0001
   }
 ]

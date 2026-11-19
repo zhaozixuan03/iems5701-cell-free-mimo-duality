@@ -10,7 +10,7 @@
       {
         "attempt": 1,
         "kappa": 10,
-        "seconds": 0.08687491714954376,
+        "seconds": 0.08240708289667964,
         "outer_iterations": 1,
         "solved": true,
         "error": null,
@@ -29,7 +29,7 @@
       {
         "attempt": 1,
         "kappa": 10,
-        "seconds": 0.07074787514284253,
+        "seconds": 0.06811024993658066,
         "outer_iterations": 1,
         "solved": true,
         "error": null,
@@ -48,7 +48,7 @@
       {
         "attempt": 1,
         "kappa": 10,
-        "seconds": 0.1018690001219511,
+        "seconds": 0.0958687081001699,
         "outer_iterations": 1,
         "solved": true,
         "error": null,
@@ -67,7 +67,7 @@
       {
         "attempt": 1,
         "kappa": 10,
-        "seconds": 0.08362825028598309,
+        "seconds": 0.07933966675773263,
         "outer_iterations": 1,
         "solved": true,
         "error": null,
@@ -86,7 +86,7 @@
       {
         "attempt": 1,
         "kappa": 10,
-        "seconds": 0.09834541659802198,
+        "seconds": 0.08236112492159009,
         "outer_iterations": 1,
         "solved": true,
         "error": null,
@@ -105,7 +105,7 @@
       {
         "attempt": 1,
         "kappa": 10,
-        "seconds": 0.11201249994337559,
+        "seconds": 0.0663944580592215,
         "outer_iterations": 1,
         "solved": true,
         "error": null,
@@ -124,7 +124,7 @@
       {
         "attempt": 1,
         "kappa": 10,
-        "seconds": 0.7346307090483606,
+        "seconds": 0.6372723751701415,
         "outer_iterations": 9,
         "solved": true,
         "error": null,
@@ -143,7 +143,7 @@
       {
         "attempt": 1,
         "kappa": 10,
-        "seconds": 0.08342599961906672,
+        "seconds": 0.08021295815706253,
         "outer_iterations": 1,
         "solved": true,
         "error": null,
@@ -162,7 +162,7 @@
       {
         "attempt": 1,
         "kappa": 10,
-        "seconds": 0.12773562502115965,
+        "seconds": 0.12246595835313201,
         "outer_iterations": 1,
         "solved": true,
         "error": null,
@@ -181,7 +181,7 @@
       {
         "attempt": 1,
         "kappa": 10,
-        "seconds": 0.08464074973016977,
+        "seconds": 0.08023041673004627,
         "outer_iterations": 1,
         "solved": true,
         "error": null,
@@ -200,7 +200,7 @@
       {
         "attempt": 1,
         "kappa": 10,
-        "seconds": 0.11480770818889141,
+        "seconds": 0.10879541700705886,
         "outer_iterations": 1,
         "solved": true,
         "error": null,
@@ -219,7 +219,7 @@
       {
         "attempt": 1,
         "kappa": 10,
-        "seconds": 0.08304062485694885,
+        "seconds": 0.08089395891875029,
         "outer_iterations": 1,
         "solved": true,
         "error": null,
@@ -238,7 +238,7 @@
       {
         "attempt": 1,
         "kappa": 10,
-        "seconds": 0.04270291607826948,
+        "seconds": 0.04073745897039771,
         "outer_iterations": 1,
         "solved": true,
         "error": null,
@@ -257,7 +257,7 @@
       {
         "attempt": 1,
         "kappa": 10,
-        "seconds": 0.1948872501961887,
+        "seconds": 0.18751512514427304,
         "outer_iterations": 2,
         "solved": true,
         "error": null,
@@ -276,7 +276,7 @@
       {
         "attempt": 1,
         "kappa": 10,
-        "seconds": 0.11329808412119746,
+        "seconds": 0.10925470804795623,
         "outer_iterations": 1,
         "solved": true,
         "error": null,
@@ -295,7 +295,7 @@
       {
         "attempt": 1,
         "kappa": 10,
-        "seconds": 0.1792120411992073,
+        "seconds": 0.17467995779588819,
         "outer_iterations": 2,
         "solved": true,
         "error": null,
@@ -314,7 +314,7 @@
       {
         "attempt": 1,
         "kappa": 10,
-        "seconds": 0.7112056249752641,
+        "seconds": 0.6937915422022343,
         "outer_iterations": 20,
         "solved": false,
         "error": null,
@@ -323,7 +323,7 @@
       {
         "attempt": 2,
         "kappa": 30,
-        "seconds": 0.6866796668618917,
+        "seconds": 0.6622681254521012,
         "outer_iterations": 6,
         "solved": true,
         "error": null,
@@ -342,7 +342,7 @@
       {
         "attempt": 1,
         "kappa": 10,
-        "seconds": 0.09889087500050664,
+        "seconds": 0.0945745836943388,
         "outer_iterations": 1,
         "solved": true,
         "error": null,

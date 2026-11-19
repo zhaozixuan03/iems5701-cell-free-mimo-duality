@@ -4,6 +4,8 @@ import contextlib
 import csv
 import io
 import json
+import os
+import platform
 import sys
 import time
 from pathlib import Path
@@ -12,6 +14,7 @@ import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import numpy as np
+import scipy
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
@@ -65,6 +68,12 @@ def main():
                       record["feasible_per_ap"],flush=True)
     (cfg.output/"runs.json").write_text(json.dumps(records,indent=2))
     (cfg.output/"config.json").write_text(json.dumps(vars(cfg),indent=2,default=str))
+    (cfg.output/"environment.json").write_text(json.dumps({
+        "python":sys.version,"platform":platform.platform(),
+        "numpy":np.__version__,"scipy":scipy.__version__,
+        "matplotlib":matplotlib.__version__,
+        "openblas_num_threads":os.environ.get("OPENBLAS_NUM_THREADS"),
+    },indent=2))
     fields = ["rate","seed","csi","solved","feasible_per_ap","feasible_sum"]
     with (cfg.output/"summary.csv").open("w",newline="") as f:
         w = csv.DictWriter(f,fields)

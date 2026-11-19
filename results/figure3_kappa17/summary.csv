@@ -1,3 +1,3 @@
-seed,method,setup_s,solve_s,outer_iterations,inner_iterations,solved,feasible_flag,error,final_power_violation_mw,final_surrogate_gap_mw
-4,Problem,0.020136124920099974,9.075409082695842,20,150,False,False,,-0.739700196514832,26.525351358354783
-4,OptimizedProblem,0.019945207983255386,5.319775083102286,20,150,False,False,,-0.7397001965247227,26.52535135836115
+seed,method,setup_s,solve_s,outer_iterations,inner_iterations,solved,feasible_flag,error,final_power_violation_mw,final_surrogate_gap_mw,final_sinr_gap_reported
+4,Problem,0.020136124920099974,9.075409082695842,20,150,False,False,,-0.739700196514832,26.525351358354783,-0.0
+4,OptimizedProblem,0.019945207983255386,5.319775083102286,20,150,False,False,,-0.7397001965247227,26.52535135836115,-0.0
