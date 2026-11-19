@@ -12,6 +12,7 @@ class OptimizedProblem(Problem):
     def set_constraints(self, SINR_target, P_max, Q, CSI):
         super().set_constraints(SINR_target, P_max, Q, CSI)
         self._h_stack = None
+        self._response_cache = None
 
     def _channels_by_ap(self):
         if self._h_stack is None:
@@ -27,12 +28,19 @@ class OptimizedProblem(Problem):
         K, L, N, Q = self.K, self.L, self.N, self.Q
         root_p = np.sqrt(p)
         pi_list = []
+        responses = []
         for l, h in enumerate(self._channels_by_ap()):
             h = h * root_p[None, :, None]
             hh = h.conj().transpose(0, 2, 1)
             m = hh @ h + (p @ self.Psi[:, l] + sig[l]) * np.eye(N)
             x = solve(m, hh)
+            responses.append(x)
             pi_list.append(np.mean(h @ x, axis=0))
+        # The next coefficient calculation in the inner iteration uses the
+        # same p, sig and matrix right-hand sides. Keep these responses only
+        # while the inputs still match; direct calls with other inputs fall
+        # back to an independent solve.
+        self._response_cache = (p.copy(), sig.copy(), responses)
         c_list = [np.zeros((K, K), dtype=complex) for _ in range(L)]
         b = np.zeros((K * Q, K), dtype=complex)
         for q in range(Q):
@@ -53,15 +61,24 @@ class OptimizedProblem(Problem):
     def compute_channel_coefficients(self, p, sig, parameters):
         if self.CSI != "local":
             return super().compute_channel_coefficients(p, sig, parameters)
-        root_p = np.sqrt(p)
+        cache = self._response_cache
+        responses = (
+            cache[2] if cache is not None
+            and np.array_equal(cache[0], p)
+            and np.array_equal(cache[1], sig) else None
+        )
+        root_p = np.sqrt(p) if responses is None else None
         h_eq = np.zeros((self.N_sim, self.K, self.K), dtype=complex)
         noise = np.zeros((self.L, self.K))
         for l, h in enumerate(self._channels_by_ap()):
-            hh = h.conj().transpose(0, 2, 1)
-            m = hh @ (h * p[None, :, None]) + (
-                p @ self.Psi[:, l] + sig[l]
-            ) * np.eye(self.N)
-            v = solve(m, hh * root_p[None, None, :]) @ parameters[l]
+            if responses is None:
+                hh = h.conj().transpose(0, 2, 1)
+                m = hh @ (h * p[None, :, None]) + (
+                    p @ self.Psi[:, l] + sig[l]
+                ) * np.eye(self.N)
+                v = solve(m, hh * root_p[None, None, :]) @ parameters[l]
+            else:
+                v = responses[l] @ parameters[l]
             h_eq += h @ v
             noise[l] = np.mean(np.sum(np.abs(v)**2, axis=1), axis=0)
         interf = np.mean(np.abs(h_eq)**2, axis=0)
